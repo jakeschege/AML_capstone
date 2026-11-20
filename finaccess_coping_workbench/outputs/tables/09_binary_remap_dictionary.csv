@@ -1,0 +1,5 @@
+"variable","original_code","original_label","prepared_column","prepared_code"
+"sex",1,"Male","sex_bin",0
+"sex",2,"Female","sex_bin",1
+"urban_rural",1,"Rural","urban_rural_bin",0
+"urban_rural",2,"Urban","urban_rural_bin",1

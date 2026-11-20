@@ -1,0 +1,9 @@
+{
+  "alias": "champion",
+  "classifier_version": "v0.2.0",
+  "path": "artefacts/classifier/v0.2.0",
+  "fallback_path": "artefacts/classifier/v0.2.0-logistic-fallback",
+  "feature_spec": "all_shocks_financial_expansion_93",
+  "updated_at": "2026-11-20T13:37:22.552549+00:00",
+  "selection_note": "Stack A preferred (5-fold macro F1\u22480.502). Financial logistic retained as simpler fallback. Stack B incomplete \u2014 not packaged."
+}

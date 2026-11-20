@@ -1,0 +1,44 @@
+{
+  "explainer": "shap.LinearExplainer",
+  "background_n": 100,
+  "background_seed": 42,
+  "explain_n": 200,
+  "explain_seed": 43,
+  "stratified_by": "coping_category",
+  "classes": [
+    "did_nothing",
+    "formal",
+    "informal",
+    "personal"
+  ],
+  "display_labels": {
+    "personal": "Personal coping",
+    "informal": "Informal support",
+    "formal": "Formal support",
+    "did_nothing": "No coping action reported"
+  },
+  "caveat": "Attribution is not causation.",
+  "waterfall_examples": [
+    {
+      "class": "did_nothing",
+      "explain_row": 12,
+      "figure": "waterfall_did_nothing.png"
+    },
+    {
+      "class": "formal",
+      "explain_row": 304,
+      "figure": "waterfall_formal.png"
+    },
+    {
+      "class": "informal",
+      "explain_row": 1241,
+      "figure": "waterfall_informal.png"
+    },
+    {
+      "class": "personal",
+      "explain_row": 588,
+      "figure": "waterfall_personal.png"
+    }
+  ],
+  "model_version": "v0.1.0"
+}

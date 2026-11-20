@@ -1,0 +1,16 @@
+summary_type,category,n_variables
+primary_recommendation,candidate_predictor,24
+primary_recommendation,flag_temporal_verification,19
+primary_recommendation,exclude_direct_target_leakage,16
+primary_recommendation,retain_descriptive_only,8
+primary_recommendation,flag_redundancy,5
+primary_recommendation,exclude_constant_value,2
+segmentation_role,exclude,41
+segmentation_role,include_candidate,19
+segmentation_role,not_applicable,12
+segmentation_role,flag,1
+segmentation_role,descriptive_only,1
+classification_role,exclude,25
+classification_role,include_candidate,24
+classification_role,flag,24
+classification_role,descriptive_only,1

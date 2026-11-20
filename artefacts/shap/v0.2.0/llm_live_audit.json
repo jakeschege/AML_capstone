@@ -1,0 +1,133 @@
+{
+  "model": "openai/gpt-oss-20b",
+  "summary": {
+    "n": 12,
+    "passed_llm": 10,
+    "grounding_failed": 2,
+    "template": 0,
+    "llm_error": 0,
+    "other": 0
+  },
+  "audit": [
+    {
+      "q": "Why this category?",
+      "class": "did_nothing",
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model predicted that the household reported **\u201cdid nothing\u201d** as its coping action.  \nCompared with a typical household in the background sample, the score for \u201cdid nothing\u201d is 0.48, higher than the baseline of 0.22, while the scores for the other coping c"
+    },
+    {
+      "q": "Explain the model scores in plain language.",
+      "class": "formal",
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model predicts that this household is most likely to have received **formal support** (score\u202f0.47).  \nCompared with a typical household in the background sample (baseline scores: did\u202fnothing\u202f0.22, formal\u202f0.19, informal\u202f0.23, personal\u202f0.36), the formal\u2011supp"
+    },
+    {
+      "q": "Why not formal support?",
+      "class": "informal",
+      "source": "template_grounding_failed",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model\u2019s highest score is for \u201cInformal support\u201d (informal).\nModel scores (not calibrated probabilities): did_nothing=0.09, formal=0.15, informal=0.56, personal=0.20\nAmong the main factors relative to a typical household in the background sample (approximat"
+    },
+    {
+      "q": "What pushed the score toward this class?",
+      "class": "personal",
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model predicted the household would cope **personally** with a score of **0.40**.  \nCompared with a typical household in the background sample (personal score **0.36**), the personal\u2011coping score is higher.\n\n**Among the main factors that pushed the score t"
+    },
+    {
+      "q": "Describe the baseline.",
+      "class": "did_nothing",
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The baseline represents a typical household in the background sample \u2013 the mean encoded profile of 40 shock\u2011exposed modelling households. For this baseline the model assigns the following scores: did_nothing\u202f0.22, formal\u202f0.19, informal\u202f0.23, and personal\u202f0.36."
+    },
+    {
+      "q": "Why not informal support?",
+      "class": "formal",
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model predicts that this household relied on formal support rather than informal support.  \nAmong the main factors that moved the score away from a typical household, the following stand out:\n\n* **Main reported shock** \u2013 a large decrease in the score, indi"
+    },
+    {
+      "q": "Summarise among the main factors.",
+      "class": "informal",
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model\u2019s score for this household is 0.56 for informal support, which is higher than the baseline informal score of 0.23.  \nAmong the main factors that moved the score upward compared with a typical household, the following stand out:  \n\n* **Main reported s"
+    },
+    {
+      "q": "Is formal more likely than personal here?",
+      "class": "personal",
+      "source": "template_grounding_failed",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model\u2019s highest score is for \u201cPersonal coping\u201d (personal).\nModel scores (not calibrated probabilities): did_nothing=0.18, formal=0.17, informal=0.25, personal=0.40\nAmong the main factors relative to a typical household in the background sample (approximate"
+    },
+    {
+      "q": "What are the model scores?",
+      "class": "did_nothing",
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model gave the following scores:  \n- **Did nothing**: 0.48  \n- **Personal coping**: 0.30  \n- **Formal coping**: 0.12  \n- **Informal coping**: 0.10  \n\nThis describes what drove the model's score, not why the household actually coped the way it did, and it i"
+    },
+    {
+      "q": "Which factors decreased the predicted class score?",
+      "class": "formal",
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "Among the main factors that decreased the predicted class score were:\n\n- **Main reported shock** \u2013 a large decrease  \n- **Number of livestock types** \u2013 a moderate decrease  \n\nThis describes what drove the model's score, not why the household actually coped the"
+    },
+    {
+      "q": "How does this compare to a typical household?",
+      "class": "informal",
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model predicts that this household is most likely to rely on informal support, giving it a score of **0.56**.  For comparison, a typical household in the background sample has an informal\u2011support score of **0.23**.  The household\u2019s personal\u2011support score i"
+    },
+    {
+      "q": "Read these scores for me.",
+      "class": "personal",
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model predicts that this household is most likely coping **personally** with the shock, giving a personal\u2011coping score of **0.40**.  \nCompared with a typical household in the background sample (whose personal\u2011coping score is **0.36**), this household\u2019s sco"
+    }
+  ],
+  "parse_check": {
+    "finish_reason": "stop",
+    "message_keys": [
+      "content",
+      "reasoning",
+      "role"
+    ],
+    "content_len": 294,
+    "reasoning_len": 1802,
+    "extracted_preview": "Model scores consistently hovered around 0.42, reflecting a balanced trade\u2011off between precision and recall. This figure emerged as a key indicator, among the m",
+    "truncated": false
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "coping-classifier",
+  "version": "v0.2.0",
+  "role": "preferred_stack_a",
+  "algorithm": "stacking_logistic_hgb_meta_logistic",
+  "predictor_spec_id": "all_shocks_financial_expansion_v1",
+  "seed": 42,
+  "train_n": 5241,
+  "n_features": 93,
+  "dataset_hash": "42da5fcea759a43ce3e018f9c9c4ff0b5272fcc884221e0a97d2e4fd8eb048e0",
+  "feature_list_hash": "f79f42fc9a619bd56ce3abfad20559d18e9b290d40b64dce6c9d16992920fa83",
+  "package_versions": {
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "joblib": "1.6.0"
+  },
+  "cv_metrics": {
+    "macro_f1_mean": 0.5023,
+    "macro_f1_std": 0.0097,
+    "f1_formal_mean": 0.3146,
+    "f1_formal_std": 0.0133,
+    "protocol": "first_repeat_stratified_5fold_seed_42",
+    "source": "script_14_stack_a_complete",
+    "n_folds": 5
+  },
+  "limitations": "All-shocks financial-expanded Stack A (logistic + histogram GB \u2192 logistic meta). Validated on the first 5-fold repeat only (macro F1 \u2248 0.502; formal F1 \u2248 0.315). Not compared against the prior 25-fold averages in the stacking decision. Stack B was stopped incomplete and is not a deployment candidate. Serving artefact is refit on the full modelling cohort (n=5,241). Not for operational targeting or eligibility decisions. SHAP LinearExplainer is not supported for this stacked model.",
+  "low_confidence_rule": {
+    "description": "Flag when score margin (max - second_max) < 0.10 OR predicted class is formal",
+    "margin_threshold": 0.1,
+    "always_flag_classes": [
+      "formal"
+    ]
+  },
+  "created_at": "2026-11-20T13:36:40.347519+00:00",
+  "git_commit": "9348d24d4e72475818f9055dcf713cc7a5bc4dbd",
+  "fallback_path": "artefacts/classifier/v0.2.0-logistic-fallback",
+  "preferred_path": "artefacts/classifier/v0.2.0"
+}

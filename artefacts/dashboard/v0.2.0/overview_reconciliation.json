@@ -1,0 +1,393 @@
+{
+  "generated_at": "2026-11-20T15:53:53.785130+00:00",
+  "drought_slice": {
+    "target_n": 1552,
+    "target_weighted": 985365.4,
+    "payload_n": 1552,
+    "payload_weighted": 985365.4,
+    "matches_legacy_overview": true,
+    "note": "Drought R2A slice in the all-shocks modelling cohort reproduces the legacy Overview totals (n=1,552; weighted\u2248985,365)."
+  },
+  "all_shocks_counted_once": {
+    "n": 5241,
+    "ok": true
+  },
+  "r2a_overlap": {
+    "sum_of_shock_ns": 10056,
+    "all_shocks_n": 5241,
+    "overlap_expected": true,
+    "per_shock_n": {
+      "shock_child_birth": 418,
+      "shock_major_sickness_health_problem_accident_injury": 2277,
+      "shock_drought_loss": 1552,
+      "shock_high_rainfall_flooding_mudslide_lightning": 1573,
+      "shock_death_of_main_income_earner_family_member": 795,
+      "shock_loss_or_damage_due_totheft_e_g_property_assets_business_etc": 641,
+      "shock_loss_of_a_job_or_a_source_of_income_or_a_wage_cut": 453,
+      "shock_lost_a_home_or_land_e_g_due_to_eviction_demolitions": 39,
+      "shock_livestock_crop_failure_due_to_pest_and_diseases": 1815,
+      "shock_loss_or_damage_due_tofire_or_violence_including_political_violen": 49,
+      "shock_loss_or_damage_due_to_human_wildlife_conflict": 242,
+      "shock_loss_of_income_or_major_financial_expenses_due_to_taking_on_care": 202
+    }
+  },
+  "shock_weighted_vs_workbench": [
+    {
+      "shock": "shock_child_birth",
+      "payload_n": 418,
+      "modelling_n": 418,
+      "descriptive_n_script03": 418,
+      "n_ok": true,
+      "payload_weighted": 262081.3,
+      "descriptive_weighted_script03": 262081.3,
+      "weighted_abs_diff_vs_descriptive": 0.0,
+      "weighted_match_descriptive": true,
+      "note": "Script 03 weighted frequencies use descriptive exposed n=5,248; Overview modelling n=5,241. Drought is identical in both; other shocks lose a few households without valid coping labels."
+    },
+    {
+      "shock": "shock_major_sickness_health_problem_accident_injury",
+      "payload_n": 2277,
+      "modelling_n": 2277,
+      "descriptive_n_script03": 2282,
+      "n_ok": true,
+      "payload_weighted": 1548296.8,
+      "descriptive_weighted_script03": 1551119.3,
+      "weighted_abs_diff_vs_descriptive": 2822.5,
+      "weighted_match_descriptive": false,
+      "note": "Script 03 weighted frequencies use descriptive exposed n=5,248; Overview modelling n=5,241. Drought is identical in both; other shocks lose a few households without valid coping labels."
+    },
+    {
+      "shock": "shock_drought_loss",
+      "payload_n": 1552,
+      "modelling_n": 1552,
+      "descriptive_n_script03": 1552,
+      "n_ok": true,
+      "payload_weighted": 985365.4,
+      "descriptive_weighted_script03": 985365.4,
+      "weighted_abs_diff_vs_descriptive": 0.0,
+      "weighted_match_descriptive": true,
+      "note": "Script 03 weighted frequencies use descriptive exposed n=5,248; Overview modelling n=5,241. Drought is identical in both; other shocks lose a few households without valid coping labels."
+    },
+    {
+      "shock": "shock_high_rainfall_flooding_mudslide_lightning",
+      "payload_n": 1573,
+      "modelling_n": 1573,
+      "descriptive_n_script03": 1573,
+      "n_ok": true,
+      "payload_weighted": 1102301.6,
+      "descriptive_weighted_script03": 1102301.6,
+      "weighted_abs_diff_vs_descriptive": 0.0,
+      "weighted_match_descriptive": true,
+      "note": "Script 03 weighted frequencies use descriptive exposed n=5,248; Overview modelling n=5,241. Drought is identical in both; other shocks lose a few households without valid coping labels."
+    },
+    {
+      "shock": "shock_death_of_main_income_earner_family_member",
+      "payload_n": 795,
+      "modelling_n": 795,
+      "descriptive_n_script03": 796,
+      "n_ok": true,
+      "payload_weighted": 578512.1,
+      "descriptive_weighted_script03": 579198.2,
+      "weighted_abs_diff_vs_descriptive": 686.1,
+      "weighted_match_descriptive": false,
+      "note": "Script 03 weighted frequencies use descriptive exposed n=5,248; Overview modelling n=5,241. Drought is identical in both; other shocks lose a few households without valid coping labels."
+    },
+    {
+      "shock": "shock_loss_or_damage_due_totheft_e_g_property_assets_business_etc",
+      "payload_n": 641,
+      "modelling_n": 641,
+      "descriptive_n_script03": 641,
+      "n_ok": true,
+      "payload_weighted": 448770.4,
+      "descriptive_weighted_script03": 448770.4,
+      "weighted_abs_diff_vs_descriptive": 0.0,
+      "weighted_match_descriptive": true,
+      "note": "Script 03 weighted frequencies use descriptive exposed n=5,248; Overview modelling n=5,241. Drought is identical in both; other shocks lose a few households without valid coping labels."
+    },
+    {
+      "shock": "shock_loss_of_a_job_or_a_source_of_income_or_a_wage_cut",
+      "payload_n": 453,
+      "modelling_n": 453,
+      "descriptive_n_script03": 453,
+      "n_ok": true,
+      "payload_weighted": 312009.4,
+      "descriptive_weighted_script03": 312009.4,
+      "weighted_abs_diff_vs_descriptive": 0.0,
+      "weighted_match_descriptive": true,
+      "note": "Script 03 weighted frequencies use descriptive exposed n=5,248; Overview modelling n=5,241. Drought is identical in both; other shocks lose a few households without valid coping labels."
+    },
+    {
+      "shock": "shock_lost_a_home_or_land_e_g_due_to_eviction_demolitions",
+      "payload_n": 39,
+      "modelling_n": 39,
+      "descriptive_n_script03": 39,
+      "n_ok": true,
+      "payload_weighted": 24582.4,
+      "descriptive_weighted_script03": 24582.4,
+      "weighted_abs_diff_vs_descriptive": 0.0,
+      "weighted_match_descriptive": true,
+      "note": "Script 03 weighted frequencies use descriptive exposed n=5,248; Overview modelling n=5,241. Drought is identical in both; other shocks lose a few households without valid coping labels."
+    },
+    {
+      "shock": "shock_livestock_crop_failure_due_to_pest_and_diseases",
+      "payload_n": 1815,
+      "modelling_n": 1815,
+      "descriptive_n_script03": 1816,
+      "n_ok": true,
+      "payload_weighted": 1233401.8,
+      "descriptive_weighted_script03": 1233924.1,
+      "weighted_abs_diff_vs_descriptive": 522.3,
+      "weighted_match_descriptive": false,
+      "note": "Script 03 weighted frequencies use descriptive exposed n=5,248; Overview modelling n=5,241. Drought is identical in both; other shocks lose a few households without valid coping labels."
+    },
+    {
+      "shock": "shock_loss_or_damage_due_tofire_or_violence_including_political_violen",
+      "payload_n": 49,
+      "modelling_n": 49,
+      "descriptive_n_script03": 49,
+      "n_ok": true,
+      "payload_weighted": 27860.7,
+      "descriptive_weighted_script03": 27860.7,
+      "weighted_abs_diff_vs_descriptive": 0.0,
+      "weighted_match_descriptive": true,
+      "note": "Script 03 weighted frequencies use descriptive exposed n=5,248; Overview modelling n=5,241. Drought is identical in both; other shocks lose a few households without valid coping labels."
+    },
+    {
+      "shock": "shock_loss_or_damage_due_to_human_wildlife_conflict",
+      "payload_n": 242,
+      "modelling_n": 242,
+      "descriptive_n_script03": 242,
+      "n_ok": true,
+      "payload_weighted": 148325.2,
+      "descriptive_weighted_script03": 148325.2,
+      "weighted_abs_diff_vs_descriptive": 0.0,
+      "weighted_match_descriptive": true,
+      "note": "Script 03 weighted frequencies use descriptive exposed n=5,248; Overview modelling n=5,241. Drought is identical in both; other shocks lose a few households without valid coping labels."
+    },
+    {
+      "shock": "shock_loss_of_income_or_major_financial_expenses_due_to_taking_on_care",
+      "payload_n": 202,
+      "modelling_n": 202,
+      "descriptive_n_script03": 202,
+      "n_ok": true,
+      "payload_weighted": 158500.4,
+      "descriptive_weighted_script03": 158500.4,
+      "weighted_abs_diff_vs_descriptive": 0.0,
+      "weighted_match_descriptive": true,
+      "note": "Script 03 weighted frequencies use descriptive exposed n=5,248; Overview modelling n=5,241. Drought is identical in both; other shocks lose a few households without valid coping labels."
+    }
+  ],
+  "coping_mix_unweighted_vs_workbench": [
+    {
+      "class": "personal",
+      "payload_n": 1782,
+      "workbench_n": 1782,
+      "ok": true
+    },
+    {
+      "class": "informal",
+      "payload_n": 2094,
+      "workbench_n": 2094,
+      "ok": true
+    },
+    {
+      "class": "formal",
+      "payload_n": 371,
+      "workbench_n": 371,
+      "ok": true
+    },
+    {
+      "class": "did_nothing",
+      "payload_n": 994,
+      "workbench_n": 994,
+      "ok": true
+    }
+  ],
+  "main_shock_n_vs_workbench": [
+    {
+      "main_shock_code": 1,
+      "payload_n": 235,
+      "workbench_n": 235,
+      "ok": true
+    },
+    {
+      "main_shock_code": 2,
+      "payload_n": 1611,
+      "workbench_n": 1611,
+      "ok": true
+    },
+    {
+      "main_shock_code": 3,
+      "payload_n": 778,
+      "workbench_n": 778,
+      "ok": true
+    },
+    {
+      "main_shock_code": 4,
+      "payload_n": 765,
+      "workbench_n": 765,
+      "ok": true
+    },
+    {
+      "main_shock_code": 5,
+      "payload_n": 488,
+      "workbench_n": 488,
+      "ok": true
+    },
+    {
+      "main_shock_code": 6,
+      "payload_n": 183,
+      "workbench_n": 183,
+      "ok": true
+    },
+    {
+      "main_shock_code": 7,
+      "payload_n": 209,
+      "workbench_n": 209,
+      "ok": true
+    },
+    {
+      "main_shock_code": 8,
+      "payload_n": 11,
+      "workbench_n": 11,
+      "ok": true
+    },
+    {
+      "main_shock_code": 9,
+      "payload_n": 760,
+      "workbench_n": 760,
+      "ok": true
+    },
+    {
+      "main_shock_code": 10,
+      "payload_n": 21,
+      "workbench_n": 21,
+      "ok": true
+    },
+    {
+      "main_shock_code": 11,
+      "payload_n": 73,
+      "workbench_n": 73,
+      "ok": true
+    },
+    {
+      "main_shock_code": 12,
+      "payload_n": 107,
+      "workbench_n": 107,
+      "ok": true
+    }
+  ],
+  "suppressed_cells_by_shock": {
+    "all": {
+      "counties_total": 47,
+      "counties_suppressed_n_lt_30": 2,
+      "counties_small_sample_n_lt_100": 20,
+      "segments_total": 5,
+      "segments_suppressed_n_lt_30": 0,
+      "segments_small_sample_n_lt_100": 0
+    },
+    "shock_child_birth": {
+      "counties_total": 46,
+      "counties_suppressed_n_lt_30": 46,
+      "counties_small_sample_n_lt_100": 46,
+      "segments_total": 5,
+      "segments_suppressed_n_lt_30": 0,
+      "segments_small_sample_n_lt_100": 3
+    },
+    "shock_major_sickness_health_problem_accident_injury": {
+      "counties_total": 45,
+      "counties_suppressed_n_lt_30": 14,
+      "counties_small_sample_n_lt_100": 39,
+      "segments_total": 5,
+      "segments_suppressed_n_lt_30": 0,
+      "segments_small_sample_n_lt_100": 1
+    },
+    "shock_drought_loss": {
+      "counties_total": 47,
+      "counties_suppressed_n_lt_30": 25,
+      "counties_small_sample_n_lt_100": 47,
+      "segments_total": 5,
+      "segments_suppressed_n_lt_30": 0,
+      "segments_small_sample_n_lt_100": 0
+    },
+    "shock_high_rainfall_flooding_mudslide_lightning": {
+      "counties_total": 46,
+      "counties_suppressed_n_lt_30": 21,
+      "counties_small_sample_n_lt_100": 46,
+      "segments_total": 5,
+      "segments_suppressed_n_lt_30": 0,
+      "segments_small_sample_n_lt_100": 1
+    },
+    "shock_death_of_main_income_earner_family_member": {
+      "counties_total": 44,
+      "counties_suppressed_n_lt_30": 37,
+      "counties_small_sample_n_lt_100": 44,
+      "segments_total": 5,
+      "segments_suppressed_n_lt_30": 1,
+      "segments_small_sample_n_lt_100": 3
+    },
+    "shock_loss_or_damage_due_totheft_e_g_property_assets_business_etc": {
+      "counties_total": 47,
+      "counties_suppressed_n_lt_30": 41,
+      "counties_small_sample_n_lt_100": 47,
+      "segments_total": 5,
+      "segments_suppressed_n_lt_30": 0,
+      "segments_small_sample_n_lt_100": 3
+    },
+    "shock_loss_of_a_job_or_a_source_of_income_or_a_wage_cut": {
+      "counties_total": 45,
+      "counties_suppressed_n_lt_30": 44,
+      "counties_small_sample_n_lt_100": 45,
+      "segments_total": 5,
+      "segments_suppressed_n_lt_30": 1,
+      "segments_small_sample_n_lt_100": 3
+    },
+    "shock_lost_a_home_or_land_e_g_due_to_eviction_demolitions": {
+      "counties_total": 17,
+      "counties_suppressed_n_lt_30": 17,
+      "counties_small_sample_n_lt_100": 17,
+      "segments_total": 5,
+      "segments_suppressed_n_lt_30": 5,
+      "segments_small_sample_n_lt_100": 5
+    },
+    "shock_livestock_crop_failure_due_to_pest_and_diseases": {
+      "counties_total": 47,
+      "counties_suppressed_n_lt_30": 22,
+      "counties_small_sample_n_lt_100": 45,
+      "segments_total": 5,
+      "segments_suppressed_n_lt_30": 0,
+      "segments_small_sample_n_lt_100": 0
+    },
+    "shock_loss_or_damage_due_tofire_or_violence_including_political_violen": {
+      "counties_total": 25,
+      "counties_suppressed_n_lt_30": 25,
+      "counties_small_sample_n_lt_100": 25,
+      "segments_total": 5,
+      "segments_suppressed_n_lt_30": 5,
+      "segments_small_sample_n_lt_100": 5
+    },
+    "shock_loss_or_damage_due_to_human_wildlife_conflict": {
+      "counties_total": 35,
+      "counties_suppressed_n_lt_30": 34,
+      "counties_small_sample_n_lt_100": 35,
+      "segments_total": 5,
+      "segments_suppressed_n_lt_30": 1,
+      "segments_small_sample_n_lt_100": 5
+    },
+    "shock_loss_of_income_or_major_financial_expenses_due_to_taking_on_care": {
+      "counties_total": 37,
+      "counties_suppressed_n_lt_30": 37,
+      "counties_small_sample_n_lt_100": 37,
+      "segments_total": 5,
+      "segments_suppressed_n_lt_30": 2,
+      "segments_small_sample_n_lt_100": 5
+    }
+  },
+  "design_confidence_intervals": {
+    "strata_or_cluster_ids_available": false,
+    "columns_found": [],
+    "recommendation": "No survey strata/PSU/cluster identifiers are in the modelling cohort, so design-based confidence intervals are not computed. Describe weighted shares as survey-weighted estimates within this FinAccess 2024 analysis sample (household_weight), not as official national headcounts with sampling-error bands."
+  },
+  "all_checks_ok": true,
+  "weighted_vs_descriptive_note": "Exact weighted match to 03_shock_frequencies_weighted.csv is expected only where the descriptive and modelling cohorts coincide (e.g. drought). Other shocks show small weight gaps from the 7 modelling exclusions."
+}

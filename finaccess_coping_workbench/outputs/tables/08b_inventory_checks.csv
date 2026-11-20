@@ -1,0 +1,7 @@
+"check","value","expected","pass"
+"segmentation_count",18,18,True
+"primary_count",23,23,True
+"extended_count",35,35,True
+"land_size_unit_excluded",1,1,True
+"shannon_sensitivity_only",1,1,True
+"script08_extras_removed_from_default",1,1,True

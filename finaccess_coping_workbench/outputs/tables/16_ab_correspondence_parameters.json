@@ -1,0 +1,12 @@
+{
+  "experiment": "Spec_A_B_correspondence",
+  "candidate_k": [
+    4,
+    5
+  ],
+  "matching": "greedy_maximum_overlap",
+  "pam_rerun": false,
+  "coping_used": false,
+  "final_k_selected": null,
+  "working_typology_status": "k5_provisionally_preferred_pending_this_audit"
+}

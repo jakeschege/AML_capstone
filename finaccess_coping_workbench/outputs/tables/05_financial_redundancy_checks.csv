@@ -1,0 +1,6 @@
+check,n,n_agree,pct_agree,fully_deterministic,notes
+used_buyer_credit_equals_buyer_supplier_credit_eq_1,1552,1552,100.0,True,Exact recode of Q12 Yes into a 0/1 flag
+used_formal_credit_equals_loan_usage_or_loan_formal_or_formal_agri,1552,1552,100.0,True,Documented OR construction from notebook/feature dictionary
+used_digital_credit_equals_digital_app_loan_eq_1,1552,1552,100.0,True,Derived from digital_app_loan
+used_insurance_equals_insurance_excl_nhif_eq_1,1552,1552,100.0,True,Derived from insurance_excl_nhif
+loan_usage_vs_used_formal_credit_overlap,1552,1098,70.75,False,both=1: 1098; loan_usage=1 & used_formal=0: 0; loan_usage=0 & used_formal=1: 11

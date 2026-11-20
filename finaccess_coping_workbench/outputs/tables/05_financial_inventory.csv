@@ -1,0 +1,12 @@
+variable,construct_group,dtype,n,missing,missing_pct,n_unique,min,max
+buyer_supplier_credit,agri_trade_credit_question,float64,1552,0,0.0,2,1.0,2.0
+formal_agri_borrowing,agri_trade_credit_question,float64,1552,0,0.0,2,1.0,2.0
+used_formal_credit,derived_usage_flag,int64,1552,0,0.0,2,0.0,1.0
+used_buyer_credit,derived_usage_flag,int64,1552,0,0.0,2,0.0,1.0
+used_digital_credit,derived_usage_flag,int64,1552,0,0.0,2,0.0,1.0
+used_insurance,derived_usage_flag,int64,1552,0,0.0,2,0.0,1.0
+bank_usage,service_usage,int64,1552,0,0.0,2,0.0,1.0
+savings_usage,service_usage,int64,1552,0,0.0,2,0.0,1.0
+loan_usage,service_usage,int64,1552,0,0.0,2,0.0,1.0
+mobile_money_usage,service_usage,float64,1552,0,0.0,3,1.0,3.0
+mfi_usage,service_usage,float64,1552,0,0.0,3,1.0,3.0

@@ -1,0 +1,11 @@
+Loading Stata metadata (labels only)…
+Loading farming modelling frame + shock flags…
+shock_info_group
+shock_exposed             5248
+complete_no_shock         4499
+incomplete_no_positive       9
+Merging extract-only columns for farming households…
+Added 58 extract-derived columns (incl. top crops + portfolio count).
+Wrote /home/jakes/Documents/strathmore/Modules/Module 4/AppliedMachineLearning/capstone_project/all_shocks_framing_workbench/outputs/reports/NON_SHOCK_HOUSEHOLD_SIGNAL_AUDIT.md
+Audit rows=183; meaningful diffs=14; invA=87; invB=116; stata gaps=37
+Script 09 complete.

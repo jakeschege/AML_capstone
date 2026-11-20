@@ -1,0 +1,2 @@
+"test","target","grouping","chi2","df","p_value","cramers_v","n_cells_expected_lt_5","formal_observed_min","formal_observed_max","formal_expected_min","warning"
+"chi_square_independence","coping_category","cluster_k5",45.9192,12,7.164155682585137e-06,0.0993,0,9,19,10.34,"Formal observed counts are sparse (roughly 9–19 per cluster); p-value and Cramer’s V are secondary and do not establish causal segment effects."

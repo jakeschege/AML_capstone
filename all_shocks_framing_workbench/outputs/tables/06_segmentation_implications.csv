@@ -1,0 +1,8 @@
+item,value,note
+drought_exposed_segmentation_n,1552,Existing Spec A PAM sample
+all_shocks_modelling_n,5241,Proposed recomputation sample if segmentation follows modelling cohort
+spec_a_n_features,17,Agri + counts + ownership; acres excluded (Spec A)
+pairwise_comparisons_drought,1203576,Approx pairs for dense Gower
+pairwise_comparisons_all_shocks,13731420,Approx pairs for dense Gower
+pair_ratio_vs_drought,11.41,Relative compute/memory pressure vs current Spec A
+recommendation,recompute_spec_a_on_all_shocks_cohort,Cluster assignments from drought-only PAM are not valid out-of-sample labels for non-drought shock households. Recompute Spec A on the all-shocks modelling (or shock-exposed) population using the same agricultural features; exclude shock/coping from clustering. Defer full bootstrap stability until after a single k-screen.

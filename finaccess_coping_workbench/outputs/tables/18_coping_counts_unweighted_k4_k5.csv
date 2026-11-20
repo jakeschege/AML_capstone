@@ -1,0 +1,45 @@
+"k","cluster","cluster_label","coping_category","n_households","pct_within_cluster","pct_of_sample","cluster_n"
+4,0,"Family-owned crop households (no roots/tubers)","personal",271,38.83,17.46,698
+4,0,"Family-owned crop households (no roots/tubers)","informal",222,31.81,14.3,698
+4,0,"Family-owned crop households (no roots/tubers)","formal",38,5.44,2.45,698
+4,0,"Family-owned crop households (no roots/tubers)","did_nothing",167,23.93,10.76,698
+4,1,"Family-owned crop households (with roots/tubers)","personal",96,33.1,6.19,290
+4,1,"Family-owned crop households (with roots/tubers)","informal",111,38.28,7.15,290
+4,1,"Family-owned crop households (with roots/tubers)","formal",7,2.41,0.45,290
+4,1,"Family-owned crop households (with roots/tubers)","did_nothing",76,26.21,4.9,290
+4,2,"Community-land livestock-oriented households","personal",172,47.38,11.08,363
+4,2,"Community-land livestock-oriented households","informal",59,16.25,3.8,363
+4,2,"Community-land livestock-oriented households","formal",18,4.96,1.16,363
+4,2,"Community-land livestock-oriented households","did_nothing",114,31.4,7.35,363
+4,3,"Lease / own-name crop households","personal",76,37.81,4.9,201
+4,3,"Lease / own-name crop households","informal",55,27.36,3.54,201
+4,3,"Lease / own-name crop households","formal",12,5.97,0.77,201
+4,3,"Lease / own-name crop households","did_nothing",58,28.86,3.74,201
+4,-1,"All households","personal",615,39.63,39.63,1552
+4,-1,"All households","informal",447,28.8,28.8,1552
+4,-1,"All households","formal",75,4.83,4.83,1552
+4,-1,"All households","did_nothing",415,26.74,26.74,1552
+5,0,"Family-owned legume-oriented crop households","personal",144,33.72,9.28,427
+5,0,"Family-owned legume-oriented crop households","informal",154,36.07,9.92,427
+5,0,"Family-owned legume-oriented crop households","formal",19,4.45,1.22,427
+5,0,"Family-owned legume-oriented crop households","did_nothing",110,25.76,7.09,427
+5,1,"Own-name crop households","personal",109,40.37,7.02,270
+5,1,"Own-name crop households","informal",87,32.22,5.61,270
+5,1,"Own-name crop households","formal",15,5.56,0.97,270
+5,1,"Own-name crop households","did_nothing",59,21.85,3.8,270
+5,2,"Community-land livestock-oriented households","personal",140,47.3,9.02,296
+5,2,"Community-land livestock-oriented households","informal",45,15.2,2.9,296
+5,2,"Community-land livestock-oriented households","formal",14,4.73,0.9,296
+5,2,"Community-land livestock-oriented households","did_nothing",97,32.77,6.25,296
+5,3,"Family-owned mixed crop and livestock households","personal",94,43.93,6.06,214
+5,3,"Family-owned mixed crop and livestock households","informal",56,26.17,3.61,214
+5,3,"Family-owned mixed crop and livestock households","formal",9,4.21,0.58,214
+5,3,"Family-owned mixed crop and livestock households","did_nothing",55,25.7,3.54,214
+5,4,"Family-owned cereal-oriented households","personal",128,37.1,8.25,345
+5,4,"Family-owned cereal-oriented households","informal",105,30.43,6.77,345
+5,4,"Family-owned cereal-oriented households","formal",18,5.22,1.16,345
+5,4,"Family-owned cereal-oriented households","did_nothing",94,27.25,6.06,345
+5,-1,"All households","personal",615,39.63,39.63,1552
+5,-1,"All households","informal",447,28.8,28.8,1552
+5,-1,"All households","formal",75,4.83,4.83,1552
+5,-1,"All households","did_nothing",415,26.74,26.74,1552

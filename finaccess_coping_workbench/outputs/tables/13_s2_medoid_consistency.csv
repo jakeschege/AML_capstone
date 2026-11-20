@@ -1,0 +1,12 @@
+"k","s1_cluster","s1_cluster_note","pct_replicates_medoid_matches_pattern","n_replicates"
+2,0,"crop_family",88.0,50
+2,1,"livestock_community",30.0,50
+4,0,"family_crops_no_roots",100.0,50
+4,1,"family_crops_with_roots",40.0,50
+4,2,"livestock_community",100.0,50
+4,3,"lease_crops",10.0,50
+5,0,"family_legumes_heavy",94.0,50
+5,1,"own_name_crops",58.0,50
+5,2,"livestock_community",100.0,50
+5,3,"family_mixed_crop_livestock",64.0,50
+5,4,"family_cereals_without_legumes",58.0,50

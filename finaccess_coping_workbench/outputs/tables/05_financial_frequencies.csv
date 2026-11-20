@@ -1,0 +1,25 @@
+variable,construct_group,code,label,n_households,pct
+buyer_supplier_credit,agri_trade_credit_question,1,Yes,197,12.69
+buyer_supplier_credit,agri_trade_credit_question,2,No,1355,87.31
+formal_agri_borrowing,agri_trade_credit_question,1,Yes,129,8.31
+formal_agri_borrowing,agri_trade_credit_question,2,No,1423,91.69
+used_formal_credit,derived_usage_flag,0,No,443,28.54
+used_formal_credit,derived_usage_flag,1,Yes,1109,71.46
+used_buyer_credit,derived_usage_flag,0,No,1355,87.31
+used_buyer_credit,derived_usage_flag,1,Yes,197,12.69
+used_digital_credit,derived_usage_flag,0,No,1531,98.65
+used_digital_credit,derived_usage_flag,1,Yes,21,1.35
+used_insurance,derived_usage_flag,0,No,1490,96.01
+used_insurance,derived_usage_flag,1,Yes,62,3.99
+bank_usage,service_usage,0,Non-usage,1042,67.14
+bank_usage,service_usage,1,Usage,510,32.86
+savings_usage,service_usage,0,Non-usage,425,27.38
+savings_usage,service_usage,1,Usage,1127,72.62
+loan_usage,service_usage,0,Non-usage,454,29.25
+loan_usage,service_usage,1,Usage,1098,70.75
+mobile_money_usage,service_usage,1,Currently use,1278,82.35
+mobile_money_usage,service_usage,2,Used to use,75,4.83
+mobile_money_usage,service_usage,3,Never used,199,12.82
+mfi_usage,service_usage,1,Currently use,175,11.28
+mfi_usage,service_usage,2,Used to use,144,9.28
+mfi_usage,service_usage,3,Never used,1233,79.45

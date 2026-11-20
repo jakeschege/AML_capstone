@@ -1,0 +1,19 @@
+{
+  "experiment": "S2b_k5_family_crop_robustness",
+  "specification": "A",
+  "focus_k5_clusters": {
+    "0": "family_legumes_heavy",
+    "4": "family_cereals_without_legumes"
+  },
+  "comparator_k4_family_clusters": {
+    "0": "family_crops_no_roots",
+    "1": "family_crops_with_roots"
+  },
+  "subsample_fraction": 0.8,
+  "subsample_n": 1242,
+  "n_replicates": 50,
+  "random_seed": 42,
+  "boundary_gap_cutoff_rule": "10th_percentile_of_abs_dist_gap_among_focus",
+  "coping_used": false,
+  "final_k_selected": null
+}

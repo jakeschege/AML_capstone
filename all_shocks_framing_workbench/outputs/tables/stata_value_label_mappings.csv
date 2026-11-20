@@ -1,0 +1,17 @@
+stata_variable,value_code,value_label
+R2B,1,Child birth
+R2B,2,Major sickness/health problem/accident injury
+R2B,3,Loss or damage due to drought
+R2B,4,High rainfall/flooding/mudslide/lightning
+R2B,5,Death of main income earner/family member
+R2B,6,"Loss or damage due to theft(e.g property, assets, business etc"
+R2B,7,Loss of a job or a source of income or a wage cut
+R2B,8,"Lost a home or land (e.g. due to eviction, demolitions or land seizure)"
+R2B,9,Livestock/crop failure due to pest and diseases
+R2B,10,Loss or damage due to fire or violence including political violence
+R2B,11,Loss or damage due to human wildlife conflict
+R2B,12,Loss of income or major financial expenses due to taking on care for someone els
+Classification_A_Resilience,1,Formal
+Classification_A_Resilience,2,Informal
+Classification_A_Resilience,3,Personal
+Classification_A_Resilience,4,Did Nothing

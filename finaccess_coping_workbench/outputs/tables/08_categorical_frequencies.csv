@@ -1,0 +1,74 @@
+"variable","code","label","n_households","pct","rare_under_5pct","rare_under_n30"
+"sex",2.0,"Female",862,55.54,False,False
+"sex",1.0,"Male",690,44.46,False,False
+"education",2.0,"Primary",651,41.95,False,False
+"education",3.0,"Secondary",389,25.06,False,False
+"education",1.0,"None",382,24.61,False,False
+"education",4.0,"Tertiary",130,8.38,False,False
+"urban_rural",1.0,"Rural",1324,85.31,False,False
+"urban_rural",2.0,"Urban",228,14.69,False,False
+"county",2.0,"Kwale",95,6.12,False,False
+"county",34.0,"Kajiado",87,5.61,False,False
+"county",3.0,"Kilifi",82,5.28,False,False
+"county",24.0,"West Pokot",77,4.96,True,False
+"county",42.0,"Kisumu",75,4.83,True,False
+"county",40.0,"Busia",74,4.77,True,False
+"county",30.0,"Baringo",63,4.06,True,False
+"county",43.0,"Homabay",63,4.06,True,False
+"county",41.0,"Siaya",61,3.93,True,False
+"county",23.0,"Turkana",60,3.87,True,False
+"county",10.0,"Marsabit",58,3.74,True,False
+"county",17.0,"Makueni",58,3.74,True,False
+"county",6.0,"Taita-Taveta",55,3.54,True,False
+"county",39.0,"Bungoma",53,3.41,True,False
+"county",31.0,"Laikipia",50,3.22,True,False
+"county",22.0,"Kiambu",39,2.51,True,False
+"county",45.0,"Kisii",39,2.51,True,False
+"county",25.0,"Samburu",37,2.38,True,False
+"county",32.0,"Nakuru",35,2.26,True,False
+"county",13.0,"Tharaka-Nithi",34,2.19,True,False
+"county",28.0,"Elgeyo-Marakwet",34,2.19,True,False
+"county",12.0,"Meru",33,2.13,True,False
+"county",36.0,"Bomet",27,1.74,True,True
+"county",8.0,"Wajir",25,1.61,True,True
+"county",38.0,"Vihiga",24,1.55,True,True
+"county",7.0,"Garissa",22,1.42,True,True
+"county",11.0,"Isiolo",19,1.22,True,True
+"county",29.0,"Nandi",18,1.16,True,True
+"county",1.0,"Mombasa",16,1.03,True,True
+"county",27.0,"Uasin Gishu",15,0.97,True,True
+"county",4.0,"Tana River",13,0.84,True,True
+"county",18.0,"Nyandarua",13,0.84,True,True
+"county",44.0,"Migori",13,0.84,True,True
+"county",14.0,"Embu",11,0.71,True,True
+"county",15.0,"Kitui",11,0.71,True,True
+"county",5.0,"Lamu",10,0.64,True,True
+"county",33.0,"Narok",9,0.58,True,True
+"county",21.0,"Murang'a",7,0.45,True,True
+"county",47.0,"Nairobi City",7,0.45,True,True
+"county",26.0,"Trans Nzoia",6,0.39,True,True
+"county",35.0,"Kericho",5,0.32,True,True
+"county",37.0,"Kakamega",5,0.32,True,True
+"county",9.0,"Mandera",4,0.26,True,True
+"county",16.0,"Machakos",3,0.19,True,True
+"county",19.0,"Nyeri",3,0.19,True,True
+"county",46.0,"Nyamira",3,0.19,True,True
+"county",20.0,"Kirinyaga",1,0.06,True,True
+"land_size_unit",1.0,"Acres",1308,84.28,False,False
+"land_size_unit",5.0,"Community land",182,11.73,False,False
+"land_size_unit",2.0,"Hectares",36,2.32,True,False
+"land_size_unit",3.0,"Square metres",17,1.1,True,True
+"land_size_unit",4.0,"Square feet",8,0.52,True,True
+"land_size_unit","","[missing]",1,0.06,True,True
+"main_shock_type",3.0,"Loss or damage due to drought",778,50.13,False,False
+"main_shock_type",2.0,"Major sickness/health problem/accident injury",238,15.34,False,False
+"main_shock_type",9.0,"Livestock/crop failure due to pest and diseases",152,9.79,False,False
+"main_shock_type",4.0,"High rainfall/flooding/mudslide/lightning",127,8.18,False,False
+"main_shock_type",5.0,"Death of main income earner/family member",100,6.44,False,False
+"main_shock_type",6.0,"Loss or damage due to theft(e.g property, assets, business etc",45,2.9,True,False
+"main_shock_type",7.0,"Loss of a job or a source of income or a wage cut",35,2.26,True,False
+"main_shock_type",11.0,"Loss or damage due to human wildlife conflict",25,1.61,True,True
+"main_shock_type",1.0,"Child birth",23,1.48,True,True
+"main_shock_type",12.0,"Loss of income or major financial expenses due to taking on care for someone els",13,0.84,True,True
+"main_shock_type",10.0,"Loss or damage due to fire or violence including political violence",11,0.71,True,True
+"main_shock_type",8.0,"Lost a home or land (e.g. due to eviction, demolitions or land seizure)",5,0.32,True,True

@@ -1,0 +1,6 @@
+,0
+n_farming,9756
+n_shock_exposed_descriptive,5248
+n_modelling,5241
+shock_columns_used,"['shock_child_birth', 'shock_major_sickness_health_problem_accident_injury', 'shock_drought_loss', 'shock_high_rainfall_flooding_mudslide_lightning', 'shock_death_of_main_income_earner_family_member', 'shock_loss_or_damage_due_totheft_e_g_property_assets_business_etc', 'shock_loss_of_a_job_or_a_source_of_income_or_a_wage_cut', 'shock_lost_a_home_or_land_e_g_due_to_eviction_demolitions', 'shock_livestock_crop_failure_due_to_pest_and_diseases', 'shock_loss_or_damage_due_tofire_or_violence_including_political_violen', 'shock_loss_or_damage_due_to_human_wildlife_conflict', 'shock_loss_of_income_or_major_financial_expenses_due_to_taking_on_care']"
+missingness_rule,any_shock_exposed if any R2A indicator == 1; NA not treated as 0; households with only NA/0 and some NA flagged incomplete

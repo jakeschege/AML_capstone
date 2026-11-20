@@ -1,0 +1,3 @@
+count_definition,mean,median,min,max,pct_only_drought_among_additional,pct_with_at_least_one_additional
+all_12_indicators,2.816,3.0,1,9,,
+additional_11_excluding_drought,1.816,2.0,0,8,19.65,80.35

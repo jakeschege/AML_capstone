@@ -1,0 +1,7 @@
+grouping,n_livestock_types,n_households,n_unique_shannon,shannon_values
+n_livestock_types,0,879,5,"-0.0, 0.693147, 1.098612, 1.386294, 1.609438"
+n_livestock_types,1,305,5,"-0.0, 0.693147, 1.098612, 1.386294, 1.609438"
+n_livestock_types,2,238,5,"-0.0, 0.693147, 1.098612, 1.386294, 1.609438"
+n_livestock_types,3,109,5,"-0.0, 0.693147, 1.098612, 1.386294, 1.609438"
+n_livestock_types,4,11,3,"-0.0, 0.693147, 1.098612"
+n_livestock_types,5,10,1,0.693147

@@ -1,0 +1,2 @@
+"variable","observed_codes","labels","code_1_label","provisional_ordinal","encoding_recommendation","notes"
+"education","1,2,3,4","1=None; 2=Primary; 3=Secondary; 4=Tertiary","None",True,"ordinal_or_ordered_categorical_pending_feature_preparation","Codes 1-4 correspond to None, Primary, Secondary, Tertiary. Encoding not applied in this audit."

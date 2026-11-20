@@ -1,0 +1,13 @@
+,shock_child_birth,shock_major_sickness_health_problem_accident_injury,shock_drought_loss,shock_high_rainfall_flooding_mudslide_lightning,shock_death_of_main_income_earner_family_member,shock_loss_or_damage_due_totheft_e_g_property_assets_business_etc,shock_loss_of_a_job_or_a_source_of_income_or_a_wage_cut,shock_lost_a_home_or_land_e_g_due_to_eviction_demolitions,shock_livestock_crop_failure_due_to_pest_and_diseases,shock_loss_or_damage_due_tofire_or_violence_including_political_violen,shock_loss_or_damage_due_to_human_wildlife_conflict,shock_loss_of_income_or_major_financial_expenses_due_to_taking_on_care
+shock_child_birth,418,134,107,97,49,42,45,2,110,4,21,13
+shock_major_sickness_health_problem_accident_injury,134,2282,539,574,383,268,169,13,555,26,80,76
+shock_drought_loss,107,539,1552,552,237,283,162,21,710,26,128,54
+shock_high_rainfall_flooding_mudslide_lightning,97,574,552,1573,248,253,159,17,612,21,92,53
+shock_death_of_main_income_earner_family_member,49,383,237,248,796,182,86,11,279,12,37,38
+shock_loss_or_damage_due_totheft_e_g_property_assets_business_etc,42,268,283,253,182,641,94,15,334,16,55,28
+shock_loss_of_a_job_or_a_source_of_income_or_a_wage_cut,45,169,162,159,86,94,453,13,192,10,44,44
+shock_lost_a_home_or_land_e_g_due_to_eviction_demolitions,2,13,21,17,11,15,13,39,20,3,6,3
+shock_livestock_crop_failure_due_to_pest_and_diseases,110,555,710,612,279,334,192,20,1816,24,153,82
+shock_loss_or_damage_due_tofire_or_violence_including_political_violen,4,26,26,21,12,16,10,3,24,49,9,4
+shock_loss_or_damage_due_to_human_wildlife_conflict,21,80,128,92,37,55,44,6,153,9,242,13
+shock_loss_of_income_or_major_financial_expenses_due_to_taking_on_care,13,76,54,53,38,28,44,3,82,4,13,202

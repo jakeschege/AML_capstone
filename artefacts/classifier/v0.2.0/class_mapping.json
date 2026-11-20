@@ -1,0 +1,20 @@
+{
+  "classes": [
+    "personal",
+    "informal",
+    "formal",
+    "did_nothing"
+  ],
+  "display_labels": {
+    "personal": "Personal coping",
+    "informal": "Informal support",
+    "formal": "Formal support",
+    "did_nothing": "No coping action reported"
+  },
+  "stata_codes": {
+    "1": "formal",
+    "2": "informal",
+    "3": "personal",
+    "4": "did_nothing"
+  }
+}

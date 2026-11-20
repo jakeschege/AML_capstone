@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Drought and Farming Households | FinAccess Coping Notebook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef3f2;--card:#fff;--ink:#12343f;--mute:#5d7580;--line:#dbe5e7;--teal:#1c6a84;--green:#1a6b3c;--amber:#f2a516;--rust:#c0562b;--blue:#1f8bd1;--violet:#7c4ddf;--shadow:0 1px 2px rgba(18,52,63,.06),0 6px 18px rgba(18,52,63,.05);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root:not([data-theme="light"]){color-scheme:light dark}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1b20;--card:#15272e;--ink:#e6f0f2;--mute:#92a9b1;--line:#27404a;--teal:#4fb3d3;--green:#4cc38a;--amber:#f5b84a;--rust:#ef8a5f;--shadow:none}}
+:root[data-theme="dark"]{--bg:#0e1b20;--card:#15272e;--ink:#e6f0f2;--mute:#92a9b1;--line:#27404a;--teal:#4fb3d3;--green:#4cc38a;--amber:#f5b84a;--rust:#ef8a5f;--shadow:none}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif}
+h1,h2,h3,.num{font-family:Poppins,Inter,sans-serif}
+.shell{max-width:1180px;margin:0 auto;padding:0 20px}
+header.top{background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.top .shell{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px;flex-wrap:wrap}
+.brand{font:700 17px Poppins,sans-serif;color:var(--teal)}
+.brand small{display:block;font:400 12px Inter,sans-serif;color:var(--mute)}
+nav{display:flex;gap:4px}
+nav a{padding:20px 14px 17px;color:var(--ink);text-decoration:none;font:500 14px Poppins,sans-serif;border-bottom:3px solid transparent}
+nav a.on{color:var(--teal);border-color:var(--teal)}
+nav a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+.title{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;padding:26px 0 10px;border-bottom:1px solid var(--line);margin-bottom:22px}
+h1{margin:0;font-size:clamp(26px,4vw,40px);letter-spacing:-.02em;line-height:1.1}
+.lede{margin:8px 0 0;color:var(--mute);max-width:62ch}
+.chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:12.5px;font-weight:600}
+.banner{background:color-mix(in srgb,var(--amber) 18%,var(--card));border:1px solid var(--amber);border-radius:12px;padding:10px 14px;font-size:13.5px;margin-bottom:18px}
+.grid{display:grid;gap:16px}
+.k4{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.g2{grid-template-columns:repeat(auto-fit,minmax(340px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:20px}
+.card h3{margin:0 0 2px;font-size:14px;letter-spacing:.01em;text-transform:uppercase;color:var(--teal)}
+.sub{margin:0 0 14px;color:var(--mute);font-size:13px}
+.kpi .lab{font:600 12px Poppins,sans-serif;color:var(--mute);display:flex;align-items:center;gap:8px}
+.dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+.kpi .num{font-size:32px;font-weight:700;color:var(--teal);margin:6px 0 2px;line-height:1.1}
+.kpi .note{font-size:13px;color:var(--mute)}
+.sec{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;margin:28px 0 12px}
+.sec h2{margin:0;font-size:16px;color:var(--teal);border-left:4px solid var(--teal);padding-left:10px;text-transform:uppercase}
+.sec span{font-size:13px;color:var(--mute)}
+.read{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;margin-bottom:18px}
+.read .big{font:700 30px Poppins,sans-serif;color:var(--green)}
+.donutwrap{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.legend{list-style:none;margin:0;padding:0;flex:1;min-width:200px}
+.legend li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-bottom:1px solid var(--line);font-size:14px}
+.legend li:last-child{border:0}
+.legend b{font-family:Poppins,sans-serif}
+.bars{display:grid;gap:9px}
+.bar{display:grid;grid-template-columns:minmax(90px,130px) 1fr 62px;gap:10px;align-items:center;font-size:13px}
+.track{height:12px;background:var(--bg);border-radius:6px;overflow:hidden;display:flex}
+.track i{display:block;height:100%}
+.bar b{text-align:right;font:600 12.5px Poppins,sans-serif}
+.key{display:flex;gap:14px;font-size:12.5px;color:var(--mute);margin-bottom:10px;flex-wrap:wrap}
+.take{background:color-mix(in srgb,var(--teal) 10%,var(--card));border-radius:12px;padding:14px 16px;margin-top:14px;font-size:14px}
+.take strong{display:block;margin-bottom:2px;font-family:Poppins,sans-serif}
+label{display:block;font:600 13px Poppins,sans-serif;margin:12px 0 4px}
+select,input[type=text],textarea{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:inherit}
+.btn{background:var(--teal);color:#fff;border:0;border-radius:999px;padding:11px 22px;font:600 14px Poppins,sans-serif;cursor:pointer;margin-top:16px}
+:root[data-theme="dark"] .btn,:root:not([data-theme="light"]) .btn{color:#06222c}
+.btn.ghost{background:transparent;color:var(--teal);border:1px solid var(--teal)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.chips button{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:7px 14px;font:13px Inter,sans-serif;color:var(--ink);cursor:pointer}
+.chat{display:grid;gap:10px;min-height:240px;max-height:420px;overflow:auto;padding:4px}
+.msg{padding:11px 14px;border-radius:14px;max-width:85%;font-size:14px}
+.msg.u{background:var(--teal);color:#fff;justify-self:end}
+:root:not([data-theme="light"]) .msg.u{color:#06222c}
+.msg.a{background:var(--bg);border:1px solid var(--line)}
+.row{display:flex;gap:10px}
+.row input{flex:1}
+footer{color:var(--mute);font-size:12.5px;padding:30px 0 40px;max-width:80ch}
+[hidden]{display:none!important}
+@media(max-width:640px){nav a{padding:12px 10px}.bar{grid-template-columns:90px 1fr 52px}}
+@media(prefers-reduced-motion:no-preference){.track i{transition:width .6s ease}}
+</style>
+</head>
+<body>
+<header class="top"><div class="shell">
+  <div class="brand">FinAccess Coping Notebook<small>Drought and farming households in Kenya</small></div>
+  <nav aria-label="Primary"><a href="#overview" data-v="overview">Overview</a><a href="#predictions" data-v="predictions">Predictions</a><a href="#assistant" data-v="assistant">Assistant</a></nav>
+</div></header>
+
+<main class="shell">
+<div class="title">
+  <div><h1 id="h1"></h1><p class="lede" id="lede"></p></div>
+  <span class="chip" id="stamp"></span>
+</div>
+<div class="banner" id="banner" hidden></div>
+
+<!-- OVERVIEW -->
+<section id="v-overview" hidden>
+  <div class="card read"><div class="big" id="scale"></div><div id="scaletxt"></div></div>
+  <div class="grid k4" id="kpis"></div>
+
+  <div class="sec"><h2>How households coped</h2><span>Weighted to represent all farming households that reported a drought</span></div>
+  <div class="grid g2">
+    <article class="card"><h3>Coping strategy after drought</h3><p class="sub">Share of affected households by the main route they used</p>
+      <div class="donutwrap"><svg id="donut" width="170" height="170" viewBox="0 0 42 42" role="img" aria-label="Coping strategy shares"></svg><ul class="legend" id="legend"></ul></div></article>
+    <article class="card"><h3>Counties with the most affected households</h3><p class="sub">Top 8 counties, split by coping route</p>
+      <div class="key" id="ckey"></div><div class="bars" id="counties"></div></article>
+  </div>
+
+  <div class="sec"><h2>Who is affected</h2><span>Each bar shows the share of affected households in that group who had no coping support</span></div>
+  <div class="grid g2" id="who"></div>
+  <div class="take" id="take"></div>
+</section>
+
+<!-- PREDICTIONS -->
+<section id="v-predictions" hidden>
+  <div class="grid g2">
+    <article class="card"><h3>Describe a household</h3><p class="sub">The model does not use land size. Answer what you know.</p>
+      <label for="f-region">Region</label><select id="f-region"><option>Central</option><option>Coast</option><option>Eastern</option><option>Nyanza</option><option>Rift Valley</option><option>Western</option><option>North Eastern</option></select>
+      <label for="f-liv">Main livelihood</label><select id="f-liv"><option value="crop">Mostly crops</option><option value="mixed">Crops and livestock</option><option value="live">Mostly livestock</option></select>
+      <label for="f-crops">Number of crop types grown</label><select id="f-crops"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5 or more</option></select>
+      <label for="f-assoc">Belongs to a farmer group</label><select id="f-assoc"><option value="1">Yes</option><option value="0">No</option></select>
+      <label for="f-dig">Uses digital farming services</label><select id="f-dig"><option value="1">Yes</option><option value="0">No</option></select>
+      <label for="f-dec">Main farm decision maker</label><select id="f-dec"><option value="f">A woman</option><option value="m">A man</option><option value="j">Shared</option></select>
+      <button class="btn" id="go">Estimate coping route</button></article>
+    <article class="card"><h3>Estimated chance of each route</h3><p class="sub" id="psub">Choose answers and press the button.</p>
+      <div class="bars" id="pbars"></div>
+      <div class="take" id="pread" hidden></div>
+      <h3 style="margin-top:20px" id="dh" hidden>What pushed the estimate</h3><div class="bars" id="drivers"></div></article>
+  </div>
+  <p class="sub" style="margin-top:14px">This model separates households only modestly. Use it to learn patterns, not to decide who receives help.</p>
+</section>
+
+<!-- ASSISTANT -->
+<section id="v-assistant" hidden>
+  <article class="card"><h3>Ask about the results</h3><p class="sub">Answers are written by a language model from the weighted results on the Overview page. Check important figures against the dashboard.</p>
+    <div class="chips" id="sugg"></div>
+    <div class="chat" id="chat" aria-live="polite"></div>
+    <div class="row" style="margin-top:12px"><input type="text" id="q" placeholder="Ask a question in plain language" aria-label="Your question"><button class="btn" id="ask" style="margin:0">Ask</button></div>
+  </article>
+</section>
+
+<footer>Figures are survey estimates, weighted so that each household stands for the number of similar households in the country. They show patterns across groups. They do not explain why any one household coped the way it did, and they are not for targeting or eligibility decisions.</footer>
+</main>
+
+<script>
+(function(){
+var API="http://localhost:8000";
+var COL={formal:"#1a6b3c",informal:"#f2a516",none:"#c0562b"};
+var NAME={formal:"Formal finance",informal:"Informal help",none:"No support"};
+// Sample figures. Replace by the API response from GET /dashboard (same shape).
+var DATA={source:"sample",updated:"Sample data",affected:3120000,farming:6400000,
+ mix:{formal:.18,informal:.49,none:.33},
+ counties:[["Kitui",[.12,.46,.42],168000],["Makueni",[.15,.47,.38],151000],["Machakos",[.2,.5,.3],139000],["Turkana",[.06,.38,.56],127000],["Kilifi",[.14,.44,.42],121000],["Meru",[.24,.5,.26],112000],["Narok",[.17,.5,.33],104000],["Kajiado",[.19,.43,.38],96000]],
+ who:{"Farm decision maker":[["Woman",.38],["Man",.29],["Shared",.31]],"Livelihood":[["Mostly crops",.35],["Crops and livestock",.3],["Mostly livestock",.36]],"Age of head":[["Under 35",.37],["35 to 54",.32],["55 and over",.31]],"Farmer group":[["Member",.24],["Not a member",.38]]}};
+var D=DATA;
+function fmt(n){return n>=1e6?(n/1e6).toFixed(1)+" million":Math.round(n/1e3)+",000"}
+function pct(x){return Math.round(x*100)+"%"}
+function $(i){return document.getElementById(i)}
+function kpi(l,c,n,note){return '<article class="card kpi"><div class="lab"><i class="dot" style="background:'+c+'"></i>'+l+'</div><div class="num">'+n+'</div><div class="note">'+note+'</div></article>'}
+function render(){
+  var share=D.affected/D.farming;
+  $("scale").textContent=fmt(D.affected);
+  $("scaletxt").innerHTML='<b>farming households reported a drought.</b> That is about '+pct(share)+' of the '+fmt(D.farming)+' farming households in Kenya. Every figure below is scaled to the whole country, not just the households that were interviewed.';
+  $("kpis").innerHTML=kpi("Affected by drought","var(--teal)",fmt(D.affected),pct(share)+" of farming households")+
+   kpi("Used formal finance","var(--green)",fmt(D.affected*D.mix.formal),"Bank, mobile loan or SACCO, "+pct(D.mix.formal))+
+   kpi("Relied on informal help","var(--amber)",fmt(D.affected*D.mix.informal),"Family, friends, groups, "+pct(D.mix.informal))+
+   kpi("Had no support","var(--rust)",fmt(D.affected*D.mix.none),"Coped alone, "+pct(D.mix.none));
+  // donut
+  var r=15.9,c=2*Math.PI*r,off=0,s="";
+  ["formal","informal","none"].forEach(function(k){var l=D.mix[k]*c;s+='<circle r="'+r+'" cx="21" cy="21" fill="none" stroke="'+COL[k]+'" stroke-width="6" stroke-dasharray="'+l+" "+(c-l)+'" stroke-dashoffset="'+(-off)+'" transform="rotate(-90 21 21)"/>';off+=l});
+  $("donut").innerHTML=s+'<text x="21" y="22" text-anchor="middle" font-size="7" font-weight="700" fill="currentColor" font-family="Poppins">'+pct(D.mix.none)+'</text><text x="21" y="27" text-anchor="middle" font-size="2.6" fill="currentColor">no support</text>';
+  $("legend").innerHTML=["formal","informal","none"].map(function(k){return '<li><span><i class="dot" style="background:'+COL[k]+'"></i> '+NAME[k]+'</span><b>'+pct(D.mix[k])+'</b></li>'}).join("");
+  $("ckey").innerHTML=["formal","informal","none"].map(function(k){return '<span><i class="dot" style="background:'+COL[k]+'"></i> '+NAME[k]+'</span>'}).join("");
+  var mx=Math.max.apply(null,D.counties.map(function(x){return x[2]}));
+  $("counties").innerHTML=D.counties.map(function(c){var w=c[2]/mx*100;return '<div class="bar"><span>'+c[0]+'</span><div class="track" style="width:'+w+'%;min-width:30%">'+["formal","informal","none"].map(function(k,i){return '<i style="width:'+c[1][i]*100+'%;background:'+COL[k]+'"></i>'}).join("")+'</div><b>'+fmt(c[2])+'</b></div>'}).join("");
+  $("who").innerHTML=Object.keys(D.who).map(function(g){return '<article class="card"><h3>'+g+'</h3><p class="sub">Households with no support</p><div class="bars">'+D.who[g].map(function(r){return '<div class="bar"><span>'+r[0]+'</span><div class="track"><i style="width:'+r[1]*100+'%;background:var(--rust)"></i></div><b>'+pct(r[1])+'</b></div>'}).join("")+'</div></article>'}).join("");
+  $("take").innerHTML='<strong>What this means</strong>About '+pct(D.mix.none)+' of affected households, roughly '+fmt(D.affected*D.mix.none)+', had no support at all. Households headed by women and those outside farmer groups were more likely to be in that position.';
+  $("stamp").textContent=D.updated;
+  $("banner").hidden=D.source!=="sample";
+  $("banner").textContent="Showing sample figures so you can review the layout. Start the FastAPI service to load the weighted estimates from the model.";
+}
+// predictions
+function local(f){var p={formal:.15,informal:.5,none:.35},d=[];
+ function a(n,df,di){p.formal+=df;p.informal+=di;p.none-=df+di;d.push([n,df+di*.5])}
+ if(f.assoc==="1")a("Farmer group member",.04,.06);
+ if(f.dig==="1")a("Uses digital services",.06,.02);
+ if(f.dec==="f")a("Woman decides",-.03,.03);
+ if(f.liv==="live")a("Mostly livestock",-.03,-.04);
+ if(f.region==="North Eastern")a("North Eastern region",-.05,-.05);
+ var n=parseInt(f.crops);if(n>=3)a("Several crop types",.02,.05);
+ ["formal","informal","none"].forEach(function(k){p[k]=Math.max(.02,p[k])});
+ var t=p.formal+p.informal+p.none;["formal","informal","none"].forEach(function(k){p[k]/=t});
+ return {probs:p,drivers:d}}
+function readForm(){return{region:$("f-region").value,liv:$("f-liv").value,crops:$("f-crops").value,assoc:$("f-assoc").value,dig:$("f-dig").value,dec:$("f-dec").value}}
+function showPred(res,off){
+  var p=res.probs;$("psub").textContent=off?"Illustrative estimate. The model service is offline.":"Estimate from the locked model.";
+  $("pbars").innerHTML=["formal","informal","none"].map(function(k){return '<div class="bar"><span>'+NAME[k]+'</span><div class="track"><i style="width:'+p[k]*100+'%;background:'+COL[k]+'"></i></div><b>'+pct(p[k])+'</b></div>'}).join("");
+  var top=["formal","informal","none"].sort(function(a,b){return p[b]-p[a]})[0];
+  $("pread").hidden=false;$("pread").innerHTML='<strong>In plain terms</strong>Of 100 households like this one, about '+Math.round(p[top]*100)+' would most likely end up with <b>'+NAME[top].toLowerCase()+'</b> after a drought.';
+  $("dh").hidden=!res.drivers.length;
+  $("drivers").innerHTML=res.drivers.map(function(d){var up=d[1]>=0;return '<div class="bar"><span>'+d[0]+'</span><div class="track"><i style="width:'+Math.min(100,Math.abs(d[1])*600)+'%;background:'+(up?"var(--green)":"var(--rust)")+'"></i></div><b>'+(up?"helps":"hurts")+'</b></div>'}).join("")}
+$("go").onclick=function(){var f=readForm();
+  fetch(API+"/predict",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(f)}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){showPred(j,false)}).catch(function(){showPred(local(f),true)})};
+// assistant
+var SUG=["Who is most likely to have no support?","Which counties need attention first?","What does weighted mean?"];
+$("sugg").innerHTML=SUG.map(function(s){return '<button type="button">'+s+'</button>'}).join("");
+$("sugg").onclick=function(e){if(e.target.tagName==="BUTTON"){$("q").value=e.target.textContent;ask()}};
+function add(t,c){var m=document.createElement("div");m.className="msg "+c;m.textContent=t;$("chat").appendChild(m);$("chat").scrollTop=1e5}
+function ask(){var q=$("q").value.trim();if(!q)return;add(q,"u");$("q").value="";
+  fetch(API+"/assistant",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({question:q})}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){add(j.answer,"a")}).catch(function(){add("The assistant service is offline, so I cannot answer yet. Start the FastAPI service and ask again.","a")})}
+$("ask").onclick=ask;$("q").onkeydown=function(e){if(e.key==="Enter")ask()};
+// routing
+var T={overview:["Drought and farming households","How many households were hit, and how they coped, scaled to the whole country."],predictions:["Predict a coping route","See how a household’s situation shifts the chance of formal, informal or no support."],assistant:["Ask the assistant","Plain language answers about the results."]};
+function route(){var v=(location.hash||"#overview").slice(1);if(!T[v])v="overview";
+  ["overview","predictions","assistant"].forEach(function(k){$("v-"+k).hidden=k!==v});
+  document.querySelectorAll("nav a").forEach(function(a){a.classList.toggle("on",a.dataset.v===v)});
+  $("h1").textContent=T[v][0];$("lede").textContent=T[v][1];$("banner").style.display=v==="overview"?"":"none";window.scrollTo(0,0)}
+window.addEventListener("hashchange",route);
+render();route();
+fetch(API+"/dashboard").then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){j.source="api";D=j;render();route()}).catch(function(){});
+})();
+</script>
+</body>
+</html>

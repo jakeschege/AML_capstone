@@ -1,0 +1,7 @@
+"group","n_households","note"
+"community_only_unit5_not_98_99",11,"Unit 5 without special size codes"
+"community_and_special_overlap",171,"Unit 5 with size 98/99 placeholder; counted as Community land in the mutually exclusive primary reason"
+"special_only_not_community",16,"Size 98/99 with unit not 5; Script 08 special-code count"
+"neither_community_nor_special",0,"Should be empty if reasons are fully classified"
+"total_missing_land_size_acres",198,"Expected 198"
+"convertible_unit_codes",4,"1,2,3,4"

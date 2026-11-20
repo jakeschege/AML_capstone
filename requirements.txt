@@ -1,0 +1,15 @@
+# Data manipulation & loading
+pandas>=2.0.0
+numpy>=1.22.4
+pyreadstat>=1.3.8
+pyarrow>=10.0.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Modelling (segmentation / classification)
+scikit-learn>=1.3.0
+gower>=0.1.2
+scipy>=1.10.0
+# Optional: scikit-learn-extra provides KMedoids but is currently incompatible
+# with NumPy 2.x in this environment; Script 11/S1 use a local PAM fallback.

@@ -1,0 +1,14 @@
+main_shock_code,value_label,mapped_r2a_indicator,n_households,pct
+,(missing),,4508,46.2075
+2.0,Major sickness/health problem/accident injury,shock_major_sickness_health_problem_accident_injury,1616,16.5642
+3.0,Loss or damage due to drought,shock_drought_loss,778,7.9746
+4.0,High rainfall/flooding/mudslide/lightning,shock_high_rainfall_flooding_mudslide_lightning,765,7.8413
+9.0,Livestock/crop failure due to pest and diseases,shock_livestock_crop_failure_due_to_pest_and_diseases,761,7.8003
+5.0,Death of main income earner/family member,shock_death_of_main_income_earner_family_member,489,5.0123
+1.0,Child birth,shock_child_birth,235,2.4088
+7.0,Loss of a job or a source of income or a wage cut,shock_loss_of_a_job_or_a_source_of_income_or_a_wage_cut,209,2.1423
+6.0,"Loss or damage due to theft(e.g property, assets, business etc",shock_loss_or_damage_due_totheft_e_g_property_assets_business_etc,183,1.8758
+12.0,Loss of income or major financial expenses due to taking on care for someone els,shock_loss_of_income_or_major_financial_expenses_due_to_taking_on_care,107,1.0968
+11.0,Loss or damage due to human wildlife conflict,shock_loss_or_damage_due_to_human_wildlife_conflict,73,0.7483
+10.0,Loss or damage due to fire or violence including political violence,shock_loss_or_damage_due_tofire_or_violence_including_political_violen,21,0.2153
+8.0,"Lost a home or land (e.g. due to eviction, demolitions or land seizure)",shock_lost_a_home_or_land_e_g_due_to_eviction_demolitions,11,0.1128

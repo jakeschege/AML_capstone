@@ -1,0 +1,2 @@
+observed_codes,codebook_codes,code_5_other_present,unexpected_codes_present,code_1_label_missing_in_codebook,provisional_ordinal_candidate,assessment_note
+"1, 2, 3, 4","1, 2, 3, 4, 5",False,,True,True,"Observed codes are 1-4 only. If code 1 is the lowest schooling level, the observed categories form an ordered schooling ladder. Code 5 Other is absent from this sample. Encoding remains deferred."

@@ -1,0 +1,7 @@
+grouping,n_active_groups,n_households,n_unique_shannon,shannon_values
+n_active_groups,0,12,1,0.0
+n_active_groups,1,415,1,-0.0
+n_active_groups,2,513,2,"-0.0, 0.693147"
+n_active_groups,3,375,2,"0.693147, 1.098612"
+n_active_groups,4,200,1,1.386294
+n_active_groups,5,37,1,1.609438

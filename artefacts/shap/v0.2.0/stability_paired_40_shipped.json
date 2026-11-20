@@ -1,0 +1,36 @@
+{
+  "setting": "paired_reverse_n_orders_40",
+  "n_orders": 40,
+  "paired_reverse": true,
+  "n_paths": 80,
+  "seed_base": 42,
+  "n_households": 4,
+  "n_seeds": 5,
+  "mean_seconds": 0.8970413725008257,
+  "max_seconds": 1.7316336740041152,
+  "p95_seconds": 1.4727610623012881,
+  "exact_top5_agree_rate": 0.5,
+  "mean_jaccard": 1.0,
+  "per_household": [
+    {
+      "class": "did_nothing",
+      "exact_top5_agree_vs_seed42": 0.0,
+      "mean_jaccard_vs_seed42": 1.0
+    },
+    {
+      "class": "formal",
+      "exact_top5_agree_vs_seed42": 0.5,
+      "mean_jaccard_vs_seed42": 1.0
+    },
+    {
+      "class": "personal",
+      "exact_top5_agree_vs_seed42": 1.0,
+      "mean_jaccard_vs_seed42": 1.0
+    },
+    {
+      "class": "informal",
+      "exact_top5_agree_vs_seed42": 0.5,
+      "mean_jaccard_vs_seed42": 1.0
+    }
+  ]
+}

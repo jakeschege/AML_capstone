@@ -1,0 +1,60 @@
+"source_variable","code","label","output_column","n_positive"
+"county",1,"Mombasa","county_1_mombasa",16
+"county",2,"Kwale","county_2_kwale",95
+"county",3,"Kilifi","county_3_kilifi",82
+"county",4,"Tana River","county_4_tana_river",13
+"county",5,"Lamu","county_5_lamu",10
+"county",6,"Taita-Taveta","county_6_taita_taveta",55
+"county",7,"Garissa","county_7_garissa",22
+"county",8,"Wajir","county_8_wajir",25
+"county",9,"Mandera","county_9_mandera",4
+"county",10,"Marsabit","county_10_marsabit",58
+"county",11,"Isiolo","county_11_isiolo",19
+"county",12,"Meru","county_12_meru",33
+"county",13,"Tharaka-Nithi","county_13_tharaka_nithi",34
+"county",14,"Embu","county_14_embu",11
+"county",15,"Kitui","county_15_kitui",11
+"county",16,"Machakos","county_16_machakos",3
+"county",17,"Makueni","county_17_makueni",58
+"county",18,"Nyandarua","county_18_nyandarua",13
+"county",19,"Nyeri","county_19_nyeri",3
+"county",20,"Kirinyaga","county_20_kirinyaga",1
+"county",21,"Murang'a","county_21_murang_a",7
+"county",22,"Kiambu","county_22_kiambu",39
+"county",23,"Turkana","county_23_turkana",60
+"county",24,"West Pokot","county_24_west_pokot",77
+"county",25,"Samburu","county_25_samburu",37
+"county",26,"Trans Nzoia","county_26_trans_nzoia",6
+"county",27,"Uasin Gishu","county_27_uasin_gishu",15
+"county",28,"Elgeyo-Marakwet","county_28_elgeyo_marakwet",34
+"county",29,"Nandi","county_29_nandi",18
+"county",30,"Baringo","county_30_baringo",63
+"county",31,"Laikipia","county_31_laikipia",50
+"county",32,"Nakuru","county_32_nakuru",35
+"county",33,"Narok","county_33_narok",9
+"county",34,"Kajiado","county_34_kajiado",87
+"county",35,"Kericho","county_35_kericho",5
+"county",36,"Bomet","county_36_bomet",27
+"county",37,"Kakamega","county_37_kakamega",5
+"county",38,"Vihiga","county_38_vihiga",24
+"county",39,"Bungoma","county_39_bungoma",53
+"county",40,"Busia","county_40_busia",74
+"county",41,"Siaya","county_41_siaya",61
+"county",42,"Kisumu","county_42_kisumu",75
+"county",43,"Homabay","county_43_homabay",63
+"county",44,"Migori","county_44_migori",13
+"county",45,"Kisii","county_45_kisii",39
+"county",46,"Nyamira","county_46_nyamira",3
+"county",47,"Nairobi City","county_47_nairobi_city",7
+"main_shock_type",1,"Child birth","main_shock_type_1_child_birth",23
+"main_shock_type",2,"Major sickness/health problem/accident injury","main_shock_type_2_major_sickness_health_problem_accident_injury",238
+"main_shock_type",3,"Loss or damage due to drought","main_shock_type_3_loss_or_damage_due_to_drought",778
+"main_shock_type",4,"High rainfall/flooding/mudslide/lightning","main_shock_type_4_high_rainfall_flooding_mudslide_lightning",127
+"main_shock_type",5,"Death of main income earner/family member","main_shock_type_5_death_of_main_income_earner_family_member",100
+"main_shock_type",6,"Loss or damage due to theft(e.g property, assets, business etc","main_shock_type_6_loss_or_damage_due_to_theft_e_g_property_assets_business_etc",45
+"main_shock_type",7,"Loss of a job or a source of income or a wage cut","main_shock_type_7_loss_of_a_job_or_a_source_of_income_or_a_wage_cut",35
+"main_shock_type",8,"Lost a home or land (e.g. due to eviction, demolitions or land seizure)","main_shock_type_8_lost_a_home_or_land_e_g_due_to_eviction_demolitions_or_land_seizure",5
+"main_shock_type",9,"Livestock/crop failure due to pest and diseases","main_shock_type_9_livestock_crop_failure_due_to_pest_and_diseases",152
+"main_shock_type",10,"Loss or damage due to fire or violence including political violence","main_shock_type_10_loss_or_damage_due_to_fire_or_violence_including_political_violence",11
+"main_shock_type",11,"Loss or damage due to human wildlife conflict","main_shock_type_11_loss_or_damage_due_to_human_wildlife_conflict",25
+"main_shock_type",12,"Loss of income or major financial expenses due to taking on care for someone els","main_shock_type_12_loss_of_income_or_major_financial_expenses_due_to_taking_on_care_for_someone_els",13

@@ -1,0 +1,24 @@
+"cluster_k5","cluster_label","coping_category_collapsed","n_households","pct_within_cluster","pct_of_sample","cluster_n"
+0,"Family-owned legume-oriented crop households","personal",144,33.72,9.28,427
+0,"Family-owned legume-oriented crop households","formal_or_informal",173,40.52,11.15,427
+0,"Family-owned legume-oriented crop households","did_nothing",110,25.76,7.09,427
+0,"Family-owned legume-oriented crop households","TOTAL",427,100.0,27.51,427
+1,"Own-name crop households","personal",109,40.37,7.02,270
+1,"Own-name crop households","formal_or_informal",102,37.78,6.57,270
+1,"Own-name crop households","did_nothing",59,21.85,3.8,270
+1,"Own-name crop households","TOTAL",270,100.0,17.4,270
+2,"Community-land livestock-oriented households","personal",140,47.3,9.02,296
+2,"Community-land livestock-oriented households","formal_or_informal",59,19.93,3.8,296
+2,"Community-land livestock-oriented households","did_nothing",97,32.77,6.25,296
+2,"Community-land livestock-oriented households","TOTAL",296,100.0,19.07,296
+3,"Family-owned mixed crop and livestock households","personal",94,43.93,6.06,214
+3,"Family-owned mixed crop and livestock households","formal_or_informal",65,30.37,4.19,214
+3,"Family-owned mixed crop and livestock households","did_nothing",55,25.7,3.54,214
+3,"Family-owned mixed crop and livestock households","TOTAL",214,100.0,13.79,214
+4,"Family-owned cereal-oriented households","personal",128,37.1,8.25,345
+4,"Family-owned cereal-oriented households","formal_or_informal",123,35.65,7.93,345
+4,"Family-owned cereal-oriented households","did_nothing",94,27.25,6.06,345
+4,"Family-owned cereal-oriented households","TOTAL",345,100.0,22.23,345
+-1,"All households","personal",615,39.63,39.63,1552
+-1,"All households","formal_or_informal",522,33.63,33.63,1552
+-1,"All households","did_nothing",415,26.74,26.74,1552

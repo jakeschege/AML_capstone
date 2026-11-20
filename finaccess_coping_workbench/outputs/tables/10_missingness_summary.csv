@@ -1,0 +1,4 @@
+"matrix","column","n_missing","expected"
+"segmentation","land_size_acres",198,True
+"primary_classification","land_size_acres",198,True
+"extended_classification","land_size_acres",198,True

@@ -1,0 +1,6 @@
+shannon_diversity,n_households,modal_n_active_groups,n_active_group_values,matches_ln_k_for_k,expected_ln_of_modal_k,abs_diff_from_ln_modal_k
+-0.0,430,1,"0, 1, 2","0, 1",0.0,0.0
+0.693147,512,2,"2, 3",2,0.693147,0.0
+1.098612,373,3,3,3,1.098612,0.0
+1.386294,200,4,4,4,1.386294,0.0
+1.609438,37,5,5,5,1.609438,0.0

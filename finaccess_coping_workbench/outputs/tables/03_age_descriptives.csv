@@ -1,0 +1,2 @@
+variable,n,missing,mean,median,std,skewness,min,p01,p05,p25,p50,p75,p95,p99,max,iqr,iqr_lower_fence,iqr_upper_fence,n_below_iqr_fence,n_above_iqr_fence,n_below_adult_floor,n_at_or_above_high_review
+age_years,1552,0,43.79832474226804,41.0,16.055470327282784,0.497885111650861,16.0,18.0,21.0,31.0,41.0,55.0,72.0,83.49000000000001,101.0,24.0,-5.0,91.0,0,5,0,7

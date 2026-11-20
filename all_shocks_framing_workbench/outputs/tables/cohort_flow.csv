@@ -1,0 +1,8 @@
+stage,n,definition
+farming_households_reported_land_size,9756,
+any_shock_exposed_confirmed_positive,5248,
+no_shocks_complete_information_all_zero,4499,
+incomplete_shock_information_no_confirmed_positive,9,
+shock_exposed_with_valid_coping_category,5241,
+shock_exposed_missing_or_invalid_coping,7,
+primary_modelling_population,5241,any_shock_exposed==1 AND coping_category in four-class set

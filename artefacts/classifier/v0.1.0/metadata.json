@@ -1,0 +1,48 @@
+{
+  "name": "coping-classifier",
+  "version": "v0.1.0",
+  "algorithm": "multinomial_logistic_regression",
+  "predictor_spec_id": "primary_acres_excluded_v1",
+  "hyperparameters": {
+    "class_weight": "balanced",
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "random_state": 42
+  },
+  "seed": 42,
+  "train_n": 1552,
+  "n_features": 68,
+  "dataset_hash": "9e25d41af8ab10803b52cf8c44467bd912cd2395cf4182ed20c046d5393638fc",
+  "feature_list_hash": "9977b880d2fe400e7819a5224fa9eff3bd9dc16e0e4a542bc8deb3030adba36f",
+  "package_versions": {
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "joblib": "1.6.0"
+  },
+  "cv_metrics": {
+    "macro_f1_mean": 0.35,
+    "macro_f1_std": 0.0217,
+    "balanced_accuracy_mean": 0.3809,
+    "weighted_f1_mean": 0.4098,
+    "f1_formal_mean": 0.1206,
+    "f1_formal_std": 0.0487,
+    "f1_personal_mean": 0.4116,
+    "f1_informal_mean": 0.4266,
+    "f1_did_nothing_mean": 0.4413,
+    "accuracy_mean": 0.388,
+    "protocol": "repeated_stratified_5x5_cv_seed_42",
+    "source": "script_20 logistic_class_weighted_exclude"
+  },
+  "limitations": "Modest discrimination (macro F1 \u2248 0.35 under repeated CV). Formal support is sparse (\u224815 per test fold); formal precision \u2248 0.07 and recall \u2248 0.31. Fold standard deviations are not confidence intervals. Not for operational targeting or eligibility decisions. Serving artefact is refit on the full drought-exposed sample (n=1,552); do not treat in-sample scores as validation metrics.",
+  "low_confidence_rule": {
+    "description": "Flag when score margin (max - second_max) < 0.10 OR predicted class is formal",
+    "margin_threshold": 0.1,
+    "always_flag_classes": [
+      "formal"
+    ]
+  },
+  "created_at": "2026-11-19T12:51:19.483923+00:00",
+  "git_commit": "9348d24d4e72475818f9055dcf713cc7a5bc4dbd"
+}

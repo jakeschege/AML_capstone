@@ -1,0 +1,9 @@
+"solution","cluster","cluster_label","coping_category","n_households","pct_within_cluster_unweighted","cluster_n"
+"k=5",2,"Community-land livestock-oriented households","personal",140,47.3,296
+"k=5",2,"Community-land livestock-oriented households","informal",45,15.2,296
+"k=5",2,"Community-land livestock-oriented households","formal",14,4.73,296
+"k=5",2,"Community-land livestock-oriented households","did_nothing",97,32.77,296
+"k=4",2,"Community-land livestock-oriented households","personal",172,47.38,363
+"k=4",2,"Community-land livestock-oriented households","informal",59,16.25,363
+"k=4",2,"Community-land livestock-oriented households","formal",18,4.96,363
+"k=4",2,"Community-land livestock-oriented households","did_nothing",114,31.4,363

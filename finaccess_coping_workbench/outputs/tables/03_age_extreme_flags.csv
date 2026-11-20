@@ -1,0 +1,6 @@
+age_years,n_households,flag_reasons
+90,2,high_age_review
+94,2,high_age_review;outside_iqr_fence
+95,1,high_age_review;outside_iqr_fence
+100,1,high_age_review;outside_iqr_fence
+101,1,high_age_review;outside_iqr_fence

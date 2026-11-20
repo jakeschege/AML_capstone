@@ -1,0 +1,5 @@
+"domain","n_columns","share_pct","equal_weight_gower_implication"
+"agri_group",9,50.0,"High influence under equal feature weights"
+"ownership",6,33.33,"High influence under equal feature weights"
+"portfolio_count",2,11.11,"Lower column share under equal feature weights"
+"land_size",1,5.56,"Lower column share under equal feature weights"

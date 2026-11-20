@@ -1,0 +1,5 @@
+"topic","n","pct","note"
+"land_size_acres_missing_total",198,12.76,"Missing values retained. No imputation and no missingness indicator in Script 09. Not all modelling algorithms can consume NaNs directly; handle later within training folds only."
+"primary_reason_community_land",182,11.73,"Unit code 5; includes rows that also carry size 98/99 placeholders"
+"primary_reason_special_98_99_non_community",16,1.03,"Size 98/99 with unit not equal to 5"
+"other_missing",0,0.0,"Residual missing after community/special classification"

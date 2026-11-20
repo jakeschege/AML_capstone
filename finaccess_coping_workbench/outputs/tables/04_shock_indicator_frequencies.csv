@@ -1,0 +1,13 @@
+variable,n_positive,pct_positive,n_zero,pct_zero,n_other_or_missing,is_drought_indicator,is_additional_shock,rare_under_5pct
+shock_drought_loss,1552,100.0,0,0.0,0,True,False,False
+shock_livestock_crop_failure_due_to_pest_and_diseases,710,45.75,842,54.25,0,False,True,False
+shock_high_rainfall_flooding_mudslide_lightning,552,35.57,1000,64.43,0,False,True,False
+shock_major_sickness_health_problem_accident_injury,539,34.73,1013,65.27,0,False,True,False
+shock_loss_or_damage_due_totheft_e_g_property_assets_business_etc,283,18.23,1269,81.77,0,False,True,False
+shock_death_of_main_income_earner_family_member,237,15.27,1315,84.73,0,False,True,False
+shock_loss_of_a_job_or_a_source_of_income_or_a_wage_cut,162,10.44,1390,89.56,0,False,True,False
+shock_loss_or_damage_due_to_human_wildlife_conflict,128,8.25,1424,91.75,0,False,True,False
+shock_child_birth,107,6.89,1445,93.11,0,False,True,False
+shock_loss_of_income_or_major_financial_expenses_due_to_taking_on_care,54,3.48,1498,96.52,0,False,True,True
+shock_loss_or_damage_due_tofire_or_violence_including_political_violen,26,1.68,1526,98.32,0,False,True,True
+shock_lost_a_home_or_land_e_g_due_to_eviction_demolitions,21,1.35,1531,98.65,0,False,True,True

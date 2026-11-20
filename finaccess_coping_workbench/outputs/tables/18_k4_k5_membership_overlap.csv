@@ -1,0 +1,18 @@
+"cluster_k5","cluster_k5_label","cluster_k4","cluster_k4_label","n_overlap","pct_of_k5_cluster","pct_of_k4_cluster"
+0,"Family-owned legume-oriented crop households",0,"Family-owned crop households (no roots/tubers)",241,56.44,34.53
+0,"Family-owned legume-oriented crop households",1,"Family-owned crop households (with roots/tubers)",132,30.91,45.52
+0,"Family-owned legume-oriented crop households",3,"Lease / own-name crop households",54,12.65,26.87
+1,"Own-name crop households",3,"Lease / own-name crop households",94,34.81,46.77
+1,"Own-name crop households",0,"Family-owned crop households (no roots/tubers)",92,34.07,13.18
+1,"Own-name crop households",1,"Family-owned crop households (with roots/tubers)",45,16.67,15.52
+1,"Own-name crop households",2,"Community-land livestock-oriented households",39,14.44,10.74
+2,"Community-land livestock-oriented households",2,"Community-land livestock-oriented households",294,99.32,80.99
+2,"Community-land livestock-oriented households",3,"Lease / own-name crop households",2,0.68,1.0
+3,"Family-owned mixed crop and livestock households",0,"Family-owned crop households (no roots/tubers)",153,71.5,21.92
+3,"Family-owned mixed crop and livestock households",1,"Family-owned crop households (with roots/tubers)",34,15.89,11.72
+3,"Family-owned mixed crop and livestock households",2,"Community-land livestock-oriented households",17,7.94,4.68
+3,"Family-owned mixed crop and livestock households",3,"Lease / own-name crop households",10,4.67,4.98
+4,"Family-owned cereal-oriented households",0,"Family-owned crop households (no roots/tubers)",212,61.45,30.37
+4,"Family-owned cereal-oriented households",1,"Family-owned crop households (with roots/tubers)",79,22.9,27.24
+4,"Family-owned cereal-oriented households",3,"Lease / own-name crop households",41,11.88,20.4
+4,"Family-owned cereal-oriented households",2,"Community-land livestock-oriented households",13,3.77,3.58

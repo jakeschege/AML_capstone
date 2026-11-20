@@ -1,0 +1,4 @@
+check,n_action_positive,n_target_class,n_both,n_action_without_class,n_class_without_action,pct_action_in_class,evidence_strength,notes
+coping_did_nothing_vs_coping_category_did_nothing,415,415,415,0,0,100.0,confirmed,Action indicator aligns with did_nothing target class
+any_non_nothing_action_among_active_copers,1137,1137,1137,0,0,100.0,confirmed,Coping action indicators belong to the same R2C response module used to characterise resilience/coping behaviour
+coping_category_collapsed_from_coping_category,1552,1552,1552,0,0,100.0,confirmed,Collapsed target is a deterministic transform of the primary target

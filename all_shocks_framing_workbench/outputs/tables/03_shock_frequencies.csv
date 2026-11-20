@@ -1,0 +1,13 @@
+shock,n_households_reporting,pct_of_shock_exposed,note
+shock_major_sickness_health_problem_accident_injury,2282,43.48,Multi-response: households may appear in several rows
+shock_livestock_crop_failure_due_to_pest_and_diseases,1816,34.6,Multi-response: households may appear in several rows
+shock_high_rainfall_flooding_mudslide_lightning,1573,29.97,Multi-response: households may appear in several rows
+shock_drought_loss,1552,29.57,Multi-response: households may appear in several rows
+shock_death_of_main_income_earner_family_member,796,15.17,Multi-response: households may appear in several rows
+shock_loss_or_damage_due_totheft_e_g_property_assets_business_etc,641,12.21,Multi-response: households may appear in several rows
+shock_loss_of_a_job_or_a_source_of_income_or_a_wage_cut,453,8.63,Multi-response: households may appear in several rows
+shock_child_birth,418,7.96,Multi-response: households may appear in several rows
+shock_loss_or_damage_due_to_human_wildlife_conflict,242,4.61,Multi-response: households may appear in several rows
+shock_loss_of_income_or_major_financial_expenses_due_to_taking_on_care,202,3.85,Multi-response: households may appear in several rows
+shock_loss_or_damage_due_tofire_or_violence_including_political_violen,49,0.93,Multi-response: households may appear in several rows
+shock_lost_a_home_or_land_e_g_due_to_eviction_demolitions,39,0.74,Multi-response: households may appear in several rows

@@ -1,0 +1,7 @@
+"metric","value"
+"n_focus_households",772.0
+"boundary_gap_10th_percentile_cutoff",0.047059
+"n_boundary_ambiguous",181.0
+"pct_focus_boundary_ambiguous",23.45
+"pct_focus_nearer_medoid_matches_assignment",100.0
+"pct_ambiguous_that_are_legumes_assigned",62.43

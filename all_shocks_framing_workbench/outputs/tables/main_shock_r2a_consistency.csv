@@ -1,0 +1,13 @@
+main_shock_code,indicator,n_with_main_shock,n_indicator_equals_1,pct_consistent
+1,shock_child_birth,235,235,100.0
+2,shock_major_sickness_health_problem_accident_injury,1616,1616,100.0
+3,shock_drought_loss,778,778,100.0
+4,shock_high_rainfall_flooding_mudslide_lightning,765,765,100.0
+5,shock_death_of_main_income_earner_family_member,489,489,100.0
+6,shock_loss_or_damage_due_totheft_e_g_property_assets_business_etc,183,183,100.0
+7,shock_loss_of_a_job_or_a_source_of_income_or_a_wage_cut,209,209,100.0
+8,shock_lost_a_home_or_land_e_g_due_to_eviction_demolitions,11,11,100.0
+9,shock_livestock_crop_failure_due_to_pest_and_diseases,761,761,100.0
+10,shock_loss_or_damage_due_tofire_or_violence_including_political_violen,21,21,100.0
+11,shock_loss_or_damage_due_to_human_wildlife_conflict,73,73,100.0
+12,shock_loss_of_income_or_major_financial_expenses_due_to_taking_on_care,107,107,100.0

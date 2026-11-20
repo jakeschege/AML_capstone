@@ -1,0 +1,38 @@
+stata_variable,variable_label,reason_flagged,in_prepared_farming_frame
+B1Diii,B1Diii. Eat fewer meals,keyword match for welfare/food/remittance/hh composition/extension,False
+B3A__9,B3A. Support from family / friends / spouse/Remittances,keyword match for welfare/food/remittance/hh composition/extension,False
+B3H4,B3H4. Hunger and Safety Net Programme (HSNP),keyword match for welfare/food/remittance/hh composition/extension,False
+C1_43,"C1_43: Digital/crypto/communitycurrencies/ virtual assets Bitcoin, Litcoin, Nuru",keyword match for welfare/food/remittance/hh composition/extension,False
+E2D__3,Sold/gave assets or belongings to repay the loan,keyword match for welfare/food/remittance/hh composition/extension,False
+E2D__4,Reduced expenditureson food products to repay the loan,keyword match for welfare/food/remittance/hh composition/extension,False
+E2D__5,Reduced expenditures on nonfood products to repay the loan,keyword match for welfare/food/remittance/hh composition/extension,False
+E2D__7,Assets forcefully taken/repossesed,keyword match for welfare/food/remittance/hh composition/extension,False
+E3B__1,E3B: Lost money/Asset as Guarantor:Bank,keyword match for welfare/food/remittance/hh composition/extension,False
+E3B__2,E3B: Lost money/Asset as Guarantor:MFB,keyword match for welfare/food/remittance/hh composition/extension,False
+E3B__3,E3B: Lost money/Asset as Guarantor:Sacco,keyword match for welfare/food/remittance/hh composition/extension,False
+E3B__4,E3B: Lost money/Asset as Guarantor:Credit-only Institution,keyword match for welfare/food/remittance/hh composition/extension,False
+E3B__5,E3B: Lost money/Asset as Guarantor:Digital loans apps providers,keyword match for welfare/food/remittance/hh composition/extension,False
+E3B__6,E3B: Lost money/Asset as Guarantor:Shylock/Money merchants,keyword match for welfare/food/remittance/hh composition/extension,False
+E3B__7,E3B: Lost money/Asset as Guarantor:Chama,keyword match for welfare/food/remittance/hh composition/extension,False
+E3B__8,"E3B: Lost money/Asset as Guarantor:Government e.g. Uwezo, Women Enterprise Fund,",keyword match for welfare/food/remittance/hh composition/extension,False
+E3B__9,E3B: Lost money/Asset as Guarantor:Loan from family/friend/neighbour,keyword match for welfare/food/remittance/hh composition/extension,False
+F1__4,F1_4:Digital non-finacial assets,keyword match for welfare/food/remittance/hh composition/extension,False
+F2D__8,F2D_8: Other capital markets assets,keyword match for welfare/food/remittance/hh composition/extension,False
+G7,G7: Remittance sent use,keyword match for welfare/food/remittance/hh composition/extension,False
+G12,G12: Remittance Received use,keyword match for welfare/food/remittance/hh composition/extension,False
+O5__9,"O5_9 Buy food and general expenses e.g. rent, clothes",keyword match for welfare/food/remittance/hh composition/extension,False
+P7a__6,"P7a:Sale of assets (e.g. a house,car, plot of land, shares or stocks)",keyword match for welfare/food/remittance/hh composition/extension,False
+R1Ci__3,R1Ci. Sale of assets (e.g. livestock a house,keyword match for welfare/food/remittance/hh composition/extension,False
+R1Ci__4,R1Ci__4:Cut back on expenses/ adjust consumption patterns,keyword match for welfare/food/remittance/hh composition/extension,False
+R3C__3,"R3C__3:Sale of assets (e.g. livestocka house, car, plot of land, shares or stock",keyword match for welfare/food/remittance/hh composition/extension,False
+R3C__4,R3C. Cut back on expenses/ adjust consumption patterns,keyword match for welfare/food/remittance/hh composition/extension,False
+U21__4,U21__4 Bought/ Built using assets / savings kept elsewhere (APART FROM BANK/MFB/,keyword match for welfare/food/remittance/hh composition/extension,False
+U24_1,U24_1. How much do you spend on Food expenses per week?,keyword match for welfare/food/remittance/hh composition/extension,False
+U24_6,U24_6. How much do you spend on Food expenses per week?,keyword match for welfare/food/remittance/hh composition/extension,False
+Digital_currencies_assets_usage,online_curr,keyword match for welfare/food/remittance/hh composition/extension,False
+mfhi_13,Did not go without food,keyword match for welfare/food/remittance/hh composition/extension,False
+mfhi_32,savings for productive assets,keyword match for welfare/food/remittance/hh composition/extension,False
+mfhi_32_1,savings & credit for productive assets,keyword match for welfare/food/remittance/hh composition/extension,False
+nfhi_11,Food security in 12 months,keyword match for welfare/food/remittance/hh composition/extension,False
+nfhi_12,Managed non-food spending,keyword match for welfare/food/remittance/hh composition/extension,False
+nC1_43,RECODE of C1_43 (C1_43: Digital/crypto/communitycurrencies/ virtual assets Bitco,keyword match for welfare/food/remittance/hh composition/extension,False

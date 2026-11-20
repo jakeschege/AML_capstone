@@ -1,0 +1,178 @@
+Loaded baseline_model_a_plus_r2b: n=5241 p=80
+Loaded agri_diversity_expansion: n=5241 p=80
+Loaded farm_challenge_expansion: n=5241 p=91
+Loaded financial_expansion: n=5241 p=93
+Loaded welfare_expansion: n=5241 p=87
+Loaded combined_expansion: n=5241 p=111
+
+=== baseline_model_a_plus_r2b ===
+  baseline_model_a_plus_r2b fold 0: macro F1=0.4837 formal F1=0.3045
+  baseline_model_a_plus_r2b fold 1: macro F1=0.4849 formal F1=0.2681
+  baseline_model_a_plus_r2b fold 2: macro F1=0.4649 formal F1=0.2583
+  baseline_model_a_plus_r2b fold 3: macro F1=0.4741 formal F1=0.2247
+  baseline_model_a_plus_r2b fold 4: macro F1=0.4801 formal F1=0.2491
+  baseline_model_a_plus_r2b fold 5: macro F1=0.4509 formal F1=0.2474
+  baseline_model_a_plus_r2b fold 6: macro F1=0.4788 formal F1=0.2388
+  baseline_model_a_plus_r2b fold 7: macro F1=0.4663 formal F1=0.2160
+  baseline_model_a_plus_r2b fold 8: macro F1=0.4769 formal F1=0.2615
+  baseline_model_a_plus_r2b fold 9: macro F1=0.4991 formal F1=0.2890
+  baseline_model_a_plus_r2b fold 10: macro F1=0.4635 formal F1=0.2206
+  baseline_model_a_plus_r2b fold 11: macro F1=0.4541 formal F1=0.2267
+  baseline_model_a_plus_r2b fold 12: macro F1=0.4725 formal F1=0.2583
+  baseline_model_a_plus_r2b fold 13: macro F1=0.4949 formal F1=0.2637
+  baseline_model_a_plus_r2b fold 14: macro F1=0.4772 formal F1=0.2628
+  baseline_model_a_plus_r2b fold 15: macro F1=0.4831 formal F1=0.2549
+  baseline_model_a_plus_r2b fold 16: macro F1=0.4883 formal F1=0.2491
+  baseline_model_a_plus_r2b fold 17: macro F1=0.4869 formal F1=0.2846
+  baseline_model_a_plus_r2b fold 18: macro F1=0.4677 formal F1=0.2490
+  baseline_model_a_plus_r2b fold 19: macro F1=0.4645 formal F1=0.2547
+  baseline_model_a_plus_r2b fold 20: macro F1=0.4870 formal F1=0.2857
+  baseline_model_a_plus_r2b fold 21: macro F1=0.4653 formal F1=0.2095
+  baseline_model_a_plus_r2b fold 22: macro F1=0.4917 formal F1=0.2643
+  baseline_model_a_plus_r2b fold 23: macro F1=0.4856 formal F1=0.2489
+  baseline_model_a_plus_r2b fold 24: macro F1=0.4713 formal F1=0.2680
+
+=== agri_diversity_expansion ===
+  agri_diversity_expansion fold 0: macro F1=0.4837 formal F1=0.3045
+  agri_diversity_expansion fold 1: macro F1=0.4849 formal F1=0.2681
+  agri_diversity_expansion fold 2: macro F1=0.4649 formal F1=0.2583
+  agri_diversity_expansion fold 3: macro F1=0.4741 formal F1=0.2247
+  agri_diversity_expansion fold 4: macro F1=0.4801 formal F1=0.2491
+  agri_diversity_expansion fold 5: macro F1=0.4509 formal F1=0.2474
+  agri_diversity_expansion fold 6: macro F1=0.4788 formal F1=0.2388
+  agri_diversity_expansion fold 7: macro F1=0.4663 formal F1=0.2160
+  agri_diversity_expansion fold 8: macro F1=0.4769 formal F1=0.2615
+  agri_diversity_expansion fold 9: macro F1=0.4991 formal F1=0.2890
+  agri_diversity_expansion fold 10: macro F1=0.4635 formal F1=0.2206
+  agri_diversity_expansion fold 11: macro F1=0.4541 formal F1=0.2267
+  agri_diversity_expansion fold 12: macro F1=0.4725 formal F1=0.2583
+  agri_diversity_expansion fold 13: macro F1=0.4949 formal F1=0.2637
+  agri_diversity_expansion fold 14: macro F1=0.4772 formal F1=0.2628
+  agri_diversity_expansion fold 15: macro F1=0.4831 formal F1=0.2549
+  agri_diversity_expansion fold 16: macro F1=0.4883 formal F1=0.2491
+  agri_diversity_expansion fold 17: macro F1=0.4869 formal F1=0.2846
+  agri_diversity_expansion fold 18: macro F1=0.4677 formal F1=0.2490
+  agri_diversity_expansion fold 19: macro F1=0.4645 formal F1=0.2547
+  agri_diversity_expansion fold 20: macro F1=0.4870 formal F1=0.2857
+  agri_diversity_expansion fold 21: macro F1=0.4653 formal F1=0.2095
+  agri_diversity_expansion fold 22: macro F1=0.4917 formal F1=0.2643
+  agri_diversity_expansion fold 23: macro F1=0.4856 formal F1=0.2489
+  agri_diversity_expansion fold 24: macro F1=0.4713 formal F1=0.2680
+
+=== farm_challenge_expansion ===
+  farm_challenge_expansion fold 0: macro F1=0.4868 formal F1=0.2937
+  farm_challenge_expansion fold 1: macro F1=0.4806 formal F1=0.2751
+  farm_challenge_expansion fold 2: macro F1=0.4550 formal F1=0.2357
+  farm_challenge_expansion fold 3: macro F1=0.4711 formal F1=0.2230
+  farm_challenge_expansion fold 4: macro F1=0.4807 formal F1=0.2463
+  farm_challenge_expansion fold 5: macro F1=0.4514 formal F1=0.2437
+  farm_challenge_expansion fold 6: macro F1=0.4822 formal F1=0.2394
+  farm_challenge_expansion fold 7: macro F1=0.4685 formal F1=0.2319
+  farm_challenge_expansion fold 8: macro F1=0.4803 formal F1=0.2530
+  farm_challenge_expansion fold 9: macro F1=0.4953 formal F1=0.2780
+  farm_challenge_expansion fold 10: macro F1=0.4701 formal F1=0.2286
+  farm_challenge_expansion fold 11: macro F1=0.4574 formal F1=0.2387
+  farm_challenge_expansion fold 12: macro F1=0.4765 formal F1=0.2809
+  farm_challenge_expansion fold 13: macro F1=0.5066 formal F1=0.2774
+  farm_challenge_expansion fold 14: macro F1=0.4760 formal F1=0.2455
+  farm_challenge_expansion fold 15: macro F1=0.4781 formal F1=0.2500
+  farm_challenge_expansion fold 16: macro F1=0.4959 formal F1=0.2721
+  farm_challenge_expansion fold 17: macro F1=0.4875 formal F1=0.2751
+  farm_challenge_expansion fold 18: macro F1=0.4604 formal F1=0.2381
+  farm_challenge_expansion fold 19: macro F1=0.4653 formal F1=0.2452
+  farm_challenge_expansion fold 20: macro F1=0.4772 formal F1=0.2609
+  farm_challenge_expansion fold 21: macro F1=0.4675 formal F1=0.2168
+  farm_challenge_expansion fold 22: macro F1=0.4965 formal F1=0.2657
+  farm_challenge_expansion fold 23: macro F1=0.4743 formal F1=0.2318
+  farm_challenge_expansion fold 24: macro F1=0.4674 formal F1=0.2568
+
+=== financial_expansion ===
+  financial_expansion fold 0: macro F1=0.4861 formal F1=0.3285
+  financial_expansion fold 1: macro F1=0.5072 formal F1=0.3170
+  financial_expansion fold 2: macro F1=0.4853 formal F1=0.3320
+  financial_expansion fold 3: macro F1=0.4909 formal F1=0.2787
+  financial_expansion fold 4: macro F1=0.4988 formal F1=0.2927
+  financial_expansion fold 5: macro F1=0.4614 formal F1=0.2547
+  financial_expansion fold 6: macro F1=0.4816 formal F1=0.2815
+  financial_expansion fold 7: macro F1=0.4801 formal F1=0.2784
+  financial_expansion fold 8: macro F1=0.5156 formal F1=0.3439
+  financial_expansion fold 9: macro F1=0.5183 formal F1=0.3547
+  financial_expansion fold 10: macro F1=0.4936 formal F1=0.3000
+  financial_expansion fold 11: macro F1=0.4864 formal F1=0.2894
+  financial_expansion fold 12: macro F1=0.4869 formal F1=0.3034
+  financial_expansion fold 13: macro F1=0.5028 formal F1=0.2778
+  financial_expansion fold 14: macro F1=0.5025 formal F1=0.3357
+  financial_expansion fold 15: macro F1=0.5193 formal F1=0.3367
+  financial_expansion fold 16: macro F1=0.4941 formal F1=0.2969
+  financial_expansion fold 17: macro F1=0.5033 formal F1=0.3282
+  financial_expansion fold 18: macro F1=0.4761 formal F1=0.2705
+  financial_expansion fold 19: macro F1=0.4690 formal F1=0.2902
+  financial_expansion fold 20: macro F1=0.4962 formal F1=0.3333
+  financial_expansion fold 21: macro F1=0.4908 formal F1=0.2868
+  financial_expansion fold 22: macro F1=0.4885 formal F1=0.2612
+  financial_expansion fold 23: macro F1=0.5045 formal F1=0.3004
+  financial_expansion fold 24: macro F1=0.4850 formal F1=0.3100
+
+=== welfare_expansion ===
+  welfare_expansion fold 0: macro F1=0.4961 formal F1=0.3108
+  welfare_expansion fold 1: macro F1=0.4873 formal F1=0.2774
+  welfare_expansion fold 2: macro F1=0.4938 formal F1=0.3008
+  welfare_expansion fold 3: macro F1=0.4889 formal F1=0.2598
+  welfare_expansion fold 4: macro F1=0.4928 formal F1=0.2812
+  welfare_expansion fold 5: macro F1=0.4564 formal F1=0.2357
+  welfare_expansion fold 6: macro F1=0.4920 formal F1=0.2754
+  welfare_expansion fold 7: macro F1=0.4834 formal F1=0.2751
+  welfare_expansion fold 8: macro F1=0.4926 formal F1=0.2791
+  welfare_expansion fold 9: macro F1=0.5084 formal F1=0.3012
+  welfare_expansion fold 10: macro F1=0.4768 formal F1=0.2305
+  welfare_expansion fold 11: macro F1=0.4637 formal F1=0.2329
+  welfare_expansion fold 12: macro F1=0.4866 formal F1=0.3041
+  welfare_expansion fold 13: macro F1=0.4874 formal F1=0.2482
+  welfare_expansion fold 14: macro F1=0.5006 formal F1=0.3345
+  welfare_expansion fold 15: macro F1=0.5026 formal F1=0.2838
+  welfare_expansion fold 16: macro F1=0.5032 formal F1=0.2784
+  welfare_expansion fold 17: macro F1=0.5047 formal F1=0.2997
+  welfare_expansion fold 18: macro F1=0.4752 formal F1=0.2703
+  welfare_expansion fold 19: macro F1=0.4650 formal F1=0.2652
+  welfare_expansion fold 20: macro F1=0.4914 formal F1=0.2952
+  welfare_expansion fold 21: macro F1=0.4795 formal F1=0.2292
+  welfare_expansion fold 22: macro F1=0.4933 formal F1=0.2581
+  welfare_expansion fold 23: macro F1=0.4898 formal F1=0.2694
+  welfare_expansion fold 24: macro F1=0.4710 formal F1=0.2562
+
+=== combined_expansion ===
+  combined_expansion fold 0: macro F1=0.4978 formal F1=0.3262
+  combined_expansion fold 1: macro F1=0.4956 formal F1=0.2948
+  combined_expansion fold 2: macro F1=0.4876 formal F1=0.3071
+  combined_expansion fold 3: macro F1=0.4957 formal F1=0.3008
+  combined_expansion fold 4: macro F1=0.5098 formal F1=0.3115
+  combined_expansion fold 5: macro F1=0.4652 formal F1=0.2622
+  combined_expansion fold 6: macro F1=0.5106 formal F1=0.3333
+  combined_expansion fold 7: macro F1=0.4713 formal F1=0.2599
+  combined_expansion fold 8: macro F1=0.5148 formal F1=0.2920
+  combined_expansion fold 9: macro F1=0.5091 formal F1=0.3154
+  combined_expansion fold 10: macro F1=0.5048 formal F1=0.2980
+  combined_expansion fold 11: macro F1=0.4828 formal F1=0.2691
+  combined_expansion fold 12: macro F1=0.4906 formal F1=0.3241
+  combined_expansion fold 13: macro F1=0.5009 formal F1=0.2720
+  combined_expansion fold 14: macro F1=0.5127 formal F1=0.3657
+  combined_expansion fold 15: macro F1=0.5020 formal F1=0.3077
+  combined_expansion fold 16: macro F1=0.5094 formal F1=0.3137
+  combined_expansion fold 17: macro F1=0.5148 formal F1=0.3231
+  combined_expansion fold 18: macro F1=0.4878 formal F1=0.2966
+  combined_expansion fold 19: macro F1=0.4749 formal F1=0.2988
+  combined_expansion fold 20: macro F1=0.4996 formal F1=0.3307
+  combined_expansion fold 21: macro F1=0.4858 formal F1=0.3060
+  combined_expansion fold 22: macro F1=0.4866 formal F1=0.2335
+  combined_expansion fold 23: macro F1=0.5026 formal F1=0.2845
+  combined_expansion fold 24: macro F1=0.4944 formal F1=0.3043
+
+Scorecard:
+            specification  n_features  macro_f1_mean  macro_f1_std  f1_formal_mean  balanced_accuracy_mean
+baseline_model_a_plus_r2b          80       0.476531      0.012361        0.254335                0.527146
+ agri_diversity_expansion          80       0.476531      0.012361        0.254335                0.527146
+ farm_challenge_expansion          91       0.476345      0.013672        0.252126                0.525212
+      financial_expansion          93       0.492970      0.014359        0.303301                0.547440
+        welfare_expansion          87       0.487296      0.013356        0.274075                0.539451
+       combined_expansion         111       0.496287      0.013659        0.301243                0.547513
+Script 12 complete.

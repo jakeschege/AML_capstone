@@ -1,0 +1,38 @@
+{
+  "unpaired_60": {
+    "n_orders": 60,
+    "paired_reverse": false,
+    "paths_per_request": 60,
+    "mean_seconds": 0.3879554888000712,
+    "max_seconds": 0.5478777100070147,
+    "exact_top5_agree_rate": 0.52,
+    "mean_jaccard": 0.85
+  },
+  "unpaired_100": {
+    "n_orders": 100,
+    "paired_reverse": false,
+    "paths_per_request": 100,
+    "mean_seconds": 0.5125442824384663,
+    "max_seconds": 0.698553838999942,
+    "exact_top5_agree_rate": 0.48,
+    "mean_jaccard": 0.8833333333333332
+  },
+  "paired_30_orders": {
+    "n_orders": 30,
+    "paired_reverse": true,
+    "paths_per_request": 60,
+    "mean_seconds": 0.4207068737200461,
+    "max_seconds": 0.6126019579969579,
+    "exact_top5_agree_rate": 0.5599999999999999,
+    "mean_jaccard": 0.9166666666666666
+  },
+  "paired_50_orders": {
+    "n_orders": 50,
+    "paired_reverse": true,
+    "paths_per_request": 100,
+    "mean_seconds": 0.47840624768054113,
+    "max_seconds": 0.6056321110081626,
+    "exact_top5_agree_rate": 0.72,
+    "mean_jaccard": 0.9333333333333333
+  }
+}

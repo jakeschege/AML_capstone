@@ -1,0 +1,9 @@
+"target","class_label","n_households","pct"
+"coping_category","personal",615,39.63
+"coping_category","informal",447,28.8
+"coping_category","did_nothing",415,26.74
+"coping_category","formal",75,4.83
+"coping_category_collapsed","personal",615,39.63
+"coping_category_collapsed","formal_or_informal",522,33.63
+"coping_category_collapsed","did_nothing",415,26.74
+"coping_category","formal_check",75,4.83

@@ -1,0 +1,7 @@
+"metric","value"
+"pct_replicates_k5_focus_groups_merge",36.0
+"pct_replicates_k4_family_groups_merge",56.0
+"mean_k5_focus_union_jaccard_matched_pair",0.686944
+"mean_k4_family_union_jaccard_matched_pair",0.640811
+"mean_jaccard_legumes",0.509733
+"mean_jaccard_cereals_no_legumes",0.46008

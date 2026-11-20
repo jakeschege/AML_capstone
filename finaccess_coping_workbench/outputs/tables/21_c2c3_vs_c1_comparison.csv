@@ -1,0 +1,10 @@
+"experiment_id","stage","source","macro_f1_mean","macro_f1_std","balanced_accuracy_mean","weighted_f1_mean","f1_formal_mean","f1_formal_std","f1_personal_mean","f1_informal_mean","f1_did_nothing_mean","accuracy_mean"
+"dummy_most_frequent","C1","script_20",0.1419,0.0002,0.25,0.2249,0.0,0.0,0.5676,0.0,0.0,0.3963
+"logistic_unweighted_exclude","C1","script_20",0.3394,0.0206,0.3451,0.4347,0.0147,0.0398,0.515,0.4154,0.4123,0.4478
+"logistic_class_weighted_exclude","C1","script_20",0.35,0.0217,0.3809,0.4098,0.1206,0.0487,0.4116,0.4266,0.4413,0.388
+"decision_tree_unweighted_exclude","C2","script_21",0.296,0.0244,0.2971,0.3595,0.0873,0.0666,0.4262,0.3475,0.3229,0.3604
+"decision_tree_class_weighted_exclude","C2","script_21",0.2816,0.0195,0.2829,0.3492,0.0621,0.036,0.4244,0.337,0.3028,0.3459
+"random_forest_unweighted_exclude","C3","script_21",0.3108,0.0202,0.3171,0.4025,0.0092,0.0314,0.4952,0.3998,0.339,0.4168
+"random_forest_class_weighted_exclude","C3","script_21",0.3306,0.0269,0.3319,0.4061,0.0702,0.0656,0.46,0.4179,0.3741,0.408
+"hist_gradient_boosting_unweighted_exclude","C3","script_21",0.2997,0.0251,0.3026,0.3809,0.0338,0.0456,0.4696,0.352,0.3432,0.3894
+"hist_gradient_boosting_class_weighted_exclude","C3","script_21",0.303,0.0273,0.3048,0.3794,0.0473,0.0489,0.4514,0.3634,0.35,0.384

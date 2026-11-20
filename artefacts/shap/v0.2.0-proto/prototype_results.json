@@ -1,0 +1,423 @@
+{
+  "methods": {
+    "kernel_raw_smoke": {
+      "bg_n": 10,
+      "nsamples": 20,
+      "seconds": 0.37381906500377227,
+      "init_seconds": 0.05964586199843325,
+      "sum_shap": 0.6049799362955681,
+      "gap": 0.6049799362955682,
+      "abs_error": 1.1102230246251565e-16,
+      "rel_error": 1.8351402385727176e-16,
+      "pred_class": "did_nothing"
+    },
+    "kernel_grouped": {
+      "n_groups": 36,
+      "mean_seconds": 0.38027422500696656,
+      "max_seconds": 0.5017660140001681,
+      "rows": [
+        {
+          "seconds": 0.351522492012009,
+          "sum_shap": 0.5820783207897401,
+          "explainer_base": 0.21616133148620767,
+          "gap_vs_ev": 0.5820783207897402,
+          "abs_err_ev": 1.1102230246251565e-16,
+          "gap_vs_masker0": 0.5820783207897402,
+          "abs_err_masker0": 1.1102230246251565e-16,
+          "pred_class": "did_nothing",
+          "nsamples": 74
+        },
+        {
+          "seconds": 0.5017660140001681,
+          "sum_shap": 0.5034465641599087,
+          "explainer_base": 0.23372308172551995,
+          "gap_vs_ev": 0.5034465641599087,
+          "abs_err_ev": 0.0,
+          "gap_vs_masker0": 0.5034465641599087,
+          "abs_err_masker0": 0.0,
+          "pred_class": "informal",
+          "nsamples": 74
+        },
+        {
+          "seconds": 0.28753416900872253,
+          "sum_shap": 0.306353544724818,
+          "explainer_base": 0.21616133148620767,
+          "gap_vs_ev": 0.306353544724818,
+          "abs_err_ev": 0.0,
+          "gap_vs_masker0": 0.306353544724818,
+          "abs_err_masker0": 0.0,
+          "pred_class": "did_nothing",
+          "nsamples": 74
+        }
+      ]
+    },
+    "grouped_shapley_10": {
+      "n_perms": 10,
+      "n_groups": 36,
+      "mean_seconds": 0.2549682283279253,
+      "max_seconds": 0.2780868259869749,
+      "mean_abs_error": 5.551115123125783e-17,
+      "mean_rel_error": 1.3390804622531684e-16,
+      "rows": [
+        {
+          "pred_class": "did_nothing",
+          "f_x": 0.7982396522759478,
+          "baseline": 0.21616133148620767,
+          "gap": 0.5820783207897402,
+          "sum_shap": 0.5820783207897402,
+          "abs_error": 0.0,
+          "rel_error": 0.0,
+          "batch_predict_seconds": 0.09379709599306807,
+          "n_model_rows": 360,
+          "seconds": 0.2780868259869749,
+          "top5": [
+            [
+              "main_shock_type",
+              0.45518059368392894
+            ],
+            [
+              "land_ownership_own_jointly_with_someone_else_other_than_spouse",
+              0.12284272787852071
+            ],
+            [
+              "county",
+              0.02862526944717918
+            ],
+            [
+              "has_legumes",
+              0.012071043030377473
+            ],
+            [
+              "loan_formal",
+              -0.01195069579505588
+            ]
+          ]
+        },
+        {
+          "pred_class": "informal",
+          "f_x": 0.7371696458854287,
+          "baseline": 0.23372308172551995,
+          "gap": 0.5034465641599087,
+          "sum_shap": 0.5034465641599086,
+          "abs_error": 1.1102230246251565e-16,
+          "rel_error": 2.2052450124031805e-16,
+          "batch_predict_seconds": 0.09633631400356535,
+          "n_model_rows": 360,
+          "seconds": 0.24213412099925335,
+          "top5": [
+            [
+              "main_shock_type",
+              0.44870399536534444
+            ],
+            [
+              "has_legumes",
+              0.026086897959381284
+            ],
+            [
+              "sex_bin",
+              -0.025897087573971644
+            ],
+            [
+              "age_years",
+              0.019405261047186588
+            ],
+            [
+              "loan_formal",
+              0.014523702302906272
+            ]
+          ]
+        },
+        {
+          "pred_class": "did_nothing",
+          "f_x": 0.5225148762110257,
+          "baseline": 0.21616133148620767,
+          "gap": 0.306353544724818,
+          "sum_shap": 0.30635354472481807,
+          "abs_error": 5.551115123125783e-17,
+          "rel_error": 1.8119963743563243e-16,
+          "batch_predict_seconds": 0.07787694600119721,
+          "n_model_rows": 360,
+          "seconds": 0.24468373799754772,
+          "top5": [
+            [
+              "main_shock_type",
+              0.27050212425725517
+            ],
+            [
+              "has_cereals",
+              0.03381313511344414
+            ],
+            [
+              "has_legumes",
+              -0.024157391214949343
+            ],
+            [
+              "loan_formal",
+              0.017901919873076204
+            ],
+            [
+              "n_crop_types",
+              0.016946174087589173
+            ]
+          ]
+        }
+      ]
+    },
+    "grouped_shapley_20": {
+      "n_perms": 20,
+      "n_groups": 36,
+      "mean_seconds": 0.2680928766640136,
+      "max_seconds": 0.31113306699262466,
+      "mean_abs_error": 9.251858538542972e-17,
+      "mean_rel_error": 1.974861470279059e-16,
+      "rows": [
+        {
+          "pred_class": "did_nothing",
+          "f_x": 0.7982396522759478,
+          "baseline": 0.21616133148620767,
+          "gap": 0.5820783207897402,
+          "sum_shap": 0.5820783207897401,
+          "abs_error": 1.1102230246251565e-16,
+          "rel_error": 1.9073430240776723e-16,
+          "batch_predict_seconds": 0.12527654600853566,
+          "n_model_rows": 720,
+          "seconds": 0.26315336000698153,
+          "top5": [
+            [
+              "main_shock_type",
+              0.4642021015893829
+            ],
+            [
+              "land_ownership_own_jointly_with_someone_else_other_than_spouse",
+              0.12214584370933554
+            ],
+            [
+              "county",
+              0.03224529045290301
+            ],
+            [
+              "loan_formal",
+              -0.011868232371629601
+            ],
+            [
+              "has_legumes",
+              0.01120972647348811
+            ]
+          ]
+        },
+        {
+          "pred_class": "informal",
+          "f_x": 0.7371696458854287,
+          "baseline": 0.23372308172551995,
+          "gap": 0.5034465641599087,
+          "sum_shap": 0.5034465641599086,
+          "abs_error": 1.1102230246251565e-16,
+          "rel_error": 2.2052450124031805e-16,
+          "batch_predict_seconds": 0.11077150699566118,
+          "n_model_rows": 720,
+          "seconds": 0.2299922029924346,
+          "top5": [
+            [
+              "main_shock_type",
+              0.4440639422416862
+            ],
+            [
+              "sex_bin",
+              -0.025869882870439585
+            ],
+            [
+              "has_legumes",
+              0.02445210851327518
+            ],
+            [
+              "age_years",
+              0.022508386374349706
+            ],
+            [
+              "loan_formal",
+              0.014101118739000435
+            ]
+          ]
+        },
+        {
+          "pred_class": "did_nothing",
+          "f_x": 0.5225148762110257,
+          "baseline": 0.21616133148620767,
+          "gap": 0.306353544724818,
+          "sum_shap": 0.30635354472481796,
+          "abs_error": 5.551115123125783e-17,
+          "rel_error": 1.8119963743563243e-16,
+          "batch_predict_seconds": 0.11207433001254685,
+          "n_model_rows": 720,
+          "seconds": 0.31113306699262466,
+          "top5": [
+            [
+              "main_shock_type",
+              0.2616635997123689
+            ],
+            [
+              "has_cereals",
+              0.04368150916559631
+            ],
+            [
+              "has_legumes",
+              -0.02691320475944949
+            ],
+            [
+              "loan_formal",
+              0.022246719274172294
+            ],
+            [
+              "has_horticulture",
+              0.015654885977115347
+            ]
+          ]
+        }
+      ]
+    },
+    "grouped_shapley_30": {
+      "n_perms": 30,
+      "n_groups": 36,
+      "mean_seconds": 0.2901372713337575,
+      "max_seconds": 0.3592523510014871,
+      "mean_abs_error": 9.251858538542972e-17,
+      "mean_rel_error": 2.0741621330542286e-16,
+      "rows": [
+        {
+          "pred_class": "did_nothing",
+          "f_x": 0.7982396522759478,
+          "baseline": 0.21616133148620767,
+          "gap": 0.5820783207897402,
+          "sum_shap": 0.5820783207897402,
+          "abs_error": 0.0,
+          "rel_error": 0.0,
+          "batch_predict_seconds": 0.09858517500106245,
+          "n_model_rows": 1080,
+          "seconds": 0.25927755699376576,
+          "top5": [
+            [
+              "main_shock_type",
+              0.4660592415246873
+            ],
+            [
+              "land_ownership_own_jointly_with_someone_else_other_than_spouse",
+              0.12019297205299072
+            ],
+            [
+              "county",
+              0.03282497846754464
+            ],
+            [
+              "loan_formal",
+              -0.01148072714667536
+            ],
+            [
+              "has_legumes",
+              0.011227670562130459
+            ]
+          ]
+        },
+        {
+          "pred_class": "informal",
+          "f_x": 0.7371696458854287,
+          "baseline": 0.23372308172551995,
+          "gap": 0.5034465641599087,
+          "sum_shap": 0.5034465641599085,
+          "abs_error": 2.220446049250313e-16,
+          "rel_error": 4.410490024806361e-16,
+          "batch_predict_seconds": 0.12164895299065392,
+          "n_model_rows": 1080,
+          "seconds": 0.25188190600601956,
+          "top5": [
+            [
+              "main_shock_type",
+              0.44378220916268357
+            ],
+            [
+              "sex_bin",
+              -0.02567046193352299
+            ],
+            [
+              "has_legumes",
+              0.02331156118640587
+            ],
+            [
+              "age_years",
+              0.023020476751201877
+            ],
+            [
+              "loan_formal",
+              0.013803259044335452
+            ]
+          ]
+        },
+        {
+          "pred_class": "did_nothing",
+          "f_x": 0.5225148762110257,
+          "baseline": 0.21616133148620767,
+          "gap": 0.306353544724818,
+          "sum_shap": 0.30635354472481796,
+          "abs_error": 5.551115123125783e-17,
+          "rel_error": 1.8119963743563243e-16,
+          "batch_predict_seconds": 0.13567928700649645,
+          "n_model_rows": 1080,
+          "seconds": 0.3592523510014871,
+          "top5": [
+            [
+              "main_shock_type",
+              0.26046824092323256
+            ],
+            [
+              "has_cereals",
+              0.044977221197600316
+            ],
+            [
+              "has_legumes",
+              -0.02553465995638696
+            ],
+            [
+              "loan_formal",
+              0.023188636926283892
+            ],
+            [
+              "n_crop_types",
+              0.01509776457550069
+            ]
+          ]
+        }
+      ]
+    },
+    "permutation_feature": {
+      "mean_seconds": 0.18359350300064156,
+      "max_seconds": 0.21796302699658554,
+      "mean_abs_error": 6.661338147750939e-16,
+      "rows": [
+        {
+          "seconds": 0.21161148400278762,
+          "sum_shap": 0.586739422374203,
+          "gap": 0.5867394223742022,
+          "abs_error": 7.771561172376096e-16,
+          "rel_error": 1.3245336645233397e-15,
+          "pred_class": "did_nothing"
+        },
+        {
+          "seconds": 0.1212059980025515,
+          "sum_shap": 0.4088924767435307,
+          "gap": 0.40889247674353,
+          "abs_error": 6.661338147750939e-16,
+          "rel_error": 1.6291173172963846e-15,
+          "pred_class": "informal"
+        },
+        {
+          "seconds": 0.21796302699658554,
+          "sum_shap": 0.31101464630928055,
+          "gap": 0.31101464630928,
+          "abs_error": 5.551115123125783e-16,
+          "rel_error": 1.7848404211824894e-15,
+          "pred_class": "did_nothing"
+        }
+      ]
+    }
+  },
+  "predict_proba_ms_estimate": null
+}

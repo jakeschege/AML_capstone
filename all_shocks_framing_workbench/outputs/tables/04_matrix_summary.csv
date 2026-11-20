@@ -1,0 +1,3 @@
+matrix,n_observations,n_predictors,excluded,added
+Model_A,5241,68,land_size_acres; R2C; targets; ids; weights; coping actions,
+Model_B,5241,92,land_size_acres; R2C; targets; ids; weights; coping actions,R2A shock indicators + R2B main_shock one-hots

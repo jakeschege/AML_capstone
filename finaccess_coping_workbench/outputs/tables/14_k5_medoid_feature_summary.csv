@@ -1,0 +1,3 @@
+"s1_k5_cluster","s1_k5_note","pct_medoid_legumes_ge_0_5","pct_medoid_cereals_ge_0_5","pct_medoid_family_ge_0_5","pct_medoid_other_live_lt_0_5","mean_medoid_has_legumes","mean_medoid_has_cereals","mean_medoid_n_crop_types","mean_medoid_has_roots","pct_full_s1_pattern_match"
+0,"family_legumes_heavy",98.0,100.0,96.0,100.0,0.98,1.0,2.48,0.14,94.0
+4,"family_cereals_without_legumes",34.0,92.0,98.0,100.0,0.34,0.92,2.1,0.0,58.0

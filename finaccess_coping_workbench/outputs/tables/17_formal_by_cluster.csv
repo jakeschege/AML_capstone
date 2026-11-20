@@ -1,0 +1,7 @@
+"cluster_k5","cluster_label","n_formal","cluster_n","pct_formal_unweighted","sparse_under_n30"
+0,"Family-owned legume-oriented crop households",19,427,4.45,True
+1,"Own-name crop households",15,270,5.56,True
+2,"Community-land livestock-oriented households",14,296,4.73,True
+3,"Family-owned mixed crop and livestock households",9,214,4.21,True
+4,"Family-owned cereal-oriented households",18,345,5.22,True
+-1,"All households",75,1552,4.83,False

@@ -1,0 +1,4 @@
+experiment,fold_safe_segmentation_seconds,total_experiment_seconds,k,protocol
+logistic_class_weighted__financial_plus_segment,202.62,979.22,5,train-only Gower+PAM; test assigned to nearest train medoid
+random_forest_class_weighted__financial_plus_segment,198.32,284.9,5,train-only Gower+PAM; test assigned to nearest train medoid
+hist_gradient_boosting_class_weighted__financial_plus_segment,191.37,402.35,5,train-only Gower+PAM; test assigned to nearest train medoid

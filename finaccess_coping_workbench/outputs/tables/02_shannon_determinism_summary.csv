@@ -1,0 +1,5 @@
+predictor,n_groups,n_groups_with_single_shannon,n_groups_with_multiple_shannon,fully_deterministic,max_unique_shannon_within_group
+n_crop_types,6,0,6,False,5
+n_livestock_types,6,1,5,False,5
+n_crop_types_x_n_livestock_types,21,6,15,False,4
+n_active_groups,6,4,2,False,2

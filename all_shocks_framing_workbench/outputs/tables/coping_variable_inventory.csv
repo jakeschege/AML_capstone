@@ -1,0 +1,18 @@
+module,original_stata_name,renamed_name,variable_label,value_labels,dtype,n_missing,pct_missing,value_frequencies,n_positive_1,construction_note
+R2C,R2C__1,coping_worked_more_got_additional_jobs_farmed_additional_land,R2C__1:Worked more / got additional jobs/farmed additional land,{},float64,4508,46.2075,nan:4508; 0.0:3954; 1.0:1294,1294.0,
+R2C,R2C__2,coping_managing_techniques_got_assistance_gift_from_friends_family_comm,R2C. managing techniques:Got assistance / gift from friends / family / community,{},float64,4508,46.2075,nan:4508; 0.0:3253; 1.0:1995,1995.0,
+R2C,R2C__3,coping_sale_of_assets_e_g_livestocka_house_car_plot_of_land_shares_or_s,"R2C__3:Sale of assets (e.g. livestocka house, car, plot of land, shares or stock",{},float64,4508,46.2075,0.0:4805; nan:4508; 1.0:443,443.0,
+R2C,R2C__4,coping_cut_back_on_expenses_adjust_consumption_patterns,R2C. Cut back on expenses/ adjust consumption patterns,{},float64,4508,46.2075,0.0:4763; nan:4508; 1.0:485,485.0,
+R2C,R2C__5,coping_loans_credit_borrow,R2C. Loans/credit/borrow,{},float64,4508,46.2075,0.0:4781; nan:4508; 1.0:467,467.0,
+R2C,R2C__6,coping_savings,R2C. Savings,{},float64,4508,46.2075,0.0:4912; nan:4508; 1.0:336,336.0,
+R2C,R2C__7,coping_relocated_changed_place_of_residence,R2C. Relocated / changed place of residence,{},float64,4508,46.2075,0.0:5226; nan:4508; 1.0:22,22.0,
+R2C,R2C__8,coping_claimed_insurance,R2C. Claimed Insurance,{},float64,4508,46.2075,0.0:5172; nan:4508; 1.0:76,76.0,
+R2C,R2C__9,coping_withdrew_transfered_child_children_from_school,R2C. Withdrew/ transfered child / children from school,{},float64,4508,46.2075,0.0:5243; nan:4508; 1.0:5,5.0,
+R2C,R2C__10,coping_received_assistance_from_government_and_non_governmental_organiz,R2C__10:Received assistance from Government and Non-Governmental organizations,{},float64,4508,46.2075,0.0:5200; nan:4508; 1.0:48,48.0,
+R2C,R2C__11,coping_did_nothing,R2C. Did Nothing,{},float64,4508,46.2075,nan:4508; 0.0:4255; 1.0:993,993.0,
+R2C,R2C__12,coping_other_specify,R2C. Other (SPECIFY),{},float64,4508,46.2075,0.0:5177; nan:4508; 1.0:71,71.0,
+R2C,R2C__13,coping_made_a_drainage_system,Made a drainage system,{},float64,9722,99.6515,nan:9722; 1.0:34,34.0,
+R2C,R2C__14,coping_improved_security_measures,improved security measures,{},float64,9754,99.9795,nan:9754; 1.0:2,2.0,
+R2C,R2C__15,coping_reported_at_police_station,Reported at police station,{},float64,9746,99.8975,nan:9746; 1.0:10,10.0,
+R2C,R2C__16,coping_reinvested_business_profits,Reinvested business profits,{},float64,9744,99.877,nan:9744; 1.0:12,12.0,
+Classification_A_Resilience,Classification_A_Resilience,coping_category_code / coping_category,Device used for Resilience,"{""1"": ""Formal"", ""2"": ""Informal"", ""3"": ""Personal"", ""4"": ""Did Nothing""}",float64,4515,46.2792,nan:4515; 2.0:2094; 3.0:1782; 4.0:994; 1.0:371,,"Existing preparation maps Classification_A_Resilience codes to {1: 'formal', 2: 'informal', 3: 'personal', 4: 'did_nothing'}. Stata value labels: {1: 'Formal', 2: 'Informal', 3: 'Personal', 4: 'Did Nothing'}. Questionnaire/context: R2C asks how the household managed/coped after the shock experience; Classification_A_Resilience is a derived resilience classification over coping responses. In the drought notebook this was treated as the household's coping category for the analysis sample. It is associated with the shock module (R2), not a free-standing annual coping measure — but it is a single household-level classification, not one row per shock."

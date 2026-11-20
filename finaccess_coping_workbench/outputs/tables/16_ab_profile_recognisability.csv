@@ -1,0 +1,15 @@
+"k","spec_a_cluster","spec_a_note","variable","direction","threshold","spec_a_mean","spec_b_mean","spec_a_meets","spec_b_meets","both_meet"
+4,0,"family_crops_no_roots","has_roots_tubers","low",0.15,0.0,0.0,True,True,True
+4,1,"family_crops_with_roots","has_roots_tubers","high",0.7,1.0,1.0,True,True,True
+4,2,"livestock_community","is_community_land","high",0.3,0.4931,0.4931,True,True,True
+4,2,"livestock_community","has_other_livestock","high",0.7,0.8788,0.8788,True,True,True
+4,3,"lease_crops","land_ownership_lease_rent_you_dont_own","high",0.3,0.4975,0.5,True,True,True
+5,0,"family_legumes_heavy","has_legumes","high",0.7,1.0,1.0,True,True,True
+5,0,"family_legumes_heavy","land_ownership_family_owned_e_g_inherited_family_land","high",0.6,0.8407,0.8407,True,True,True
+5,1,"own_name_crops","land_ownership_own_under_your_name","high",0.5,0.8407,0.8352,True,True,True
+5,2,"livestock_community","is_community_land","high",0.4,0.5946,0.7047,True,True,True
+5,2,"livestock_community","has_other_livestock","high",0.7,0.9662,0.9764,True,True,True
+5,3,"family_mixed_crop_livestock","has_other_livestock","high",0.7,1.0,1.0,True,True,True
+5,3,"family_mixed_crop_livestock","has_cereals","high",0.7,0.9813,0.8609,True,True,True
+5,4,"family_cereals_without_legumes","has_legumes","low",0.35,0.0,0.0,True,True,True
+5,4,"family_cereals_without_legumes","land_ownership_family_owned_e_g_inherited_family_land","high",0.6,0.7913,0.788,True,True,True

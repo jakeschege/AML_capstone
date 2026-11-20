@@ -1,0 +1,40 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / Next.js
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+npm-debug.log*
+yarn-error.log*
+
+# MLflow / caches / IDE
+mlruns/
+notebook_run_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*~
+
+# OS / stray paths
+.DS_Store
+Thumbs.db
+~/
+
+
+# Large raw survey extracts (keep prepared outputs only)
+AML_Book-Data/
+*.zip

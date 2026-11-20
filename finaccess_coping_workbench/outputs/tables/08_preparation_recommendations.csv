@@ -1,0 +1,17 @@
+"topic","variable","finding","recommended_action","apply_now"
+"missingness","land_size_acres","missing_pct=12.76","document_missingness_and_decide_imputation_or_indicator_in_feature_preparation",False
+"missingness","land_size_unit","missing_pct=0.06","investigate_before_feature_preparation",False
+"land_size_unit","land_size_acres","standardised_unit_acres_confirmed","use_land_size_acres_in_feature_preparation",False
+"land_size_missingness","land_size_acres","Community land: n=182","retain_missingness_without_imputation_in_this_audit",False
+"land_size_missingness","land_size_acres","Special response code 98/99: n=16","retain_missingness_without_imputation_in_this_audit",False
+"ordinal_encoding","education","1=None; 2=Primary; 3=Secondary; 4=Tertiary","ordinal_or_ordered_categorical_pending_feature_preparation",False
+"categorical_encoding","sex","categorical_codes_require_encoding_scheme","one_hot_or_target_aware_encoding_in_feature_preparation",False
+"categorical_encoding","urban_rural","categorical_codes_require_encoding_scheme","one_hot_or_target_aware_encoding_in_feature_preparation",False
+"categorical_encoding","county","categorical_codes_require_encoding_scheme","one_hot_or_target_aware_encoding_in_feature_preparation",False
+"categorical_encoding","land_size_unit","categorical_codes_require_encoding_scheme","one_hot_or_target_aware_encoding_in_feature_preparation",False
+"categorical_encoding","main_shock_type","categorical_codes_require_encoding_scheme","one_hot_or_target_aware_encoding_in_feature_preparation",False
+"redundancy","shannon_diversity","flagged_redundant_with_portfolio_counts","assess_in_or_out_during_feature_preparation",False
+"target_representation","coping_category","formal_class_pct=4.83","plan_stratified_validation_and_consider_collapsed_target",False
+"continuous_preparation","age_years","skewness=0.498; complete","keep_numeric_decide_scaling_in_feature_preparation",False
+"continuous_preparation","land_size_acres","skewness=11.253; missing_pct=12.76","decide_scaling_and_missing_indicator_later_do_not_impute_now",False
+"hard_rule","all_candidates","audit_only","do_not_encode_impute_scale_or_drop_rare_categories_in_this_step",False

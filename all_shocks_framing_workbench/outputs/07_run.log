@@ -1,0 +1,40 @@
+scikit-learn 1.9.1
+HistGradientBoostingClassifier supports class_weight: True
+Blocks: base=68 R2A=12 R2B=12
+
+=== Part A: feature ablation (class-weighted logistic) ===
+Running ablation__model_a__logistic_class_weighted (p=68) …
+  macro F1=0.3753 formal F1=0.2350
+Running ablation__model_a_plus_r2a__logistic_class_weighted (p=80) …
+  macro F1=0.4493 formal F1=0.2507
+Running ablation__model_a_plus_r2b__logistic_class_weighted (p=80) …
+  macro F1=0.4765 formal F1=0.2543
+Running ablation__model_b__logistic_class_weighted (p=92) …
+  macro F1=0.4754 formal F1=0.2512
+
+=== Part A benchmarks: unweighted logistic A/B ===
+Running benchmark__model_a__logistic_unweighted …
+  macro F1=0.3453
+Running benchmark__model_b__logistic_unweighted …
+  macro F1=0.4621
+
+=== Part B: nonlinear models on Model B ===
+Running model_b__decision_tree_class_weighted …
+  macro F1=0.3872 formal F1=0.2295 time=13.24s
+Running model_b__random_forest_class_weighted …
+  macro F1=0.4609 formal F1=0.2566 time=89.51s
+Running model_b__hist_gradient_boosting_class_weighted …
+  macro F1=0.4762 formal F1=0.2315 time=181.67s
+
+Scorecard (macro F1):
+                                         experiment  macro_f1_mean  macro_f1_std  f1_formal_mean  seconds_total
+         ablation__model_a__logistic_class_weighted       0.375281      0.012204        0.234963         316.39
+ablation__model_a_plus_r2a__logistic_class_weighted       0.449270      0.010482        0.250651         324.90
+ablation__model_a_plus_r2b__logistic_class_weighted       0.476531      0.012361        0.254335         336.12
+         ablation__model_b__logistic_class_weighted       0.475441      0.010389        0.251177         416.36
+            benchmark__model_a__logistic_unweighted       0.345343      0.013696        0.069801         339.18
+            benchmark__model_b__logistic_unweighted       0.462066      0.013402        0.096989         420.23
+              model_b__decision_tree_class_weighted       0.387155      0.017418        0.229453          13.24
+              model_b__random_forest_class_weighted       0.460924      0.015691        0.256626          89.51
+     model_b__hist_gradient_boosting_class_weighted       0.476180      0.012632        0.231499         181.67
+Script 07 complete.

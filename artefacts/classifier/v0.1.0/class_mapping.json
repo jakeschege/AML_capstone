@@ -1,0 +1,26 @@
+{
+  "classes": [
+    "personal",
+    "informal",
+    "formal",
+    "did_nothing"
+  ],
+  "display_labels": {
+    "personal": "Personal coping",
+    "informal": "Informal support",
+    "formal": "Formal support",
+    "did_nothing": "No coping action reported"
+  },
+  "category_colours": {
+    "personal": "#2F5D50",
+    "informal": "#C4A574",
+    "formal": "#3D5A80",
+    "did_nothing": "#7A6F64"
+  },
+  "estimator_classes": [
+    "did_nothing",
+    "formal",
+    "informal",
+    "personal"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "script": "20_classification_c1_baselines",
+  "reads_protocol": "19_classification_protocol.json",
+  "reads_folds": "19_cv_folds_long.csv",
+  "regenerates_folds": false,
+  "track": "primary_four_class",
+  "household_weight_in_fitting": false,
+  "household_weight_in_metrics": false,
+  "class_weight_modes": [
+    "unweighted",
+    "class_weighted"
+  ],
+  "land_treatments": [
+    "exclude",
+    "impute_median"
+  ],
+  "continuous_scaled": [
+    "age_years",
+    "education",
+    "n_crop_types",
+    "n_livestock_types",
+    "land_size_acres"
+  ],
+  "logistic": {
+    "multi_class": "multinomial_default_sklearn_ge_1_8",
+    "solver": "lbfgs",
+    "C": 1.0,
+    "max_iter": 2000
+  },
+  "n_experiments": 5,
+  "protocol_seed": 42
+}

@@ -1,0 +1,4 @@
+"specification","k","average_silhouette","pam_runtime_seconds","n_features","random_seed"
+"B",2,0.409276,0.217,20,42
+"B",4,0.258209,0.069,20,42
+"B",5,0.318096,0.075,20,42

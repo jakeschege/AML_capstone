@@ -1,0 +1,10 @@
+pair_type,variable_a,variable_b,n_both_positive,pct_both_positive,evidence_strength,notes
+finance_vs_coping_action,loan_usage,coping_loans_credit_borrow,87,5.61,possible,Conceptual overlap; not confirmed direct target leakage
+finance_vs_coping_action,used_formal_credit,coping_loans_credit_borrow,87,5.61,possible,Conceptual overlap; not confirmed direct target leakage
+finance_vs_coping_action,used_buyer_credit,coping_loans_credit_borrow,27,1.74,possible,Conceptual overlap; not confirmed direct target leakage
+finance_vs_coping_action,buyer_supplier_credit,coping_loans_credit_borrow,27,1.74,possible,Conceptual overlap; not confirmed direct target leakage
+finance_vs_coping_action,formal_agri_borrowing,coping_loans_credit_borrow,20,1.29,possible,Conceptual overlap; not confirmed direct target leakage
+finance_vs_coping_action,used_digital_credit,coping_loans_credit_borrow,2,0.13,possible,Conceptual overlap; not confirmed direct target leakage
+finance_vs_coping_action,savings_usage,coping_savings,88,5.67,possible,Conceptual overlap; not confirmed direct target leakage
+finance_vs_coping_action,used_insurance,coping_claimed_insurance,0,0.0,possible,Conceptual overlap; not confirmed direct target leakage
+shock_indicator_vs_main_shock,shock_*_indicators,main_shock_type,1552,100.0,confirmed,"Main shock is the principal reported shock within the indicator set; related constructs, not automatic exclusion of both"

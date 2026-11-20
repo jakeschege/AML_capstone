@@ -1,0 +1,20 @@
+financial_variable,related_coping_variable,coping_var_present,n_both_positive,pct_both_positive,risk_flag,notes
+loan_usage,coping_loans_credit_borrow,True,87,5.61,conceptual_overlap_and_temporal_uncertainty,Loan usage may overlap conceptually with borrowing as a coping action
+used_formal_credit,coping_loans_credit_borrow,True,87,5.61,conceptual_overlap_and_temporal_uncertainty,Derived formal credit use may overlap with coping borrowing
+used_buyer_credit,coping_loans_credit_borrow,True,27,1.74,conceptual_overlap_and_temporal_uncertainty,Buyer/supplier credit may overlap with credit-based coping
+buyer_supplier_credit,coping_loans_credit_borrow,True,27,1.74,conceptual_overlap_and_temporal_uncertainty,Q12 agri-trade credit may overlap with credit-based coping
+formal_agri_borrowing,coping_loans_credit_borrow,True,20,1.29,conceptual_overlap_and_temporal_uncertainty,Q13 agri credit question may overlap with credit-based coping
+used_digital_credit,coping_loans_credit_borrow,True,2,0.13,conceptual_overlap_and_temporal_uncertainty,Digital credit use may overlap with borrowing as coping
+savings_usage,coping_savings,True,88,5.67,conceptual_overlap_and_temporal_uncertainty,Savings usage may overlap with using savings as a coping action
+used_insurance,coping_claimed_insurance,True,0,0.0,conceptual_overlap_and_temporal_uncertainty,Insurance use/access may overlap with claiming insurance as coping
+buyer_supplier_credit,,,,,temporal_availability_unresolved,Whether the measure reflects pre-shock access or post-shock response remains for the leakage audit
+formal_agri_borrowing,,,,,temporal_availability_unresolved,Whether the measure reflects pre-shock access or post-shock response remains for the leakage audit
+used_formal_credit,,,,,temporal_availability_unresolved,Whether the measure reflects pre-shock access or post-shock response remains for the leakage audit
+used_buyer_credit,,,,,temporal_availability_unresolved,Whether the measure reflects pre-shock access or post-shock response remains for the leakage audit
+used_digital_credit,,,,,temporal_availability_unresolved,Whether the measure reflects pre-shock access or post-shock response remains for the leakage audit
+used_insurance,,,,,temporal_availability_unresolved,Whether the measure reflects pre-shock access or post-shock response remains for the leakage audit
+bank_usage,,,,,temporal_availability_unresolved,Whether the measure reflects pre-shock access or post-shock response remains for the leakage audit
+savings_usage,,,,,temporal_availability_unresolved,Whether the measure reflects pre-shock access or post-shock response remains for the leakage audit
+loan_usage,,,,,temporal_availability_unresolved,Whether the measure reflects pre-shock access or post-shock response remains for the leakage audit
+mobile_money_usage,,,,,temporal_availability_unresolved,Whether the measure reflects pre-shock access or post-shock response remains for the leakage audit
+mfi_usage,,,,,temporal_availability_unresolved,Whether the measure reflects pre-shock access or post-shock response remains for the leakage audit

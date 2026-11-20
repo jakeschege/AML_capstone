@@ -1,0 +1,8 @@
+"check","status","detail","runtime_seconds"
+"package_import","pass","gower imported; PAM via local precomputed implementation (sklearn_extra skipped: NumPy 2.x incompatibility)",""
+"spec_A_matrix","pass","n=1552, p=17 (acres excluded); complete",""
+"gower_sample_n200","pass","distance shape=(200, 200)",0.037
+"gower_full_n1552","pass","shape=(1552, 1552); memory_mb=9.2; practical_for_S1=yes",0.883
+"pam_smoke_k3_spec_A","pass","backend=local_pam_precomputed; cluster_sizes={0: 513, 1: 362, 2: 677}; medoid_indices=[30, 193, 801]",0.141
+"spec_B_candidate_treatments","info","Candidates for review (no zero-fill): (1) acres + is_community_land binary from unit==5; (2) acres + missingness indicator with median of observed acres only for non-community special codes; (3) exclude acres for community land rows in a hybrid sensitivity. Exact Spec B treatment remains open pending review.",""
+"no_zero_fill_rule","pass","Audit does not replace missing acreage with zero",""

@@ -1,0 +1,2 @@
+decision,reason,stack_a_status,stack_b_status,preferred_stack,fallback
+stop_stack_b,Stack A completed with macro F1≈0.502 and improved formal F1; Stack B incomplete (3/5 folds) and adds RF complexity without demonstrated overall improvement; user directed stop before deployment packaging.,complete_5_of_5,incomplete_3_of_5,stack_a_logistic_hgb,logistic_class_weighted__financial

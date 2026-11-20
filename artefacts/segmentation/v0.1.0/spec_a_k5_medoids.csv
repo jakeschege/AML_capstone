@@ -1,0 +1,6 @@
+cluster_id,respondent_id,has_cash_crops,has_cereals,has_dairy_livestock,has_horticulture,has_legumes,has_other_agri,has_other_livestock,has_poultry,has_roots_tubers,n_crop_types,n_livestock_types,land_ownership_own_under_your_name,land_ownership_own_jointly_with_spouse,land_ownership_own_jointly_with_someone_else_other_than_spouse,land_ownership_lease_rent_you_dont_own,land_ownership_community_public_owned_e_g_pastoralists,land_ownership_family_owned_e_g_inherited_family_land,label
+0,5bb13186534a40cf84c573d4366cb754,0,1,0,0,1,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0,1.0,Family-owned legume-oriented crop households
+1,4e30e8e74dba438bbc7884a2a60c4f41,0,1,0,0,1,0,0,0,0,2,0,1.0,0.0,0.0,0.0,0.0,0.0,Own-name crop households
+2,82fa7817639549c982898a4a17745662,0,0,0,0,0,0,1,0,0,0,2,0.0,0.0,0.0,0.0,1.0,0.0,Community-land livestock-oriented households
+3,0c92c4b0d4254a3bb6f899bc23a74e13,0,1,0,0,1,0,1,0,0,2,2,0.0,0.0,0.0,0.0,0.0,1.0,Family-owned mixed crop and livestock households
+4,0c273c925e74417192e93fdb54cff4f2,0,1,0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0,1.0,Family-owned cereal-oriented households

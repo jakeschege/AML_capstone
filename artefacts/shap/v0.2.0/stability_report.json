@@ -1,0 +1,659 @@
+{
+  "households": [],
+  "n_perms_trials": {
+    "20": {
+      "mean_seconds": 0.24452849536028226,
+      "max_seconds": 0.6245993610064033,
+      "exact_top5_agree_rate": 0.36,
+      "mean_jaccard_vs_seed42": 0.8166666666666667,
+      "per_hh": [
+        {
+          "agree_exact_top5": 1,
+          "mean_jaccard": 0.75,
+          "tops": [
+            [
+              "main_shock_type",
+              "has_cereals",
+              "county",
+              "sex_bin",
+              "land_ownership_family_owned_e_g_inherited_family_land"
+            ],
+            [
+              "main_shock_type",
+              "has_cereals",
+              "county",
+              "land_ownership_family_owned_e_g_inherited_family_land",
+              "savings_usage"
+            ],
+            [
+              "main_shock_type",
+              "has_cereals",
+              "county",
+              "sex_bin",
+              "has_legumes"
+            ],
+            [
+              "main_shock_type",
+              "has_cereals",
+              "county",
+              "land_ownership_family_owned_e_g_inherited_family_land",
+              "savings_usage"
+            ],
+            [
+              "main_shock_type",
+              "has_cereals",
+              "county",
+              "land_ownership_family_owned_e_g_inherited_family_land",
+              "sex_bin"
+            ]
+          ],
+          "pred": "informal"
+        },
+        {
+          "agree_exact_top5": 1,
+          "mean_jaccard": 0.6666666666666666,
+          "tops": [
+            [
+              "savings_formal",
+              "sacco_usage",
+              "main_shock_type",
+              "county",
+              "education"
+            ],
+            [
+              "savings_formal",
+              "sacco_usage",
+              "main_shock_type",
+              "county",
+              "has_dairy_livestock"
+            ],
+            [
+              "savings_formal",
+              "sacco_usage",
+              "main_shock_type",
+              "county",
+              "has_dairy_livestock"
+            ],
+            [
+              "savings_formal",
+              "sacco_usage",
+              "main_shock_type",
+              "county",
+              "insurance_excl_nhif"
+            ],
+            [
+              "savings_formal",
+              "sacco_usage",
+              "main_shock_type",
+              "county",
+              "has_dairy_livestock"
+            ]
+          ],
+          "pred": "formal"
+        },
+        {
+          "agree_exact_top5": 2,
+          "mean_jaccard": 1.0,
+          "tops": [
+            [
+              "county",
+              "main_shock_type",
+              "has_cereals",
+              "age_years",
+              "savings_usage"
+            ],
+            [
+              "county",
+              "main_shock_type",
+              "age_years",
+              "has_cereals",
+              "savings_usage"
+            ],
+            [
+              "county",
+              "main_shock_type",
+              "age_years",
+              "has_cereals",
+              "savings_usage"
+            ],
+            [
+              "county",
+              "main_shock_type",
+              "has_cereals",
+              "age_years",
+              "savings_usage"
+            ],
+            [
+              "county",
+              "main_shock_type",
+              "age_years",
+              "has_cereals",
+              "savings_usage"
+            ]
+          ],
+          "pred": "did_nothing"
+        },
+        {
+          "agree_exact_top5": 1,
+          "mean_jaccard": 0.75,
+          "tops": [
+            [
+              "main_shock_type",
+              "has_other_livestock",
+              "n_livestock_types",
+              "age_years",
+              "county"
+            ],
+            [
+              "main_shock_type",
+              "county",
+              "age_years",
+              "has_other_livestock",
+              "has_dairy_livestock"
+            ],
+            [
+              "main_shock_type",
+              "county",
+              "age_years",
+              "has_dairy_livestock",
+              "has_other_livestock"
+            ],
+            [
+              "county",
+              "main_shock_type",
+              "has_other_livestock",
+              "age_years",
+              "has_dairy_livestock"
+            ],
+            [
+              "county",
+              "main_shock_type",
+              "has_other_livestock",
+              "age_years",
+              "n_livestock_types"
+            ]
+          ],
+          "pred": "personal"
+        },
+        {
+          "agree_exact_top5": 4,
+          "mean_jaccard": 0.9166666666666666,
+          "tops": [
+            [
+              "main_shock_type",
+              "sex_bin",
+              "county",
+              "has_legumes",
+              "loan_formal"
+            ],
+            [
+              "main_shock_type",
+              "sex_bin",
+              "county",
+              "has_legumes",
+              "loan_formal"
+            ],
+            [
+              "main_shock_type",
+              "sex_bin",
+              "county",
+              "has_legumes",
+              "loan_formal"
+            ],
+            [
+              "main_shock_type",
+              "sex_bin",
+              "county",
+              "has_legumes",
+              "savings_formal"
+            ],
+            [
+              "main_shock_type",
+              "sex_bin",
+              "county",
+              "has_legumes",
+              "loan_formal"
+            ]
+          ],
+          "pred": "informal"
+        }
+      ]
+    },
+    "40": {
+      "mean_seconds": 0.3595285916805733,
+      "max_seconds": 0.4773855840030592,
+      "exact_top5_agree_rate": 0.6,
+      "mean_jaccard_vs_seed42": 0.8333333333333333,
+      "per_hh": [
+        {
+          "agree_exact_top5": 2,
+          "mean_jaccard": 0.7499999999999999,
+          "tops": [
+            [
+              "main_shock_type",
+              "has_cereals",
+              "county",
+              "land_ownership_family_owned_e_g_inherited_family_land",
+              "savings_usage"
+            ],
+            [
+              "main_shock_type",
+              "has_cereals",
+              "county",
+              "land_ownership_family_owned_e_g_inherited_family_land",
+              "sex_bin"
+            ],
+            [
+              "main_shock_type",
+              "has_cereals",
+              "county",
+              "sex_bin",
+              "savings_usage"
+            ],
+            [
+              "main_shock_type",
+              "has_cereals",
+              "county",
+              "land_ownership_family_owned_e_g_inherited_family_land",
+              "savings_usage"
+            ],
+            [
+              "main_shock_type",
+              "has_cereals",
+              "county",
+              "land_ownership_family_owned_e_g_inherited_family_land",
+              "sex_bin"
+            ]
+          ],
+          "pred": "informal"
+        },
+        {
+          "agree_exact_top5": 1,
+          "mean_jaccard": 0.6666666666666666,
+          "tops": [
+            [
+              "savings_formal",
+              "sacco_usage",
+              "main_shock_type",
+              "county",
+              "education"
+            ],
+            [
+              "savings_formal",
+              "sacco_usage",
+              "main_shock_type",
+              "county",
+              "has_dairy_livestock"
+            ],
+            [
+              "savings_formal",
+              "sacco_usage",
+              "main_shock_type",
+              "county",
+              "has_dairy_livestock"
+            ],
+            [
+              "savings_formal",
+              "sacco_usage",
+              "main_shock_type",
+              "county",
+              "has_dairy_livestock"
+            ],
+            [
+              "savings_formal",
+              "sacco_usage",
+              "main_shock_type",
+              "county",
+              "has_dairy_livestock"
+            ]
+          ],
+          "pred": "formal"
+        },
+        {
+          "agree_exact_top5": 5,
+          "mean_jaccard": 1.0,
+          "tops": [
+            [
+              "county",
+              "main_shock_type",
+              "age_years",
+              "has_cereals",
+              "savings_usage"
+            ],
+            [
+              "county",
+              "main_shock_type",
+              "age_years",
+              "has_cereals",
+              "savings_usage"
+            ],
+            [
+              "county",
+              "main_shock_type",
+              "age_years",
+              "has_cereals",
+              "savings_usage"
+            ],
+            [
+              "county",
+              "main_shock_type",
+              "age_years",
+              "has_cereals",
+              "savings_usage"
+            ],
+            [
+              "county",
+              "main_shock_type",
+              "age_years",
+              "has_cereals",
+              "savings_usage"
+            ]
+          ],
+          "pred": "did_nothing"
+        },
+        {
+          "agree_exact_top5": 2,
+          "mean_jaccard": 0.75,
+          "tops": [
+            [
+              "main_shock_type",
+              "county",
+              "age_years",
+              "has_other_livestock",
+              "n_livestock_types"
+            ],
+            [
+              "main_shock_type",
+              "county",
+              "age_years",
+              "has_other_livestock",
+              "has_dairy_livestock"
+            ],
+            [
+              "main_shock_type",
+              "county",
+              "age_years",
+              "has_other_livestock",
+              "has_dairy_livestock"
+            ],
+            [
+              "main_shock_type",
+              "county",
+              "age_years",
+              "has_other_livestock",
+              "has_dairy_livestock"
+            ],
+            [
+              "main_shock_type",
+              "county",
+              "age_years",
+              "has_other_livestock",
+              "n_livestock_types"
+            ]
+          ],
+          "pred": "personal"
+        },
+        {
+          "agree_exact_top5": 5,
+          "mean_jaccard": 1.0,
+          "tops": [
+            [
+              "main_shock_type",
+              "sex_bin",
+              "county",
+              "has_legumes",
+              "loan_formal"
+            ],
+            [
+              "main_shock_type",
+              "sex_bin",
+              "county",
+              "has_legumes",
+              "loan_formal"
+            ],
+            [
+              "main_shock_type",
+              "sex_bin",
+              "county",
+              "has_legumes",
+              "loan_formal"
+            ],
+            [
+              "main_shock_type",
+              "sex_bin",
+              "county",
+              "has_legumes",
+              "loan_formal"
+            ],
+            [
+              "main_shock_type",
+              "sex_bin",
+              "county",
+              "has_legumes",
+              "loan_formal"
+            ]
+          ],
+          "pred": "informal"
+        }
+      ]
+    },
+    "60": {
+      "mean_seconds": 0.4237047559610801,
+      "max_seconds": 0.7308803650084883,
+      "exact_top5_agree_rate": 0.6799999999999999,
+      "mean_jaccard_vs_seed42": 0.9333333333333332,
+      "per_hh": [
+        {
+          "agree_exact_top5": 1,
+          "mean_jaccard": 0.9166666666666666,
+          "tops": [
+            [
+              "main_shock_type",
+              "has_cereals",
+              "county",
+              "savings_usage",
+              "land_ownership_family_owned_e_g_inherited_family_land"
+            ],
+            [
+              "main_shock_type",
+              "has_cereals",
+              "county",
+              "land_ownership_family_owned_e_g_inherited_family_land",
+              "savings_usage"
+            ],
+            [
+              "main_shock_type",
+              "has_cereals",
+              "county",
+              "sex_bin",
+              "land_ownership_family_owned_e_g_inherited_family_land"
+            ],
+            [
+              "main_shock_type",
+              "has_cereals",
+              "county",
+              "land_ownership_family_owned_e_g_inherited_family_land",
+              "savings_usage"
+            ],
+            [
+              "main_shock_type",
+              "has_cereals",
+              "county",
+              "land_ownership_family_owned_e_g_inherited_family_land",
+              "savings_usage"
+            ]
+          ],
+          "pred": "informal"
+        },
+        {
+          "agree_exact_top5": 4,
+          "mean_jaccard": 0.9166666666666666,
+          "tops": [
+            [
+              "savings_formal",
+              "sacco_usage",
+              "main_shock_type",
+              "county",
+              "has_dairy_livestock"
+            ],
+            [
+              "savings_formal",
+              "sacco_usage",
+              "main_shock_type",
+              "county",
+              "has_dairy_livestock"
+            ],
+            [
+              "savings_formal",
+              "sacco_usage",
+              "main_shock_type",
+              "county",
+              "education"
+            ],
+            [
+              "savings_formal",
+              "sacco_usage",
+              "main_shock_type",
+              "county",
+              "has_dairy_livestock"
+            ],
+            [
+              "savings_formal",
+              "sacco_usage",
+              "main_shock_type",
+              "county",
+              "has_dairy_livestock"
+            ]
+          ],
+          "pred": "formal"
+        },
+        {
+          "agree_exact_top5": 5,
+          "mean_jaccard": 1.0,
+          "tops": [
+            [
+              "county",
+              "main_shock_type",
+              "age_years",
+              "has_cereals",
+              "savings_usage"
+            ],
+            [
+              "county",
+              "main_shock_type",
+              "age_years",
+              "has_cereals",
+              "savings_usage"
+            ],
+            [
+              "county",
+              "main_shock_type",
+              "age_years",
+              "has_cereals",
+              "savings_usage"
+            ],
+            [
+              "county",
+              "main_shock_type",
+              "age_years",
+              "has_cereals",
+              "savings_usage"
+            ],
+            [
+              "county",
+              "main_shock_type",
+              "age_years",
+              "has_cereals",
+              "savings_usage"
+            ]
+          ],
+          "pred": "did_nothing"
+        },
+        {
+          "agree_exact_top5": 2,
+          "mean_jaccard": 0.8333333333333333,
+          "tops": [
+            [
+              "main_shock_type",
+              "county",
+              "age_years",
+              "has_other_livestock",
+              "n_livestock_types"
+            ],
+            [
+              "main_shock_type",
+              "county",
+              "has_other_livestock",
+              "age_years",
+              "n_livestock_types"
+            ],
+            [
+              "main_shock_type",
+              "county",
+              "age_years",
+              "has_other_livestock",
+              "has_dairy_livestock"
+            ],
+            [
+              "main_shock_type",
+              "county",
+              "age_years",
+              "has_other_livestock",
+              "has_dairy_livestock"
+            ],
+            [
+              "main_shock_type",
+              "county",
+              "age_years",
+              "has_other_livestock",
+              "n_livestock_types"
+            ]
+          ],
+          "pred": "personal"
+        },
+        {
+          "agree_exact_top5": 5,
+          "mean_jaccard": 1.0,
+          "tops": [
+            [
+              "main_shock_type",
+              "sex_bin",
+              "county",
+              "has_legumes",
+              "loan_formal"
+            ],
+            [
+              "main_shock_type",
+              "sex_bin",
+              "county",
+              "has_legumes",
+              "loan_formal"
+            ],
+            [
+              "main_shock_type",
+              "sex_bin",
+              "county",
+              "has_legumes",
+              "loan_formal"
+            ],
+            [
+              "main_shock_type",
+              "sex_bin",
+              "county",
+              "has_legumes",
+              "loan_formal"
+            ],
+            [
+              "main_shock_type",
+              "sex_bin",
+              "county",
+              "has_legumes",
+              "loan_formal"
+            ]
+          ],
+          "pred": "informal"
+        }
+      ]
+    }
+  }
+}

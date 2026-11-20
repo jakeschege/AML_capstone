@@ -1,0 +1,51 @@
+{
+  "experiment": "S1",
+  "specification": "A",
+  "n_households": 1552,
+  "n_features": 17,
+  "features": [
+    "has_cash_crops",
+    "has_cereals",
+    "has_dairy_livestock",
+    "has_horticulture",
+    "has_legumes",
+    "has_other_agri",
+    "has_other_livestock",
+    "has_poultry",
+    "has_roots_tubers",
+    "n_crop_types",
+    "n_livestock_types",
+    "land_ownership_own_under_your_name",
+    "land_ownership_own_jointly_with_spouse",
+    "land_ownership_own_jointly_with_someone_else_other_than_spouse",
+    "land_ownership_lease_rent_you_dont_own",
+    "land_ownership_community_public_owned_e_g_pastoralists",
+    "land_ownership_family_owned_e_g_inherited_family_land"
+  ],
+  "excluded": [
+    "land_size_acres"
+  ],
+  "distance": "gower",
+  "gower_package": "gower",
+  "cat_features_rule": "binaries_categorical_counts_numeric",
+  "algorithm": "PAM",
+  "pam_implementation": "segmentation_utils.pam_precomputed",
+  "pam_max_iter": 100,
+  "candidate_k": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "random_seed": 42,
+  "feature_weights": "equal",
+  "zero_fill": false,
+  "coping_used_in_clustering": false,
+  "final_k_selected": null,
+  "gower_runtime_seconds": 1.317,
+  "distance_shape": [
+    1552,
+    1552
+  ]
+}

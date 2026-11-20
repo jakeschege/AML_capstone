@@ -1,0 +1,33 @@
+# Render Blueprint — FinAccess API + web
+# NEXT_PUBLIC_API_BASE uses the public API hostname (runtime-injected into the web app).
+
+services:
+  - type: web
+    name: aml-capstone-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: ARTEFACTS_ROOT
+        value: /app/artefacts
+      - key: PYTHONPATH
+        value: /app/backend
+      - key: LLM_API_BASE
+        value: https://api.groq.com/openai/v1
+      - key: LLM_MODEL
+        value: qwen/qwen3.8-27b
+      - key: LLM_API_KEY
+        sync: false
+
+  - type: web
+    name: aml-capstone-web
+    runtime: docker
+    plan: free
+    dockerfilePath: ./frontend/Dockerfile
+    dockerContext: ./frontend
+    envVars:
+      # Public browser URL for the API (override in dashboard if Render assigns a different host).
+      - key: NEXT_PUBLIC_API_BASE
+        value: https://aml-capstone-api.onrender.com

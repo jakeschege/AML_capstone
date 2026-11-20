@@ -1,0 +1,142 @@
+{
+  "stability": {
+    "20": {
+      "mean_seconds": 0.24452849536028226,
+      "max_seconds": 0.6245993610064033,
+      "exact_top5_agree_rate": 0.36,
+      "mean_jaccard_vs_seed42": 0.8166666666666667
+    },
+    "40": {
+      "mean_seconds": 0.3595285916805733,
+      "max_seconds": 0.4773855840030592,
+      "exact_top5_agree_rate": 0.6,
+      "mean_jaccard_vs_seed42": 0.8333333333333333
+    },
+    "60": {
+      "mean_seconds": 0.4237047559610801,
+      "max_seconds": 0.7308803650084883,
+      "exact_top5_agree_rate": 0.6799999999999999,
+      "mean_jaccard_vs_seed42": 0.9333333333333332
+    }
+  },
+  "chosen_n_perms": 60,
+  "seed": 42,
+  "typical_explain_seconds_from_samples": 0.773,
+  "samples": [
+    {
+      "scenario": "prediction_and_explanation",
+      "explain_seconds": 0.773,
+      "prediction": "did_nothing",
+      "display_label": "No coping action reported",
+      "scores": {
+        "personal": 0.2987470166286235,
+        "informal": 0.10343387777184608,
+        "formal": 0.11629021961558919,
+        "did_nothing": 0.48152888598394117
+      },
+      "explanation_mode": "approximate_attribution",
+      "top_features": [
+        {
+          "name": "main_shock_type",
+          "label": "Main reported shock",
+          "shap": 0.2645423380124889,
+          "direction": "increases"
+        },
+        {
+          "name": "buyer_supplier_credit",
+          "label": "Uses buyer / supplier credit",
+          "shap": -0.05619608925109201,
+          "direction": "decreases"
+        },
+        {
+          "name": "formal_agri_borrowing",
+          "label": "Uses formal agricultural borrowing",
+          "shap": 0.020162601337464867,
+          "direction": "increases"
+        },
+        {
+          "name": "savings_informal",
+          "label": "Uses informal savings",
+          "shap": 0.01958693452053596,
+          "direction": "increases"
+        },
+        {
+          "name": "n_livestock_types",
+          "label": "Number of livestock types",
+          "shap": 0.015074886929675228,
+          "direction": "increases"
+        }
+      ],
+      "baseline_description": "Typical household in the background sample (mean encoded profile over 40 shock-exposed modelling households).",
+      "chat_excerpt": [
+        {
+          "role": "bot",
+          "text": "Predicted: No coping action reported. Model scores: personal=0.299, informal=0.103, formal=0.116, did_nothing=0.482"
+        },
+        {
+          "role": "bot",
+          "text": "Approximate drivers: Main reported shock (+0.265); Uses buyer / supplier credit (-0.056); Uses formal agricultural borrowing (+0.020); Uses informal savings (+0.020); Number of livestock types (+0.015)"
+        }
+      ]
+    },
+    {
+      "scenario": "why_not_formal",
+      "explain_for_class_seconds": 0.113,
+      "formal_score": 0.11629021961558919,
+      "formal_top": [
+        {
+          "name": "main_shock_type",
+          "label": "Main reported shock",
+          "shap": -0.07502289262346577,
+          "direction": "decreases"
+        },
+        {
+          "name": "buyer_supplier_credit",
+          "label": "Uses buyer / supplier credit",
+          "shap": 0.037337297472166485,
+          "direction": "increases"
+        },
+        {
+          "name": "county",
+          "label": "County",
+          "shap": 0.03470004679059483,
+          "direction": "increases"
+        },
+        {
+          "name": "n_livestock_types",
+          "label": "Number of livestock types",
+          "shap": -0.014891184019308914,
+          "direction": "decreases"
+        },
+        {
+          "name": "savings_formal",
+          "label": "Uses formal savings",
+          "shap": -0.01300309066908631,
+          "direction": "decreases"
+        }
+      ],
+      "follow_up_reply": "The model\u2019s highest score is for \u201cNo coping action reported\u201d (did_nothing).\nModel scores (not calibrated probabilities): did_nothing=0.482, formal=0.116, informal=0.103, personal=0.299\nApproximate drivers relative to a typical household in the background sample:\n- Main reported shock lowered the score for this class (effect -0.075).\n- Uses buyer / supplier credit raised the score for this class (effect +0.037).\n- County raised the score for this class (effect +0.035).\n- Number of livestock types",
+      "follow_up_source": "template_llm_error"
+    },
+    {
+      "scenario": "what_if_formal_loan",
+      "chat_redirect": "For a what-if question, change the answer in the conversation and re-score with the same prediction endpoint. I will not guess how the score would move. What-if results show how the model responds to a changed answer, not what would happen to the household.",
+      "rescore_seconds": 0.779,
+      "before": "did_nothing",
+      "after": "did_nothing",
+      "scores_before": {
+        "personal": 0.2987470166286235,
+        "informal": 0.10343387777184608,
+        "formal": 0.11629021961558919,
+        "did_nothing": 0.48152888598394117
+      },
+      "scores_after": {
+        "personal": 0.21941682276736701,
+        "informal": 0.09059190382926899,
+        "formal": 0.10444612702519562,
+        "did_nothing": 0.5855451463781683
+      },
+      "note": "What-if shows how the model responds to a changed answer, not what would happen to the household."
+    }
+  ]
+}

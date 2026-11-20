@@ -1,0 +1,5 @@
+variable,n_crop_types,n_livestock_types,shannon_diversity,n_active_groups
+n_crop_types,1.0,-0.441,0.722,0.686
+n_livestock_types,-0.441,1.0,0.072,0.131
+shannon_diversity,0.722,0.072,1.0,0.97
+n_active_groups,0.686,0.131,0.97,1.0

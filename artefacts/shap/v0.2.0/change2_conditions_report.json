@@ -1,0 +1,366 @@
+{
+  "stability_choice": {
+    "shipped": "paired_reverse_n_orders_40",
+    "n_paths": 80,
+    "unpaired_100": {
+      "mean_s": 0.51,
+      "exact_top5_agree": 0.48,
+      "jaccard": 0.88
+    },
+    "paired_50_orders_100_paths": {
+      "mean_s": 0.48,
+      "exact_top5_agree": 0.72,
+      "jaccard": 0.93
+    },
+    "paired_40_orders_80_paths_shipped": {
+      "mean_s_spotcheck": 0.71,
+      "max_s_spotcheck": 1.16,
+      "rationale": "Paired reverse clearly improves exact top-5 agreement vs unpaired 100; 40 orders keeps typical request near/under 1s while retaining most of the paired-50 stability gain."
+    },
+    "paired_reverse_helps": true
+  },
+  "llm_payload_contract": {
+    "endpoint": "POST https://api.groq.com/openai/v1/chat/completions",
+    "model": "openai/gpt-oss-20b",
+    "household_fields_sent": [],
+    "facts_keys_sent": [
+      "prediction",
+      "display_label",
+      "scores",
+      "explanation_mode",
+      "baseline_scores",
+      "baseline_description",
+      "top_features",
+      "toward_features",
+      "against_features",
+      "predicted_class_for_shap",
+      "shap_note"
+    ],
+    "top_features_fields": [
+      "label",
+      "direction",
+      "magnitude_band"
+    ],
+    "includes_raw_household_answers": false,
+    "note": "Only scores/attributions leave the API toward the provider. Interview answers are never included in Facts JSON."
+  },
+  "coverage": {
+    "did_nothing": {
+      "variant": "base",
+      "prediction": "did_nothing",
+      "scores": {
+        "personal": 0.2987,
+        "informal": 0.1034,
+        "formal": 0.1163,
+        "did_nothing": 0.4815
+      },
+      "explain_seconds": 1.367,
+      "explanation_mode": "approximate_attribution",
+      "among_main_factors": [
+        {
+          "label": "Main reported shock",
+          "direction": "increases",
+          "band": "large"
+        },
+        {
+          "label": "Uses buyer / supplier credit",
+          "direction": "decreases",
+          "band": "moderate"
+        },
+        {
+          "label": "County",
+          "direction": "increases",
+          "band": "moderate"
+        },
+        {
+          "label": "Uses formal agricultural borrowing",
+          "direction": "increases",
+          "band": "small"
+        },
+        {
+          "label": "Uses informal savings",
+          "direction": "increases",
+          "band": "small"
+        }
+      ],
+      "uses_among_main_factors_bands": true,
+      "what_if_redirect": "For a what-if question, change the answer in the conversation and re-score with the same prediction endpoint. I will not guess how the score would move. What-if results show how the model responds to a changed answer, not what would happen to the household. They are not advice to alter anyone\u2019s situation.",
+      "what_if_source": "what_if_redirect",
+      "what_if_rescore": {
+        "before": "did_nothing",
+        "after": "did_nothing",
+        "scores_after": {
+          "personal": 0.323,
+          "informal": 0.1217,
+          "formal": 0.1415,
+          "did_nothing": 0.4139
+        }
+      },
+      "suggests_change": false
+    },
+    "formal": {
+      "variant": "formalish",
+      "prediction": "formal",
+      "scores": {
+        "personal": 0.153,
+        "informal": 0.107,
+        "formal": 0.4691,
+        "did_nothing": 0.2709
+      },
+      "explain_seconds": 0.574,
+      "explanation_mode": "approximate_attribution",
+      "among_main_factors": [
+        {
+          "label": "Main reported shock",
+          "direction": "decreases",
+          "band": "large"
+        },
+        {
+          "label": "Uses formal savings",
+          "direction": "increases",
+          "band": "large"
+        },
+        {
+          "label": "Uses buyer / supplier credit",
+          "direction": "increases",
+          "band": "large"
+        },
+        {
+          "label": "Uses a SACCO",
+          "direction": "increases",
+          "band": "large"
+        },
+        {
+          "label": "County",
+          "direction": "increases",
+          "band": "moderate"
+        }
+      ],
+      "uses_among_main_factors_bands": true,
+      "what_if_redirect": "For a what-if question, change the answer in the conversation and re-score with the same prediction endpoint. I will not guess how the score would move. What-if results show how the model responds to a changed answer, not what would happen to the household. They are not advice to alter anyone\u2019s situation.",
+      "what_if_source": "what_if_redirect",
+      "what_if_rescore": {
+        "before": "formal",
+        "after": "did_nothing",
+        "scores_after": {
+          "personal": 0.1676,
+          "informal": 0.1054,
+          "formal": 0.3359,
+          "did_nothing": 0.391
+        }
+      },
+      "suggests_change": false
+    },
+    "personal": {
+      "variant": "personalish",
+      "prediction": "personal",
+      "scores": {
+        "personal": 0.4027,
+        "informal": 0.2499,
+        "formal": 0.1663,
+        "did_nothing": 0.1812
+      },
+      "explain_seconds": 0.571,
+      "explanation_mode": "approximate_attribution",
+      "among_main_factors": [
+        {
+          "label": "Main reported shock",
+          "direction": "increases",
+          "band": "large"
+        },
+        {
+          "label": "Sex of respondent",
+          "direction": "decreases",
+          "band": "moderate"
+        },
+        {
+          "label": "County",
+          "direction": "decreases",
+          "band": "moderate"
+        },
+        {
+          "label": "Uses any savings channel",
+          "direction": "decreases",
+          "band": "moderate"
+        },
+        {
+          "label": "Uses buyer / supplier credit",
+          "direction": "increases",
+          "band": "small"
+        }
+      ],
+      "uses_among_main_factors_bands": true,
+      "what_if_redirect": "For a what-if question, change the answer in the conversation and re-score with the same prediction endpoint. I will not guess how the score would move. What-if results show how the model responds to a changed answer, not what would happen to the household. They are not advice to alter anyone\u2019s situation.",
+      "what_if_source": "what_if_redirect",
+      "what_if_rescore": {
+        "before": "personal",
+        "after": "personal",
+        "scores_after": {
+          "personal": 0.3743,
+          "informal": 0.2815,
+          "formal": 0.1875,
+          "did_nothing": 0.1567
+        }
+      },
+      "suggests_change": false
+    },
+    "informal": {
+      "variant": "g_25_1_5_0000",
+      "prediction": "informal",
+      "scores": {
+        "personal": 0.1952,
+        "informal": 0.5644,
+        "formal": 0.1497,
+        "did_nothing": 0.0907
+      },
+      "explain_seconds": 0.7,
+      "explanation_mode": "approximate_attribution",
+      "among_main_factors": [
+        {
+          "label": "Main reported shock",
+          "direction": "increases",
+          "band": "large"
+        },
+        {
+          "label": "Age of household head",
+          "direction": "decreases",
+          "band": "moderate"
+        },
+        {
+          "label": "Sex of respondent",
+          "direction": "decreases",
+          "band": "moderate"
+        },
+        {
+          "label": "Uses any loan / credit",
+          "direction": "decreases",
+          "band": "small"
+        },
+        {
+          "label": "Number of livestock types",
+          "direction": "increases",
+          "band": "small"
+        }
+      ],
+      "uses_among_main_factors_bands": true,
+      "what_if_redirect": "For a what-if question, change the answer in the conversation and re-score with the same prediction endpoint. I will not guess how the score would move. What-if results show how the model responds to a changed answer, not what would happen to the household. They are not advice to alter anyone\u2019s situation.",
+      "what_if_source": "what_if_redirect",
+      "what_if_rescore": {
+        "before": "informal",
+        "after": "informal",
+        "scores_after": {
+          "personal": 0.1853,
+          "informal": 0.5809,
+          "formal": 0.1569,
+          "did_nothing": 0.077
+        }
+      },
+      "suggests_change": false
+    }
+  },
+  "llm_audit_summary": {
+    "n": 12,
+    "passed_llm": 10,
+    "grounding_failed": 2,
+    "template": 0,
+    "llm_error": 0,
+    "other": 0
+  },
+  "parse_check": {
+    "finish_reason": "stop",
+    "message_keys": [
+      "content",
+      "reasoning",
+      "role"
+    ],
+    "content_len": 294,
+    "reasoning_len": 1802,
+    "extracted_preview": "Model scores consistently hovered around 0.42, reflecting a balanced trade\u2011off between precision and recall. This figure emerged as a key indicator, among the m",
+    "truncated": false
+  },
+  "change3_chip_counts": {
+    "n_modelling": 5241,
+    "threshold": 30,
+    "r2a_any_shock_counts": {
+      "shock_child_birth": 418,
+      "shock_major_sickness_health_problem_accident_injury": 2277,
+      "shock_drought_loss": 1552,
+      "shock_high_rainfall_flooding_mudslide_lightning": 1573,
+      "shock_death_of_main_income_earner_family_member": 795,
+      "shock_loss_or_damage_due_totheft_e_g_property_assets_business_etc": 641,
+      "shock_loss_of_a_job_or_a_source_of_income_or_a_wage_cut": 453,
+      "shock_lost_a_home_or_land_e_g_due_to_eviction_demolitions": 39,
+      "shock_livestock_crop_failure_due_to_pest_and_diseases": 1815,
+      "shock_loss_or_damage_due_tofire_or_violence_including_political_violen": 49,
+      "shock_loss_or_damage_due_to_human_wildlife_conflict": 242,
+      "shock_loss_of_income_or_major_financial_expenses_due_to_taking_on_care": 202
+    },
+    "r2a_disabled_n_lt_30": {},
+    "r2b_main_shock_counts": {
+      "main_shock_1": 235,
+      "main_shock_2": 1611,
+      "main_shock_3": 778,
+      "main_shock_4": 765,
+      "main_shock_5": 488,
+      "main_shock_6": 183,
+      "main_shock_7": 209,
+      "main_shock_8": 11,
+      "main_shock_9": 760,
+      "main_shock_10": 21,
+      "main_shock_11": 73,
+      "main_shock_12": 107
+    },
+    "r2b_disabled_n_lt_30": {
+      "main_shock_8": 11,
+      "main_shock_10": 21
+    },
+    "r2a_disabled_count": 0,
+    "r2b_disabled_count": 2
+  },
+  "grounding_diagnostics": [
+    {
+      "q": "What pushed the score toward this class?",
+      "class": "personal",
+      "raw_ok": false,
+      "bad_floats": [
+        0.07
+      ],
+      "biggest_language": false,
+      "excerpt": "The score for the **Personal coping** class is **0.40**.  \nAmong the main factors that pushed the score toward this class:\n\n- **Main reported shock** \u2013 a large positive influence (adds about 0.16 to the score).  \n- **Sex of respondent** \u2013 a moderate negative influence (subtracts about 0.07).  \n- **County** \u2013 a moderate negative influence (subtracts about 0.05).  \n- **Uses any savings channel** \u2013 a"
+    },
+    {
+      "q": "Is formal more likely than personal here?",
+      "class": "personal",
+      "raw_ok": true,
+      "bad_floats": [],
+      "biggest_language": false,
+      "excerpt": "No \u2013 the model predicts that **personal coping** is more likely than formal coping in this situation.  \nThe personal score is 0.40, while the formal score is only 0.17.  \nAmong the main factors, personal coping has the higher probability."
+    },
+    {
+      "q": "What are the model scores?",
+      "class": "did_nothing",
+      "raw_ok": true,
+      "bad_floats": [],
+      "biggest_language": false,
+      "excerpt": "The model assigns the following scores to each coping action:\n\n- **Did nothing**: 0.48  \n- **Personal coping**: 0.30  \n- **Informal coping**: 0.10  \n- **Formal coping**: 0.12  \n\nThese values represent the model\u2019s estimated likelihood of each action being chosen, among the main factors considered."
+    },
+    {
+      "q": "How does this compare to a typical household?",
+      "class": "informal",
+      "raw_ok": true,
+      "bad_floats": [],
+      "biggest_language": false,
+      "excerpt": "**How this household compares to a typical one**\n\n- **Informal support**: This household\u2019s score is **0.56**, which is much higher than the typical household\u2019s score of **0.23**.  \n- **Personal support**: The score is **0.20**, lower than the typical **0.36**.  \n- **Formal support**: The score is **0.15**, a bit lower than the typical **0.19**.  \n- **Did nothing**: The score is **0.09**, far below"
+    },
+    {
+      "q": "Read these scores for me.",
+      "class": "personal",
+      "raw_ok": false,
+      "bad_floats": [
+        0.07
+      ],
+      "biggest_language": false,
+      "excerpt": "Here\u2019s a quick rundown of the scores and what they mean:\n\n- **Personal coping**: 0.40  \n  (The baseline for a typical household in the background sample is 0.36.)\n\n- **Informal coping**: 0.25  \n  (Baseline: 0.23.)\n\n- **Formal coping**: 0.17  \n  (Baseline: 0.19.)\n\n- **Did nothing**: 0.18  \n  (Baseline: 0.22.)\n\nThe baseline description tells us that these numbers come from a typical household in the"
+    }
+  ]
+}

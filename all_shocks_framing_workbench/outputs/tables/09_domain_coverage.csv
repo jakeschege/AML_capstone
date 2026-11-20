@@ -1,0 +1,8 @@
+domain,n_variables,n_not_in_model_a,n_not_in_either_model
+agricultural_characteristics,75,58,58
+coping_module_r2c_target,20,20,20
+financial_position,32,32,32
+household_demographics,6,1,1
+other_unclassified,10,10,10
+shock_module_r2a_r2b,14,14,0
+social_and_institutional_support,26,26,26

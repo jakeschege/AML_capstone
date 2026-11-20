@@ -1,0 +1,23 @@
+{
+  "features": [
+    "has_cash_crops",
+    "has_cereals",
+    "has_dairy_livestock",
+    "has_horticulture",
+    "has_legumes",
+    "has_other_agri",
+    "has_other_livestock",
+    "has_poultry",
+    "has_roots_tubers",
+    "n_crop_types",
+    "n_livestock_types",
+    "land_ownership_own_under_your_name",
+    "land_ownership_own_jointly_with_spouse",
+    "land_ownership_own_jointly_with_someone_else_other_than_spouse",
+    "land_ownership_lease_rent_you_dont_own",
+    "land_ownership_community_public_owned_e_g_pastoralists",
+    "land_ownership_family_owned_e_g_inherited_family_land"
+  ],
+  "n_features": 17,
+  "acres_excluded": true
+}

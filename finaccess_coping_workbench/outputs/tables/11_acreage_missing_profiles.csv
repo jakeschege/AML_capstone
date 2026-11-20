@@ -1,0 +1,15 @@
+"profile_type","category","n_households","pct_of_missing","pct_of_sample"
+"missing_reason","Community land",182,91.92,11.73
+"missing_reason","Special response code 98/99",16,8.08,1.03
+"ownership_vs_missing","community_ownership_flag=1",263,92.93,16.95
+"ownership_missing_rate","community_ownership_flag=1",184,69.96,11.86
+"ownership_vs_missing","community_ownership_flag=0",1289,7.07,83.05
+"ownership_missing_rate","community_ownership_flag=0",14,1.09,0.9
+"agri_prevalence_acres_missing","has_cereals",198,10.1,12.76
+"agri_prevalence_acres_observed","has_cereals",1354,82.5,87.24
+"agri_prevalence_acres_missing","has_poultry",198,8.08,12.76
+"agri_prevalence_acres_observed","has_poultry",1354,9.68,87.24
+"agri_prevalence_acres_missing","has_other_livestock",198,95.96,12.76
+"agri_prevalence_acres_observed","has_other_livestock",1354,27.03,87.24
+"agri_prevalence_acres_missing","has_legumes",198,3.54,12.76
+"agri_prevalence_acres_observed","has_legumes",1354,55.17,87.24

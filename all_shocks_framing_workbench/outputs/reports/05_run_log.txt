@@ -1,0 +1,40 @@
+
+=== model_a n=5241 p=68 ===
+coping_category
+personal       1782
+informal       2094
+formal          371
+did_nothing     994
+Name: count, dtype: int64
+Fitting model_a__dummy_most_frequent …
+  macro F1 mean=0.1427 (sd=0.0001)
+Fitting model_a__logistic_unweighted …
+  macro F1 mean=0.3453 (sd=0.0137)
+Fitting model_a__logistic_class_weighted …
+  macro F1 mean=0.3753 (sd=0.0122)
+
+=== model_b n=5241 p=92 ===
+coping_category
+personal       1782
+informal       2094
+formal          371
+did_nothing     994
+Name: count, dtype: int64
+Fitting model_b__dummy_most_frequent …
+  macro F1 mean=0.1427 (sd=0.0001)
+Fitting model_b__logistic_unweighted …
+  macro F1 mean=0.4621 (sd=0.0134)
+Fitting model_b__logistic_class_weighted …
+  macro F1 mean=0.4754 (sd=0.0104)
+
+Combined scorecard (macro F1):
+                              model  ...  f1_formal_mean
+0      model_a__dummy_most_frequent  ...        0.000000
+1      model_a__logistic_unweighted  ...        0.069801
+2  model_a__logistic_class_weighted  ...        0.234963
+3      model_b__dummy_most_frequent  ...        0.000000
+4      model_b__logistic_unweighted  ...        0.096989
+5  model_b__logistic_class_weighted  ...        0.251177
+
+[6 rows x 5 columns]
+Script 05 complete.

@@ -1,0 +1,8 @@
+{
+  "simulated": true,
+  "engine": "evidently",
+  "runbook": "Investigate feature/county mix shift; do not auto-retrain.",
+  "html": "/home/jakes/Documents/strathmore/Modules/Module 4/AppliedMachineLearning/capstone_project/monitoring/outputs/drift_report.html",
+  "json": "/home/jakes/Documents/strathmore/Modules/Module 4/AppliedMachineLearning/capstone_project/monitoring/outputs/drift_report.json",
+  "likely_drift_signal": true
+}

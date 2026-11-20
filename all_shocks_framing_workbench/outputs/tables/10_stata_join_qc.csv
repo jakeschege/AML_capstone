@@ -1,0 +1,7 @@
+metric,value
+modelling_n,5241.0
+stata_rows_read,19750.0
+stata_duplicate_ids,0.0
+one_to_one_matched,5172.0
+unmatched_modelling_ids,69.0
+match_rate_pct,98.683

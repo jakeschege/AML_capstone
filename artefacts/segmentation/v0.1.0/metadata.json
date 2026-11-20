@@ -1,0 +1,9 @@
+{
+  "specification": "A",
+  "k": 5,
+  "method": "nearest_medoid_gower",
+  "source_medoids": "12_s1_spec_a_medoids.csv",
+  "n_medoids": 5,
+  "note": "Segment assignment is descriptive typology, not a coping-class predictor.",
+  "created_at": "2026-11-19T12:50:35.528531+00:00"
+}

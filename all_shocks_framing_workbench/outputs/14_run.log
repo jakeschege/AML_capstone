@@ -1,0 +1,15 @@
+Financial matrix n=5241 p=93
+Using first 5 external folds (seed=42)
+
+=== Stack A: logistic + HGB → logistic meta ===
+  stack_a_logistic_hgb fold 0: macro=0.4947 formal=0.3209
+  stack_a_logistic_hgb fold 1: macro=0.5101 formal=0.3162
+  stack_a_logistic_hgb fold 2: macro=0.4918 formal=0.3306
+  stack_a_logistic_hgb fold 3: macro=0.5146 formal=0.3102
+  stack_a_logistic_hgb fold 4: macro=0.5004 formal=0.2951
+Stack A total time: 1040.8s
+
+=== Stack B: logistic + HGB + RF → logistic meta ===
+  stack_b_logistic_hgb_rf fold 0: macro=0.4764 formal=0.3217
+  stack_b_logistic_hgb_rf fold 1: macro=0.5093 formal=0.3258
+  stack_b_logistic_hgb_rf fold 2: macro=0.4924 formal=0.3191

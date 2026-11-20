@@ -1,0 +1,117 @@
+{
+  "script": "19_classification_design_and_folds",
+  "models_fitted": false,
+  "random_seed": 42,
+  "cv": {
+    "scheme": "RepeatedStratifiedKFold",
+    "n_splits": 5,
+    "n_repeats": 5,
+    "stratify_on": "coping_category",
+    "shared_across_tracks": true
+  },
+  "tracks": {
+    "primary": {
+      "target": "coping_category",
+      "n_classes": 4,
+      "matrix": "09_X_primary_classification.parquet",
+      "n_features": 69,
+      "interpretation": "household/agri/land predictors; no retrospective shocks"
+    },
+    "secondary": {
+      "target": "coping_category_collapsed",
+      "n_classes": 3,
+      "matrix": "09_X_primary_classification.parquet",
+      "n_features": 69,
+      "interpretation": "same predictors and folds as primary; alternative target"
+    },
+    "extended": {
+      "target": "coping_category",
+      "n_classes": 4,
+      "matrix": "09_X_extended_classification.parquet",
+      "n_features": 92,
+      "interpretation": "retrospective extension with same-window shock information; not prospective prediction"
+    }
+  },
+  "metrics": {
+    "primary": "macro_f1",
+    "additional": [
+      "class_wise_precision",
+      "class_wise_recall",
+      "class_wise_f1",
+      "confusion_matrix",
+      "balanced_accuracy",
+      "weighted_f1",
+      "accuracy_secondary"
+    ]
+  },
+  "imbalance_strategy": {
+    "compare": [
+      "unweighted",
+      "class_weighted"
+    ],
+    "smote_default": false
+  },
+  "preprocessing": {
+    "imputation_scaling": "fit_within_training_folds_only",
+    "land_size_acres": {
+      "baseline_a": "exclude",
+      "baseline_b": "retain_with_train_fold_median_imputation",
+      "missingness_indicator": "only_if_separately_justified",
+      "n_missing": 198
+    },
+    "cluster_k5_as_predictor": false
+  },
+  "exclusions": {
+    "coping_action_indicators": true,
+    "financial_access_variables": true,
+    "retrospective_shocks_in_primary": true,
+    "sample_flags_in_predictors": true
+  },
+  "extended_only_columns": [
+    "main_shock_type_10_loss_or_damage_due_to_fire_or_violence_including_political_violence",
+    "main_shock_type_11_loss_or_damage_due_to_human_wildlife_conflict",
+    "main_shock_type_12_loss_of_income_or_major_financial_expenses_due_to_taking_on_care_for_someone_els",
+    "main_shock_type_1_child_birth",
+    "main_shock_type_2_major_sickness_health_problem_accident_injury",
+    "main_shock_type_3_loss_or_damage_due_to_drought",
+    "main_shock_type_4_high_rainfall_flooding_mudslide_lightning",
+    "main_shock_type_5_death_of_main_income_earner_family_member",
+    "main_shock_type_6_loss_or_damage_due_to_theft_e_g_property_assets_business_etc",
+    "main_shock_type_7_loss_of_a_job_or_a_source_of_income_or_a_wage_cut",
+    "main_shock_type_8_lost_a_home_or_land_e_g_due_to_eviction_demolitions_or_land_seizure",
+    "main_shock_type_9_livestock_crop_failure_due_to_pest_and_diseases",
+    "shock_child_birth",
+    "shock_death_of_main_income_earner_family_member",
+    "shock_high_rainfall_flooding_mudslide_lightning",
+    "shock_livestock_crop_failure_due_to_pest_and_diseases",
+    "shock_loss_of_a_job_or_a_source_of_income_or_a_wage_cut",
+    "shock_loss_of_income_or_major_financial_expenses_due_to_taking_on_care",
+    "shock_loss_or_damage_due_to_human_wildlife_conflict",
+    "shock_loss_or_damage_due_tofire_or_violence_including_political_violen",
+    "shock_loss_or_damage_due_totheft_e_g_property_assets_business_etc",
+    "shock_lost_a_home_or_land_e_g_due_to_eviction_demolitions",
+    "shock_major_sickness_health_problem_accident_injury"
+  ],
+  "class_counts_sample": {
+    "personal": 615,
+    "informal": 447,
+    "formal": 75,
+    "did_nothing": 415
+  },
+  "formal_fold_summary": {
+    "n_test_folds": 25,
+    "formal_test_min": 15,
+    "formal_test_max": 15,
+    "formal_test_mean": 15.0,
+    "formal_test_zero_folds": 0,
+    "formal_test_under_5_folds": 0,
+    "formal_train_min": 60,
+    "formal_train_max": 60
+  },
+  "deferred": [
+    "C1_dummy_and_multinomial_logistic",
+    "C2_decision_tree_random_forest",
+    "C3_gradient_boosting",
+    "full_primary_secondary_extended_scorecards"
+  ]
+}

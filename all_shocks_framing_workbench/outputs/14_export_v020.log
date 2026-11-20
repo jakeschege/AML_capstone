@@ -1,0 +1,8 @@
+Fitting Stack A on full modelling cohort…
+Smoke Stack A: pred=did_nothing proba_sum=1.0000
+Wrote /home/jakes/Documents/strathmore/Modules/Module 4/AppliedMachineLearning/capstone_project/artefacts/classifier/v0.2.0
+Fitting logistic fallback…
+Smoke logistic: pred=did_nothing
+Wrote /home/jakes/Documents/strathmore/Modules/Module 4/AppliedMachineLearning/capstone_project/artefacts/classifier/v0.2.0-logistic-fallback
+Updated /home/jakes/Documents/strathmore/Modules/Module 4/AppliedMachineLearning/capstone_project/artefacts/metadata/ACTIVE_MODEL.json
+Export complete.

@@ -1,0 +1,4 @@
+experiment,fold,macro_f1,f1_formal,status
+stack_b_logistic_hgb_rf,0,0.4764,0.3217,partial_incomplete
+stack_b_logistic_hgb_rf,1,0.5093,0.3258,partial_incomplete
+stack_b_logistic_hgb_rf,2,0.4924,0.3191,partial_incomplete

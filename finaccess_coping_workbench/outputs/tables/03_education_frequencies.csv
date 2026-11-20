@@ -1,0 +1,5 @@
+variable,code,label,n_households,pct
+education,1,[label missing in codebook],382,24.61
+education,2,Primary,651,41.95
+education,3,Secondary,389,25.06
+education,4,Tertiary,130,8.38

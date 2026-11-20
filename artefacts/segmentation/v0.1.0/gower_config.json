@@ -1,0 +1,41 @@
+{
+  "is_numeric": {
+    "has_cash_crops": false,
+    "has_cereals": false,
+    "has_dairy_livestock": false,
+    "has_horticulture": false,
+    "has_legumes": false,
+    "has_other_agri": false,
+    "has_other_livestock": false,
+    "has_poultry": false,
+    "has_roots_tubers": false,
+    "n_crop_types": true,
+    "n_livestock_types": true,
+    "land_ownership_own_under_your_name": false,
+    "land_ownership_own_jointly_with_spouse": false,
+    "land_ownership_own_jointly_with_someone_else_other_than_spouse": false,
+    "land_ownership_lease_rent_you_dont_own": false,
+    "land_ownership_community_public_owned_e_g_pastoralists": false,
+    "land_ownership_family_owned_e_g_inherited_family_land": false
+  },
+  "ranges": {
+    "has_cash_crops": 1.0,
+    "has_cereals": 1.0,
+    "has_dairy_livestock": 1.0,
+    "has_horticulture": 1.0,
+    "has_legumes": 1.0,
+    "has_other_agri": 1.0,
+    "has_other_livestock": 1.0,
+    "has_poultry": 1.0,
+    "has_roots_tubers": 1.0,
+    "n_crop_types": 5.0,
+    "n_livestock_types": 5.0,
+    "land_ownership_own_under_your_name": 1.0,
+    "land_ownership_own_jointly_with_spouse": 1.0,
+    "land_ownership_own_jointly_with_someone_else_other_than_spouse": 1.0,
+    "land_ownership_lease_rent_you_dont_own": 1.0,
+    "land_ownership_community_public_owned_e_g_pastoralists": 1.0,
+    "land_ownership_family_owned_e_g_inherited_family_land": 1.0
+  },
+  "distance": "gower"
+}

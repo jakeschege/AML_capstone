@@ -1,0 +1,10 @@
+"k","spec_a_cluster","spec_a_note","matched_spec_b_cluster","overlap_n","spec_a_n","spec_b_n","retention_pct_of_spec_a","precision_pct_of_spec_b"
+4,0,"family_crops_no_roots",0,640,698,701,91.69,91.3
+4,1,"family_crops_with_roots",2,290,290,290,100.0,100.0
+4,2,"livestock_community",3,363,363,363,100.0,100.0
+4,3,"lease_crops",1,140,201,198,69.65,70.71
+5,0,"family_legumes_heavy",0,427,427,427,100.0,100.0
+5,1,"own_name_crops",1,270,270,273,100.0,98.9
+5,2,"livestock_community",2,251,296,254,84.8,98.82
+5,3,"family_mixed_crop_livestock",3,199,214,230,92.99,86.52
+5,4,"family_cereals_without_legumes",4,344,345,368,99.71,93.48

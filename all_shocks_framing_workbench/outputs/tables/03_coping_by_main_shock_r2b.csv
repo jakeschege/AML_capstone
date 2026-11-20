@@ -1,0 +1,49 @@
+main_shock_code,main_shock_label,coping_category,n,pct_within_main_shock,main_shock_group_n
+1.0,Child birth,personal,76,32.34,235
+1.0,Child birth,informal,122,51.91,235
+1.0,Child birth,formal,34,14.47,235
+1.0,Child birth,did_nothing,3,1.28,235
+2.0,Major sickness/health problem/accident injury,personal,423,26.26,1611
+2.0,Major sickness/health problem/accident injury,informal,971,60.27,1611
+2.0,Major sickness/health problem/accident injury,formal,162,10.06,1611
+2.0,Major sickness/health problem/accident injury,did_nothing,55,3.41,1611
+3.0,Loss or damage due to drought,personal,352,45.24,778
+3.0,Loss or damage due to drought,informal,131,16.84,778
+3.0,Loss or damage due to drought,formal,27,3.47,778
+3.0,Loss or damage due to drought,did_nothing,268,34.45,778
+4.0,High rainfall/flooding/mudslide/lightning,personal,284,37.12,765
+4.0,High rainfall/flooding/mudslide/lightning,informal,165,21.57,765
+4.0,High rainfall/flooding/mudslide/lightning,formal,51,6.67,765
+4.0,High rainfall/flooding/mudslide/lightning,did_nothing,265,34.64,765
+5.0,Death of main income earner/family member,personal,57,11.68,488
+5.0,Death of main income earner/family member,informal,398,81.56,488
+5.0,Death of main income earner/family member,formal,13,2.66,488
+5.0,Death of main income earner/family member,did_nothing,20,4.1,488
+6.0,"Loss or damage due to theft(e.g property, assets, business etc",personal,38,20.77,183
+6.0,"Loss or damage due to theft(e.g property, assets, business etc",informal,23,12.57,183
+6.0,"Loss or damage due to theft(e.g property, assets, business etc",formal,11,6.01,183
+6.0,"Loss or damage due to theft(e.g property, assets, business etc",did_nothing,111,60.66,183
+7.0,Loss of a job or a source of income or a wage cut,personal,120,57.42,209
+7.0,Loss of a job or a source of income or a wage cut,informal,60,28.71,209
+7.0,Loss of a job or a source of income or a wage cut,formal,8,3.83,209
+7.0,Loss of a job or a source of income or a wage cut,did_nothing,21,10.05,209
+8.0,"Lost a home or land (e.g. due to eviction, demolitions or land seizure)",personal,5,45.45,11
+8.0,"Lost a home or land (e.g. due to eviction, demolitions or land seizure)",informal,2,18.18,11
+8.0,"Lost a home or land (e.g. due to eviction, demolitions or land seizure)",formal,2,18.18,11
+8.0,"Lost a home or land (e.g. due to eviction, demolitions or land seizure)",did_nothing,2,18.18,11
+9.0,Livestock/crop failure due to pest and diseases,personal,343,45.13,760
+9.0,Livestock/crop failure due to pest and diseases,informal,170,22.37,760
+9.0,Livestock/crop failure due to pest and diseases,formal,44,5.79,760
+9.0,Livestock/crop failure due to pest and diseases,did_nothing,203,26.71,760
+10.0,Loss or damage due to fire or violence including political violence,personal,8,38.1,21
+10.0,Loss or damage due to fire or violence including political violence,informal,5,23.81,21
+10.0,Loss or damage due to fire or violence including political violence,formal,3,14.29,21
+10.0,Loss or damage due to fire or violence including political violence,did_nothing,5,23.81,21
+11.0,Loss or damage due to human wildlife conflict,personal,19,26.03,73
+11.0,Loss or damage due to human wildlife conflict,informal,12,16.44,73
+11.0,Loss or damage due to human wildlife conflict,formal,4,5.48,73
+11.0,Loss or damage due to human wildlife conflict,did_nothing,38,52.05,73
+12.0,Loss of income or major financial expenses due to taking on care for someone els,personal,57,53.27,107
+12.0,Loss of income or major financial expenses due to taking on care for someone els,informal,35,32.71,107
+12.0,Loss of income or major financial expenses due to taking on care for someone els,formal,12,11.21,107
+12.0,Loss of income or major financial expenses due to taking on care for someone els,did_nothing,3,2.8,107

@@ -1,0 +1,13 @@
+main_shock_type,label,mapped_indicator,n_households,pct,rare_under_n30
+1,Child birth,shock_child_birth,23,1.48,True
+2,Major sickness/health problem/accident injury,shock_major_sickness_health_problem_accident_injury,238,15.34,False
+3,Loss or damage due to drought,shock_drought_loss,778,50.13,False
+4,High rainfall/flooding/mudslide/lightning,shock_high_rainfall_flooding_mudslide_lightning,127,8.18,False
+5,Death of main income earner/family member,shock_death_of_main_income_earner_family_member,100,6.44,False
+6,"Loss or damage due to theft(e.g property, assets, business etc",shock_loss_or_damage_due_totheft_e_g_property_assets_business_etc,45,2.9,False
+7,Loss of a job or a source of income or a wage cut,shock_loss_of_a_job_or_a_source_of_income_or_a_wage_cut,35,2.26,False
+8,"Lost a home or land (e.g. due to eviction, demolitions or land seizure)",shock_lost_a_home_or_land_e_g_due_to_eviction_demolitions,5,0.32,True
+9,Livestock/crop failure due to pest and diseases,shock_livestock_crop_failure_due_to_pest_and_diseases,152,9.79,False
+10,Loss or damage due to fire or violence including political violence,shock_loss_or_damage_due_tofire_or_violence_including_political_violen,11,0.71,True
+11,Loss or damage due to human wildlife conflict,shock_loss_or_damage_due_to_human_wildlife_conflict,25,1.61,True
+12,Loss of income or major financial expenses due to taking on care for someone els,shock_loss_of_income_or_major_financial_expenses_due_to_taking_on_care,13,0.84,True

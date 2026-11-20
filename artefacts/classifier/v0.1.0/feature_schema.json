@@ -1,0 +1,1060 @@
+{
+  "version": "v0.1.0",
+  "n_features": 68,
+  "feature_names": [
+    "age_years",
+    "sex_bin",
+    "education",
+    "urban_rural_bin",
+    "county_1_mombasa",
+    "county_2_kwale",
+    "county_3_kilifi",
+    "county_4_tana_river",
+    "county_5_lamu",
+    "county_6_taita_taveta",
+    "county_7_garissa",
+    "county_8_wajir",
+    "county_9_mandera",
+    "county_10_marsabit",
+    "county_11_isiolo",
+    "county_12_meru",
+    "county_13_tharaka_nithi",
+    "county_14_embu",
+    "county_15_kitui",
+    "county_16_machakos",
+    "county_17_makueni",
+    "county_18_nyandarua",
+    "county_19_nyeri",
+    "county_20_kirinyaga",
+    "county_21_murang_a",
+    "county_22_kiambu",
+    "county_23_turkana",
+    "county_24_west_pokot",
+    "county_25_samburu",
+    "county_26_trans_nzoia",
+    "county_27_uasin_gishu",
+    "county_28_elgeyo_marakwet",
+    "county_29_nandi",
+    "county_30_baringo",
+    "county_31_laikipia",
+    "county_32_nakuru",
+    "county_33_narok",
+    "county_34_kajiado",
+    "county_35_kericho",
+    "county_36_bomet",
+    "county_37_kakamega",
+    "county_38_vihiga",
+    "county_39_bungoma",
+    "county_40_busia",
+    "county_41_siaya",
+    "county_42_kisumu",
+    "county_43_homabay",
+    "county_44_migori",
+    "county_45_kisii",
+    "county_46_nyamira",
+    "county_47_nairobi_city",
+    "has_cash_crops",
+    "has_cereals",
+    "has_dairy_livestock",
+    "has_horticulture",
+    "has_legumes",
+    "has_other_agri",
+    "has_other_livestock",
+    "has_poultry",
+    "has_roots_tubers",
+    "n_crop_types",
+    "n_livestock_types",
+    "land_ownership_own_under_your_name",
+    "land_ownership_own_jointly_with_spouse",
+    "land_ownership_own_jointly_with_someone_else_other_than_spouse",
+    "land_ownership_lease_rent_you_dont_own",
+    "land_ownership_community_public_owned_e_g_pastoralists",
+    "land_ownership_family_owned_e_g_inherited_family_land"
+  ],
+  "features": [
+    {
+      "name": "age_years",
+      "type": "continuous",
+      "group": "age_years",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "sex_bin",
+      "type": "binary",
+      "group": "sex_bin",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "education",
+      "type": "continuous",
+      "group": "education",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "urban_rural_bin",
+      "type": "binary",
+      "group": "urban_rural_bin",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_1_mombasa",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_2_kwale",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_3_kilifi",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_4_tana_river",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_5_lamu",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_6_taita_taveta",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_7_garissa",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_8_wajir",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_9_mandera",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_10_marsabit",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_11_isiolo",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_12_meru",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_13_tharaka_nithi",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_14_embu",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_15_kitui",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_16_machakos",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_17_makueni",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_18_nyandarua",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_19_nyeri",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_20_kirinyaga",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_21_murang_a",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_22_kiambu",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_23_turkana",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_24_west_pokot",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_25_samburu",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_26_trans_nzoia",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_27_uasin_gishu",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_28_elgeyo_marakwet",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_29_nandi",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_30_baringo",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_31_laikipia",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_32_nakuru",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_33_narok",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_34_kajiado",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_35_kericho",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_36_bomet",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_37_kakamega",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_38_vihiga",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_39_bungoma",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_40_busia",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_41_siaya",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_42_kisumu",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_43_homabay",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_44_migori",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_45_kisii",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_46_nyamira",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "county_47_nairobi_city",
+      "type": "one_hot",
+      "group": "county",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "has_cash_crops",
+      "type": "binary",
+      "group": "has",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "has_cereals",
+      "type": "binary",
+      "group": "has",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "has_dairy_livestock",
+      "type": "binary",
+      "group": "has",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "has_horticulture",
+      "type": "binary",
+      "group": "has",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "has_legumes",
+      "type": "binary",
+      "group": "has",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "has_other_agri",
+      "type": "binary",
+      "group": "has",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "has_other_livestock",
+      "type": "binary",
+      "group": "has",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "has_poultry",
+      "type": "binary",
+      "group": "has",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "has_roots_tubers",
+      "type": "binary",
+      "group": "has",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "n_crop_types",
+      "type": "continuous",
+      "group": "n_crop_types",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "n_livestock_types",
+      "type": "continuous",
+      "group": "n_livestock_types",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "land_ownership_own_under_your_name",
+      "type": "binary",
+      "group": "land_ownership_own_under_your_name",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "land_ownership_own_jointly_with_spouse",
+      "type": "binary",
+      "group": "land_ownership_own_jointly_with_spouse",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "land_ownership_own_jointly_with_someone_else_other_than_spouse",
+      "type": "binary",
+      "group": "land_ownership_own_jointly_with_someone_else_other_than_spouse",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "land_ownership_lease_rent_you_dont_own",
+      "type": "binary",
+      "group": "land_ownership_lease_rent_you_dont_own",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "land_ownership_community_public_owned_e_g_pastoralists",
+      "type": "binary",
+      "group": "land_ownership_community_public_owned_e_g_pastoralists",
+      "required_in_model_matrix": true
+    },
+    {
+      "name": "land_ownership_family_owned_e_g_inherited_family_land",
+      "type": "binary",
+      "group": "land_ownership_family_owned_e_g_inherited_family_land",
+      "required_in_model_matrix": true
+    }
+  ],
+  "domain_inputs": [
+    {
+      "name": "age_years",
+      "type": "continuous",
+      "required": true,
+      "label_key": "field.age_years",
+      "helper_key": "help.age_years"
+    },
+    {
+      "name": "sex",
+      "type": "categorical_code",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 1,
+          "label": "Male"
+        },
+        {
+          "code": 2,
+          "label": "Female"
+        }
+      ],
+      "maps_to": "sex_bin",
+      "label_key": "field.sex"
+    },
+    {
+      "name": "education",
+      "type": "ordinal",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 1,
+          "label": "None / informal"
+        },
+        {
+          "code": 2,
+          "label": "Primary"
+        },
+        {
+          "code": 3,
+          "label": "Secondary"
+        },
+        {
+          "code": 4,
+          "label": "Tertiary"
+        }
+      ],
+      "label_key": "field.education"
+    },
+    {
+      "name": "urban_rural",
+      "type": "categorical_code",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 1,
+          "label": "Rural"
+        },
+        {
+          "code": 2,
+          "label": "Urban"
+        }
+      ],
+      "maps_to": "urban_rural_bin",
+      "label_key": "field.urban_rural"
+    },
+    {
+      "name": "county",
+      "type": "categorical_code",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 1,
+          "label": "Mombasa",
+          "one_hot_column": "county_1_mombasa"
+        },
+        {
+          "code": 2,
+          "label": "Kwale",
+          "one_hot_column": "county_2_kwale"
+        },
+        {
+          "code": 3,
+          "label": "Kilifi",
+          "one_hot_column": "county_3_kilifi"
+        },
+        {
+          "code": 4,
+          "label": "Tana River",
+          "one_hot_column": "county_4_tana_river"
+        },
+        {
+          "code": 5,
+          "label": "Lamu",
+          "one_hot_column": "county_5_lamu"
+        },
+        {
+          "code": 6,
+          "label": "Taita-Taveta",
+          "one_hot_column": "county_6_taita_taveta"
+        },
+        {
+          "code": 7,
+          "label": "Garissa",
+          "one_hot_column": "county_7_garissa"
+        },
+        {
+          "code": 8,
+          "label": "Wajir",
+          "one_hot_column": "county_8_wajir"
+        },
+        {
+          "code": 9,
+          "label": "Mandera",
+          "one_hot_column": "county_9_mandera"
+        },
+        {
+          "code": 10,
+          "label": "Marsabit",
+          "one_hot_column": "county_10_marsabit"
+        },
+        {
+          "code": 11,
+          "label": "Isiolo",
+          "one_hot_column": "county_11_isiolo"
+        },
+        {
+          "code": 12,
+          "label": "Meru",
+          "one_hot_column": "county_12_meru"
+        },
+        {
+          "code": 13,
+          "label": "Tharaka-Nithi",
+          "one_hot_column": "county_13_tharaka_nithi"
+        },
+        {
+          "code": 14,
+          "label": "Embu",
+          "one_hot_column": "county_14_embu"
+        },
+        {
+          "code": 15,
+          "label": "Kitui",
+          "one_hot_column": "county_15_kitui"
+        },
+        {
+          "code": 16,
+          "label": "Machakos",
+          "one_hot_column": "county_16_machakos"
+        },
+        {
+          "code": 17,
+          "label": "Makueni",
+          "one_hot_column": "county_17_makueni"
+        },
+        {
+          "code": 18,
+          "label": "Nyandarua",
+          "one_hot_column": "county_18_nyandarua"
+        },
+        {
+          "code": 19,
+          "label": "Nyeri",
+          "one_hot_column": "county_19_nyeri"
+        },
+        {
+          "code": 20,
+          "label": "Kirinyaga",
+          "one_hot_column": "county_20_kirinyaga"
+        },
+        {
+          "code": 21,
+          "label": "Murang'a",
+          "one_hot_column": "county_21_murang_a"
+        },
+        {
+          "code": 22,
+          "label": "Kiambu",
+          "one_hot_column": "county_22_kiambu"
+        },
+        {
+          "code": 23,
+          "label": "Turkana",
+          "one_hot_column": "county_23_turkana"
+        },
+        {
+          "code": 24,
+          "label": "West Pokot",
+          "one_hot_column": "county_24_west_pokot"
+        },
+        {
+          "code": 25,
+          "label": "Samburu",
+          "one_hot_column": "county_25_samburu"
+        },
+        {
+          "code": 26,
+          "label": "Trans Nzoia",
+          "one_hot_column": "county_26_trans_nzoia"
+        },
+        {
+          "code": 27,
+          "label": "Uasin Gishu",
+          "one_hot_column": "county_27_uasin_gishu"
+        },
+        {
+          "code": 28,
+          "label": "Elgeyo-Marakwet",
+          "one_hot_column": "county_28_elgeyo_marakwet"
+        },
+        {
+          "code": 29,
+          "label": "Nandi",
+          "one_hot_column": "county_29_nandi"
+        },
+        {
+          "code": 30,
+          "label": "Baringo",
+          "one_hot_column": "county_30_baringo"
+        },
+        {
+          "code": 31,
+          "label": "Laikipia",
+          "one_hot_column": "county_31_laikipia"
+        },
+        {
+          "code": 32,
+          "label": "Nakuru",
+          "one_hot_column": "county_32_nakuru"
+        },
+        {
+          "code": 33,
+          "label": "Narok",
+          "one_hot_column": "county_33_narok"
+        },
+        {
+          "code": 34,
+          "label": "Kajiado",
+          "one_hot_column": "county_34_kajiado"
+        },
+        {
+          "code": 35,
+          "label": "Kericho",
+          "one_hot_column": "county_35_kericho"
+        },
+        {
+          "code": 36,
+          "label": "Bomet",
+          "one_hot_column": "county_36_bomet"
+        },
+        {
+          "code": 37,
+          "label": "Kakamega",
+          "one_hot_column": "county_37_kakamega"
+        },
+        {
+          "code": 38,
+          "label": "Vihiga",
+          "one_hot_column": "county_38_vihiga"
+        },
+        {
+          "code": 39,
+          "label": "Bungoma",
+          "one_hot_column": "county_39_bungoma"
+        },
+        {
+          "code": 40,
+          "label": "Busia",
+          "one_hot_column": "county_40_busia"
+        },
+        {
+          "code": 41,
+          "label": "Siaya",
+          "one_hot_column": "county_41_siaya"
+        },
+        {
+          "code": 42,
+          "label": "Kisumu",
+          "one_hot_column": "county_42_kisumu"
+        },
+        {
+          "code": 43,
+          "label": "Homabay",
+          "one_hot_column": "county_43_homabay"
+        },
+        {
+          "code": 44,
+          "label": "Migori",
+          "one_hot_column": "county_44_migori"
+        },
+        {
+          "code": 45,
+          "label": "Kisii",
+          "one_hot_column": "county_45_kisii"
+        },
+        {
+          "code": 46,
+          "label": "Nyamira",
+          "one_hot_column": "county_46_nyamira"
+        },
+        {
+          "code": 47,
+          "label": "Nairobi City",
+          "one_hot_column": "county_47_nairobi_city"
+        }
+      ],
+      "one_hot_group": "county_*",
+      "label_key": "field.county"
+    },
+    {
+      "name": "has_cash_crops",
+      "type": "binary",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 0,
+          "label": "No"
+        },
+        {
+          "code": 1,
+          "label": "Yes"
+        }
+      ],
+      "label_key": "field.has_cash_crops"
+    },
+    {
+      "name": "has_cereals",
+      "type": "binary",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 0,
+          "label": "No"
+        },
+        {
+          "code": 1,
+          "label": "Yes"
+        }
+      ],
+      "label_key": "field.has_cereals"
+    },
+    {
+      "name": "has_dairy_livestock",
+      "type": "binary",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 0,
+          "label": "No"
+        },
+        {
+          "code": 1,
+          "label": "Yes"
+        }
+      ],
+      "label_key": "field.has_dairy_livestock"
+    },
+    {
+      "name": "has_horticulture",
+      "type": "binary",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 0,
+          "label": "No"
+        },
+        {
+          "code": 1,
+          "label": "Yes"
+        }
+      ],
+      "label_key": "field.has_horticulture"
+    },
+    {
+      "name": "has_legumes",
+      "type": "binary",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 0,
+          "label": "No"
+        },
+        {
+          "code": 1,
+          "label": "Yes"
+        }
+      ],
+      "label_key": "field.has_legumes"
+    },
+    {
+      "name": "has_other_agri",
+      "type": "binary",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 0,
+          "label": "No"
+        },
+        {
+          "code": 1,
+          "label": "Yes"
+        }
+      ],
+      "label_key": "field.has_other_agri"
+    },
+    {
+      "name": "has_other_livestock",
+      "type": "binary",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 0,
+          "label": "No"
+        },
+        {
+          "code": 1,
+          "label": "Yes"
+        }
+      ],
+      "label_key": "field.has_other_livestock"
+    },
+    {
+      "name": "has_poultry",
+      "type": "binary",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 0,
+          "label": "No"
+        },
+        {
+          "code": 1,
+          "label": "Yes"
+        }
+      ],
+      "label_key": "field.has_poultry"
+    },
+    {
+      "name": "has_roots_tubers",
+      "type": "binary",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 0,
+          "label": "No"
+        },
+        {
+          "code": 1,
+          "label": "Yes"
+        }
+      ],
+      "label_key": "field.has_roots_tubers"
+    },
+    {
+      "name": "land_ownership_own_under_your_name",
+      "type": "binary",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 0,
+          "label": "No"
+        },
+        {
+          "code": 1,
+          "label": "Yes"
+        }
+      ],
+      "label_key": "field.land_ownership_own_under_your_name"
+    },
+    {
+      "name": "land_ownership_own_jointly_with_spouse",
+      "type": "binary",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 0,
+          "label": "No"
+        },
+        {
+          "code": 1,
+          "label": "Yes"
+        }
+      ],
+      "label_key": "field.land_ownership_own_jointly_with_spouse"
+    },
+    {
+      "name": "land_ownership_own_jointly_with_someone_else_other_than_spouse",
+      "type": "binary",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 0,
+          "label": "No"
+        },
+        {
+          "code": 1,
+          "label": "Yes"
+        }
+      ],
+      "label_key": "field.land_ownership_own_jointly_with_someone_else_other_than_spouse"
+    },
+    {
+      "name": "land_ownership_lease_rent_you_dont_own",
+      "type": "binary",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 0,
+          "label": "No"
+        },
+        {
+          "code": 1,
+          "label": "Yes"
+        }
+      ],
+      "label_key": "field.land_ownership_lease_rent_you_dont_own"
+    },
+    {
+      "name": "land_ownership_community_public_owned_e_g_pastoralists",
+      "type": "binary",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 0,
+          "label": "No"
+        },
+        {
+          "code": 1,
+          "label": "Yes"
+        }
+      ],
+      "label_key": "field.land_ownership_community_public_owned_e_g_pastoralists"
+    },
+    {
+      "name": "land_ownership_family_owned_e_g_inherited_family_land",
+      "type": "binary",
+      "required": true,
+      "allowed_codes": [
+        {
+          "code": 0,
+          "label": "No"
+        },
+        {
+          "code": 1,
+          "label": "Yes"
+        }
+      ],
+      "label_key": "field.land_ownership_family_owned_e_g_inherited_family_land"
+    },
+    {
+      "name": "n_crop_types",
+      "type": "continuous",
+      "required": true,
+      "label_key": "field.n_crop_types"
+    },
+    {
+      "name": "n_livestock_types",
+      "type": "continuous",
+      "required": true,
+      "label_key": "field.n_livestock_types"
+    }
+  ],
+  "excluded": [
+    "land_size_acres"
+  ],
+  "missing_rules": {
+    "land_size_acres": "Not collected for classifier v0.1.0 (acres-excluded specification).",
+    "model_matrix": "All 68 model features required after encoding; no imputation in serving pipeline."
+  },
+  "continuous_scaled": [
+    "age_years",
+    "education",
+    "n_crop_types",
+    "n_livestock_types"
+  ]
+}

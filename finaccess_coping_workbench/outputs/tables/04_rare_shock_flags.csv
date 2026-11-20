@@ -1,0 +1,9 @@
+item_type,item,n,pct,flag
+additional_shock_indicator,shock_loss_of_income_or_major_financial_expenses_due_to_taking_on_care,54,3.48,positive rate < 5.0%
+additional_shock_indicator,shock_loss_or_damage_due_tofire_or_violence_including_political_violen,26,1.68,positive rate < 5.0%
+additional_shock_indicator,shock_lost_a_home_or_land_e_g_due_to_eviction_demolitions,21,1.35,positive rate < 5.0%
+main_shock_type,1: Child birth,23,1.48,n < 30
+main_shock_type,"8: Lost a home or land (e.g. due to eviction, demolitions or land seizure)",5,0.32,n < 30
+main_shock_type,10: Loss or damage due to fire or violence including political violence,11,0.71,n < 30
+main_shock_type,11: Loss or damage due to human wildlife conflict,25,1.61,n < 30
+main_shock_type,12: Loss of income or major financial expenses due to taking on care for someone els,13,0.84,n < 30

@@ -1,0 +1,113 @@
+{
+  "model": "openai/gpt-oss-20b",
+  "summary": {
+    "n": 10,
+    "passed_llm": 8,
+    "grounding_failed": 2,
+    "template": 0,
+    "llm_error": 0,
+    "other": 0
+  },
+  "audit": [
+    {
+      "q": "Why not formal support?",
+      "household_class": "informal",
+      "focus": "formal",
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model predicts that the household is more likely to rely on informal support (score\u202f0.56) than formal support (score\u202f0.15), a difference of 0.41.  \nAmong the main factors that moved the score toward informal support, the following features had a moderate or small influence re"
+    },
+    {
+      "q": "Why not informal support?",
+      "household_class": "formal",
+      "focus": "informal",
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model\u2019s score for informal support is 0.11, compared with 0.47 for formal support, a gap of 0.36.  \nAmong the main factors that lowered the informal\u2011support score relative to a typical household, the model found:\n\n* **Main reported shock** \u2013 decreases the score (moderate magn"
+    },
+    {
+      "q": "Why not personal?",
+      "household_class": "did_nothing",
+      "focus": "personal",
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model predicts that this household would **do nothing** in response to the shock, giving it a score of **0.48**.  \nIf the household had chosen a **personal** coping strategy, the score would have been **0.30** \u2013 a difference of **0.18**.\n\nAmong the main factors that moved the"
+    },
+    {
+      "q": "Why not did nothing?",
+      "household_class": "personal",
+      "focus": "did_nothing",
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model predicts a score of **0.40** for the \u201cpersonal\u201d coping strategy, compared with a score of **0.18** for \u201cdid nothing.\u201d The difference between the two is a gap of **0.22**.\n\nAmong the main factors that moved the score for \u201cdid nothing\u201d relative to a typical household in t"
+    },
+    {
+      "q": "Is formal more likely than personal here?",
+      "household_class": "personal",
+      "focus": null,
+      "source": "template_grounding_failed",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model\u2019s highest score is for \u201cPersonal coping\u201d (personal).\nModel scores (not calibrated probabilities): did_nothing=0.18, formal=0.17, informal=0.25, personal=0.40\nAmong the main factors relative to a typical household in the background sample (approximate; not ranked as a si"
+    },
+    {
+      "q": "Is informal more likely than formal here?",
+      "household_class": "informal",
+      "focus": null,
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "Informal is more likely than formal here.  \nThe model gives informal a score of **0.56** and formal a score of **0.15**, a gap of **0.41**.  \n\nAmong the main factors that moved the score relative to a typical household:  \n\n**Informal** \u2013  \n* Main reported shock (large increase)  "
+    },
+    {
+      "q": "Is personal more likely than informal here?",
+      "household_class": "personal",
+      "focus": null,
+      "source": "template_grounding_failed",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model\u2019s highest score is for \u201cPersonal coping\u201d (personal).\nModel scores (not calibrated probabilities): did_nothing=0.18, formal=0.17, informal=0.25, personal=0.40\nAmong the main factors relative to a typical household in the background sample (approximate; not ranked as a si"
+    },
+    {
+      "q": "Compare formal vs informal",
+      "household_class": "formal",
+      "focus": null,
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model gave a score of **0.47** for the formal category and **0.11** for the informal category, a pre\u2011computed gap of **0.36**.  \nAmong the main factors that moved the formal score up relative to a typical household, the model found:  \n- **Main reported shock** \u2013 decreases (la"
+    },
+    {
+      "q": "Why not formal?",
+      "household_class": "did_nothing",
+      "focus": "formal",
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model predicts a score of **0.48** for \u201cdid\u202fnothing\u201d and a score of **0.12** for \u201cformal,\u201d giving a pre\u2011computed gap of **0.36**.  \nAmong the main factors that moved the model\u2019s score for the formal option relative to a typical household in the background sample, the followin"
+    },
+    {
+      "q": "Is did nothing more likely than formal here?",
+      "household_class": "did_nothing",
+      "focus": null,
+      "source": "llm",
+      "used_llm": true,
+      "error_type": null,
+      "error_detail": null,
+      "reply_excerpt": "The model predicts that the household is **more likely to have taken no formal action** (score\u202f0.48) than to have used formal mechanisms (score\u202f0.12). The difference between the two scores is 0.36, so the \u201cdid nothing\u201d outcome is higher by that amount.\n\n**Factors that pushed the "
+    }
+  ]
+}

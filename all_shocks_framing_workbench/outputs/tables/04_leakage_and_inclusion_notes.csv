@@ -1,0 +1,6 @@
+variable_group,status,reason
+R2C coping actions,excluded,Direct coping responses used to characterise the target
+Classification_A / coping_category*,excluded_as_predictor,Target (or derived from target)
+R2A shock indicators,Model_B_only,Shock context; same module as coping — contextual not outcome-derived
+R2B main_shock,Model_B_only,Main shock among experienced shocks; not the resilience classification
+land_size_acres,excluded_from_A_and_B_primary,Follows acres-excluded primary specification from drought work

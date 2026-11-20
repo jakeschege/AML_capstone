@@ -1,0 +1,48 @@
+scikit-learn 1.9.1
+
+Script 07 scorecard (macro F1):
+                                         experiment  macro_f1_mean  f1_formal_mean
+         ablation__model_a__logistic_class_weighted       0.375281        0.234963
+ablation__model_a_plus_r2a__logistic_class_weighted       0.449270        0.250651
+ablation__model_a_plus_r2b__logistic_class_weighted       0.476531        0.254335
+         ablation__model_b__logistic_class_weighted       0.475441        0.251177
+            benchmark__model_a__logistic_unweighted       0.345343        0.069801
+            benchmark__model_b__logistic_unweighted       0.462066        0.096989
+              model_b__decision_tree_class_weighted       0.387155        0.229453
+              model_b__random_forest_class_weighted       0.460924        0.256626
+     model_b__hist_gradient_boosting_class_weighted       0.476180        0.231499
+
+Strongest individual nonlinear model: model_b__hist_gradient_boosting_class_weighted (macro F1=0.4762)
+Stacking bases: logistic_cw, random_forest_cw, hist_gb_cw (decision tree omitted — weaker individually).
+
+=== Pilot: stacking on first 5 folds ===
+  stacking_model_b_pilot fold 0: macro F1=0.4860
+  stacking_model_b_pilot fold 1: macro F1=0.4758
+  stacking_model_b_pilot fold 2: macro F1=0.4746
+  stacking_model_b_pilot fold 3: macro F1=0.4656
+  stacking_model_b_pilot fold 4: macro F1=0.4883
+Pilot complete in 829.8s; mean macro F1=0.4781
+
+=== Full repeated CV (5×5) — stacking only ===
+Running stacking_model_b …
+  stacking_model_b fold 0: macro F1=0.4860
+  stacking_model_b fold 1: macro F1=0.4758
+  stacking_model_b fold 2: macro F1=0.4746
+  stacking_model_b fold 3: macro F1=0.4656
+  stacking_model_b fold 4: macro F1=0.4883
+  stacking_model_b fold 5: macro F1=0.4495
+  stacking_model_b fold 6: macro F1=0.4842
+  stacking_model_b fold 7: macro F1=0.4581
+  stacking_model_b fold 8: macro F1=0.4768
+  stacking_model_b fold 9: macro F1=0.5045
+  stacking_model_b fold 10: macro F1=0.4591
+  stacking_model_b fold 11: macro F1=0.4504
+  stacking_model_b fold 12: macro F1=0.4764
+  stacking_model_b fold 13: macro F1=0.4955
+  stacking_model_b fold 14: macro F1=0.4908
+  stacking_model_b fold 15: macro F1=0.4743
+  stacking_model_b fold 16: macro F1=0.4809
+  stacking_model_b fold 17: macro F1=0.4834
+  stacking_model_b fold 18: macro F1=0.4685
+  stacking_model_b fold 19: macro F1=0.4618
+  stacking_model_b fold 20: macro F1=0.4949

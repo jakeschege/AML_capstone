@@ -1,0 +1,6 @@
+variable,dtype,n,missing,missing_pct,n_unique,min,max
+age_years,int64,1552,0,0.0,77,16.0,101.0
+sex,int64,1552,0,0.0,2,1.0,2.0
+education,int64,1552,0,0.0,4,1.0,4.0
+urban_rural,int64,1552,0,0.0,2,1.0,2.0
+county,int64,1552,0,0.0,47,1.0,47.0

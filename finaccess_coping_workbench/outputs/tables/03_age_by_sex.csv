@@ -1,0 +1,3 @@
+group_variable,code,label,n_households,age_mean,age_median,age_std,age_min,age_max
+sex,1,Male,690,43.32753623188406,41.0,15.794672027555581,16.0,100.0
+sex,2,Female,862,44.175174013921115,41.0,16.260529465385034,16.0,101.0

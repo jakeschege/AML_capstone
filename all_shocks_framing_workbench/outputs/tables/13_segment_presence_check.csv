@@ -1,0 +1,2 @@
+check,result,n_predictors,segment_like_columns,note
+segment_in_financial_matrix,absent,93,,Confirmed: agricultural segment membership is not among the 93 financial-expansion predictors.

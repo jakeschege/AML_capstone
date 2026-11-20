@@ -1,0 +1,12 @@
+"k","s1_cluster","s1_cluster_note","mean_max_jaccard","median_max_jaccard","min_max_jaccard","max_max_jaccard","n_replicates"
+2,0,"crop_family",0.700147,0.617538,0.434914,1.0,50
+2,1,"livestock_community",0.555904,0.449992,0.239485,1.0,50
+4,0,"family_crops_no_roots",0.502677,0.469183,0.305195,0.847934,50
+4,1,"family_crops_with_roots",0.36372,0.257121,0.190635,0.942149,50
+4,2,"livestock_community",0.853652,0.854728,0.75,0.964052,50
+4,3,"lease_crops",0.215266,0.187797,0.130208,0.408,50
+5,0,"family_legumes_heavy",0.509733,0.474958,0.261959,1.0,50
+5,1,"own_name_crops",0.5171,0.554599,0.151149,1.0,50
+5,2,"livestock_community",0.878842,0.885598,0.640625,1.0,50
+5,3,"family_mixed_crop_livestock",0.489906,0.395238,0.153101,1.0,50
+5,4,"family_cereals_without_legumes",0.46008,0.372369,0.205165,1.0,50
