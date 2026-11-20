@@ -17,4 +17,4 @@ This project used AI tools under the course AI-use policy. Human review and deci
 
 ## Reviewer note
 
-Prediction-chat replies may fall back to a **template** explanation if the LLM is unavailable; the UI labels the source (language model vs template). Model scores are not calibrated probabilities.
+Prediction-chat replies may fall back to a **template** explanation if the LLM is unavailable; the UI labels the source (language model vs template).
